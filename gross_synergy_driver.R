@@ -219,20 +219,20 @@ cont_yearly_dist_fun <- function(contribution_list, indicator_names) {
 #' **************************************************************************************
 #' **************************************************************************************
 
-econ_ind_names <- c("ind1.1.1", "ind1.A.1.1", "ind1.A.2.1", "ind2.5.2", 
+econ_ind_names <- tolower(c("ind1.1.1", "ind1.A.1.1", "ind1.A.2.1", "ind2.5.2", 
                     "ind3.1.1", "ind3.2.1", "ind3.2.2", "ind3.3.2", "ind3.4.1", "ind3.4.2", "ind3.6.1.1", 
                     "ind3.B.1.1", "ind3.B.1.3", "ind6.1.1.1", "ind6.2.1.1", "ind7.1.1", "ind7.1.2", 
                     "ind7.2.1", "ind7.3.1", "ind8.1.1", "ind8.2.1", "ind8.4.2.1", "ind8.4.2.2","ind8.5.2.1",
                     "ind9.1.2.1", "ind9.1.2.2", "ind9.1.2.3", "ind9.2.1", "ind9.2.2.1", "ind9.2.2.2", 
-                    "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1.1", "ind9.C.1.2")
+                    "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1.1", "ind9.C.1.2"))
 
-envir_ind_names <- c("ind12.2.2.1", "ind12.2.2.2", "ind13.1.1.1", "ind14.1.1.2", 
-                     "ind15.1.1", "ind15.1.2.2", "ind15.1.2.3", "ind15.4.1", "ind15.A.1.2", "ind15.B.1.2")
+envir_ind_names <- tolower(c("ind12.2.2.1", "ind12.2.2.2", "ind13.1.1.1", "ind14.1.1.2", 
+                     "ind15.1.1", "ind15.1.2.2", "ind15.1.2.3", "ind15.4.1", "ind15.A.1.2", "ind15.B.1.2"))
 indicaotrs_econ_envir_names <- c(econ_ind_names, envir_ind_names)
 
 #' Read all the SDG indicator files into a list
 filenames = list.files(path = SDG_INDICATORS_PATH, pattern="*.csv", full.names=TRUE)
-sdg_indicator_selected_clean <- lapply(filenames, read.csv)
+sdg_indicator_selected_clean <- lapply(filenames, read.csv, row.names = 1)
 indicatornames = gsub(pattern = ".csv", replacement = "", list.files(path = SDG_INDICATORS_PATH, pattern="*.csv"))
 names(sdg_indicator_selected_clean) <- indicatornames
 

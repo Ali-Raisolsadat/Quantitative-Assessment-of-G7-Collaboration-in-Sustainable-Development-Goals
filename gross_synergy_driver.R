@@ -22,7 +22,7 @@ require(gridExtra)
 #' Constants. Please apply changes here. 
 YEAR_THRESHOLD <- 1995
 YEAR_SEQUENCE <- 1995:2022
-SDG_INDICATORS_PATH <- "sdg_indicators"
+SDG_INDICATORS_PATH <- "clean_sdg_indicators"
 COUNTRY_NAMES <- c("Canada", "France", "Germany", "Japan", "Italy", "United Kingdom", "United States")
 
 #' **************************************************************************************
@@ -232,22 +232,9 @@ indicaotrs_econ_envir_names <- c(econ_ind_names, envir_ind_names)
 
 #' Read all the SDG indicator files into a list
 filenames = list.files(path = SDG_INDICATORS_PATH, pattern="*.csv", full.names=TRUE)
-sdg_indicator_list <- lapply(filenames, read.csv)
+sdg_indicator_selected_clean <- lapply(filenames, read.csv)
 indicatornames = gsub(pattern = ".csv", replacement = "", list.files(path = SDG_INDICATORS_PATH, pattern="*.csv"))
-names(sdg_indicator_list) <- indicatornames
-
-#' Filter the indicators based on the criteria. 
-sdg_criteria_checker_table <- read.csv("sdg_conditions.csv") %>% filter(included == 1)
-sdg_indicator_list_selected <- sdg_indicator_list[indicatornames[indicatornames %in% sdg_criteria_checker_table$indicator]]
-sdg_indicator_list_selected <- sdg_indicator_list_selected[indicaotrs_econ_envir_names]
-
-#' Clean the indicator data.
-sdg_indicator_selected_clean <- clean_indicator_data_fun(sdg_indicator_list_selected)
-
-#' Write the cleaned data.
-for (i in 1:length(sdg_indicator_selected_clean)) {
-  write.csv(x = sdg_indicator_selected_clean[[i]], file = paste0("clean_sdg_indicators\\", tolower(names(sdg_indicator_selected_clean)[i]), ".csv"))
-}
+names(sdg_indicator_selected_clean) <- indicatornames
 
 #' **************************************************************************************
 #' **************************************************************************************
@@ -262,6 +249,18 @@ indicator_impact_countries_list <- evaluate_dist_individual_fun(sdg_indicator_se
 for (i in 1:length(indicator_impact_countries_list)) {
   write.csv(x = indicator_impact_countries_list[[i]], file = paste0("impact_results\\", tolower(COUNTRY_NAMES[i]), "_impact.csv"))
 }
+
+#' **************************************************************************************
+#' **************************************************************************************
+#' Construct average impact for G7 countries - Economic indicators
+econ_impact_ind_df <- data.frame()
+for (i in 1:length(indicator_impact_countries_list)) {
+  econ_impact_ind_data <- rowMeans(indicator_impact_countries_list[[i]][econ_ind_names], na.rm = TRUE)
+  econ_impact_ind_df <- rbind(econ_impact_ind_df, econ_impact_ind_data)
+}
+econ_impact_ind_df <- rbind(econ_impact_ind_df, rowMeans(indicator_impact_group[econ_ind_names], na.rm = TRUE))
+econ_impact_ind_df <- data.frame(t(econ_impact_ind_df))
+colnames(econ_impact_ind_df) <- c(COUNTRY_NAMES, "G7")
 
 #' **************************************************************************************
 #' **************************************************************************************

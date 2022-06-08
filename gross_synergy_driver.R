@@ -186,6 +186,13 @@ evaluate_grad_individual_fun <- function(sdg_ind_clean_list) {
   return(country_grad_mat_list)
 }
 
+#' This function evaluates the distribution of positive contributions for each indicator by
+#' the group of countries. 
+#' @param contribution_list is a list of country contributions to indicators
+#' @param indicator_names is a vector of indicator names
+#' @return a data frame that has each country as column, each indicator name as row, and 
+#' each observation is the distribution of a single country to the indicator through out the 
+#' given years
 cont_dist_fun <- function(contribution_list, indicator_names) {
   contribution_j_count <- data.frame()
   for (j in 1:length(COUNTRY_NAMES)) {
@@ -201,6 +208,12 @@ cont_dist_fun <- function(contribution_list, indicator_names) {
   return(contribution_j_count)
 }
 
+#' This function evaluates the distribution of positive contributions for each indicators each country
+#' through out the years.
+#' @param contribution_list is a list of country contributions to indicators
+#' @param indicator_names is a vector of indicator names
+#' @return a data frame that has each country as column, each given year as the row, and each
+#' observation is the distribution of positive contribution to all indicators during the given year
 cont_yearly_dist_fun <- function(contribution_list, indicator_names) {
   contribution_j_count <- data.frame()
   for (j in 1:length(COUNTRY_NAMES)) {
@@ -321,7 +334,6 @@ rownames(synergy) <- as.Date(ISOdate(NEW_YEAR_SEQ, 1, 1))  # beginning of year
 
 #' **************************************************************************************
 #' **************************************************************************************
-
 #' Compute synergy total using the definition: synergy x Ic
 gross_synergy <- (synergy * synergy_direction_df) / length(COUNTRY_NAMES)
 write.csv(x = gross_synergy[econ_ind_names], file = "synergy_results\\economic_gross_synergy_g7.csv")
@@ -365,15 +377,16 @@ for (i in 1:(length(COUNTRY_NAMES))) {
 
 #' **************************************************************************************
 #' **************************************************************************************
-
-yearly_economic_cont_j_dist <- cont_dist_fun(country_synergy_contribution_list, econ_ind_names)
-write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\yearly_economic_contributions_by_g7.csv"))
-
-yearly_environment_cont_j_dist <- cont_dist_fun(country_synergy_contribution_list, envir_ind_names)
-write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\yearly_environment_contributions_by_g7.csv"))
-
+#' Positive proportion of contributions to gross synergy of SDG indicators. 
 economic_cont_j_dist_per_ind <- cont_yearly_dist_fun(country_synergy_contribution_list, econ_ind_names)
 write.csv(x = economic_cont_j_dist_per_ind, file = paste0("contribution_results\\economic_contribuitons_per_indicator_g7.csv"))
 
 environment_cont_j_dist_per_ind <- cont_yearly_dist_fun(country_synergy_contribution_list, envir_ind_names)
 write.csv(x = economic_cont_j_dist_per_ind, file = paste0("contribution_results\\environment_contribuitons_per_indicator_g7.csv"))
+
+#' yearly positive proportion of contributions to gross synergy of economic and environmental SDG indicators by G7 countries.
+yearly_economic_cont_j_dist <- cont_dist_fun(country_synergy_contribution_list, econ_ind_names)
+write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\yearly_economic_contributions_by_g7.csv"))
+
+yearly_environment_cont_j_dist <- cont_dist_fun(country_synergy_contribution_list, envir_ind_names)
+write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\yearly_environment_contributions_by_g7.csv"))

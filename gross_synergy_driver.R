@@ -22,6 +22,7 @@ require(gridExtra)
 #' Constants. Please apply changes here. 
 YEAR_THRESHOLD <- 1995
 YEAR_SEQUENCE <- 1995:2022
+NEW_YEAR_SEQ <- 2000:2020
 SDG_INDICATORS_PATH <- "clean_sdg_indicators"
 COUNTRY_NAMES <- c("Canada", "France", "Germany", "Japan", "Italy", "United Kingdom", "United States")
 
@@ -261,6 +262,18 @@ for (i in 1:length(indicator_impact_countries_list)) {
 econ_impact_ind_df <- rbind(econ_impact_ind_df, rowMeans(indicator_impact_group[econ_ind_names], na.rm = TRUE))
 econ_impact_ind_df <- data.frame(t(econ_impact_ind_df))
 colnames(econ_impact_ind_df) <- c(COUNTRY_NAMES, "G7")
+write.csv(x = econ_impact_ind_df, file = paste0("impact_results\\impact_average_economic_indicators.csv"))
+
+#' Construct average impact for G7 countries - Economic indicators
+env_impact_ind_df <- data.frame()
+for (i in 1:length(indicator_impact_countries_list)) {
+  env_impact_ind_data <- rowMeans(indicator_impact_countries_list[[i]][envir_ind_names], na.rm = TRUE)
+  env_impact_ind_df <- rbind(env_impact_ind_df, econ_impact_ind_data)
+}
+env_impact_ind_df <- rbind(env_impact_ind_df, rowMeans(indicator_impact_group[envir_ind_names], na.rm = TRUE))
+env_impact_ind_df <- data.frame(t(env_impact_ind_df))
+colnames(env_impact_ind_df) <- c(COUNTRY_NAMES, "G7")
+write.csv(x = env_impact_ind_df, file = paste0("impact_results\\impact_average_environment_indicators.csv"))
 
 #' **************************************************************************************
 #' **************************************************************************************
@@ -273,7 +286,7 @@ indicator_gradient_countries_list <- evaluate_grad_individual_fun(sdg_indicator_
 #' This section reads the goal direction of the SDG indicators.
 true_direction_df <- read.csv("sdg_conditions_true_directions.csv")
 true_direction_df <- true_direction_df %>% filter(included == 1)
-true_direction_df_copy <- true_direction_df %>% filter(indicator %in% indicaotrs_econ_envir_names)
+true_direction_df_copy <- true_direction_df %>% filter(tolower(indicator) %in% indicaotrs_econ_envir_names)
 
 #' Create a data-frame that has rows either +1 or -1 to show the increasing and decreasing of 
 #' SDG indicators. 
@@ -302,7 +315,6 @@ for (i in 1:(length(COUNTRY_NAMES))) {
 }
 
 #' Apply the synergy formula
-NEW_YEAR_SEQ <- 2000:2020
 synergy <- sum_indicator_impact_countries - indicator_impact_group
 colnames(synergy) <- names(sdg_indicator_selected_clean)
 rownames(synergy) <- as.Date(ISOdate(NEW_YEAR_SEQ, 1, 1))  # beginning of year
@@ -326,7 +338,7 @@ envir_gross_synergy_ind_df <- data.frame(rowMeans(envir_gross_synergy_ind_df, na
 
 econ_envir_gross_synergy_avg_df <- data.frame(econ_gross_synergy_ind_df, envir_gross_synergy_ind_df)
 colnames(econ_envir_gross_synergy_avg_df) <- c("Economy", "Environment")
-write.csv(x = econ_envir_gross_synergy_avg_df, file = paste0("average_gross_synergy.csv"))
+write.csv(x = econ_envir_gross_synergy_avg_df, file = paste0("synergy_results\\average_gross_synergy.csv"))
 
 #' **************************************************************************************
 #' **************************************************************************************
@@ -338,7 +350,7 @@ for (i in 1:length(COUNTRY_NAMES)) {
   contribution_j[contribution_j == Inf] <- 100
   contribution_j <- contribution_j / length(COUNTRY_NAMES)
   
-  write.csv(x = contribution_j, file = paste0("synergy_results\\", tolower(COUNTRY_NAMES[i]), "_contribution_of_synergy.csv"))
+  write.csv(x = contribution_j, file = paste0("contribution_results\\", tolower(COUNTRY_NAMES[i]), "_contribution_of_synergy.csv"))
   country_synergy_contribution_list[[i]] <- contribution_j
 }
 names(country_synergy_contribution_list) <- names(indicator_impact_countries_list)
@@ -355,13 +367,13 @@ for (i in 1:(length(COUNTRY_NAMES))) {
 #' **************************************************************************************
 
 yearly_economic_cont_j_dist <- cont_dist_fun(country_synergy_contribution_list, econ_ind_names)
-write.csv(x = yearly_economic_cont_j_dist, file = paste0("yearly_economic_contributions_by_g7.csv"))
+write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\yearly_economic_contributions_by_g7.csv"))
 
 yearly_environment_cont_j_dist <- cont_dist_fun(country_synergy_contribution_list, envir_ind_names)
-write.csv(x = yearly_economic_cont_j_dist, file = paste0("yearly_environment_contributions_by_g7.csv"))
+write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\yearly_environment_contributions_by_g7.csv"))
 
 economic_cont_j_dist_per_ind <- cont_yearly_dist_fun(country_synergy_contribution_list, econ_ind_names)
-write.csv(x = economic_cont_j_dist_per_ind, file = paste0("economic_contribuitons_per_indicator_g7.csv"))
+write.csv(x = economic_cont_j_dist_per_ind, file = paste0("contribution_results\\economic_contribuitons_per_indicator_g7.csv"))
 
 environment_cont_j_dist_per_ind <- cont_yearly_dist_fun(country_synergy_contribution_list, envir_ind_names)
-write.csv(x = economic_cont_j_dist_per_ind, file = paste0("environment_contribuitons_per_indicator_g7.csv"))
+write.csv(x = economic_cont_j_dist_per_ind, file = paste0("contribution_results\\environment_contribuitons_per_indicator_g7.csv"))

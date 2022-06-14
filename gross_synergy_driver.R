@@ -1,7 +1,7 @@
 #' **************************************************************************************
 #' **************************************************************************************
 #' @author Ali Raisolsadat
-#' @date 18/05/2022
+#' @date 14/06/2022
 #' @details University of Prince Edward Island - Research 2022 
 #' School of Climate Change and Adaptation / School of Mathematical and Computational Sciences.
 #' This code is not to be shared, published or used without permission by the author. 
@@ -15,9 +15,8 @@ library(dplyr)
 library(tidyr)
 library(scales)
 library(ggpubr)
-
-require(grid)
-require(gridExtra)
+library(grid)
+library(gridExtra)
 
 #' Constants. Please apply changes here. 
 YEAR_THRESHOLD <- 1995
@@ -35,6 +34,14 @@ COUNTRY_NAMES <- c("Canada", "France", "Germany", "Japan", "Italy", "United King
 normalize_fun <- function(x) {
   norm_x <- as.matrix(x)
   return(data.frame(rescale(x, c(0,1))))
+}
+
+#' This function normalizes entire data-frame of indicator values between -100 - 100. 
+#' @param x is the data-frame to be normalized.
+#' @return a normalized data-frame.
+normalize_pos_neg_perc_fun <- function(x) {
+  norm_x <- as.matrix(x)
+  return(data.frame(rescale(x, c(-100,100), na.rm = TRUE)))
 }
 
 #' This function cleans the indicator data. The processes is as follows:
@@ -230,9 +237,43 @@ cont_yearly_dist_fun <- function(contribution_list, indicator_names) {
   return(contribution_j_count)
 }
 
-#' **************************************************************************************
-#' **************************************************************************************
+#' This function creates a contribution data-frame for each indicator. Each data-frame has 
+#' countries as columns, years as rows, and each observation is the contribution to gross synergy 
+#' of the indicator. The contributions are normalized in range -100% to 100%. 
+#' @param contribution_list is a list of country contributions to indicators
+#' @param indicator_names is a vector of indicator names
+norm_country_cont_fun <- function(contribution_list, ind_names) {
+  indicator_contirbutions_by_country <- list()
+  
+  for (i in 1:length(ind_names)) {
+    temp_df <- data.frame()
+    for (j in 1:length(contribution_list)) {
+      temp_df <- rbind(temp_df, contribution_list[[j]][,ind_names[i]])
+    }
+    temp_df <- data.frame(t(temp_df))
+    colnames(temp_df) <- COUNTRY_NAMES
+    rownames(temp_df) <- as.Date(ISOdate(NEW_YEAR_SEQ, 1, 1))  # beginning of year
+    indicator_contirbutions_by_country[[i]] <- temp_df
+  }
+  
+  norm_indicator_contirbutions_by_country <- list()
+  for (i in 1:length(ind_names)) {
+    dd <- indicator_contirbutions_by_country[[i]]
+    new_dd <- data.frame()
+    for (j in 1:nrow(dd)) {
+      new_dd <- rbind(new_dd, normalize_pos_neg_perc_fun(as.matrix(dd[j,])))
+    }
+    norm_indicator_contirbutions_by_country[[i]] <- new_dd
+  }
+  
+  names(norm_indicator_contirbutions_by_country) <- ind_names
+  
+  return(norm_indicator_contirbutions_by_country)
+}
 
+#' **************************************************************************************
+#' **************************************************************************************
+#' Economic SDG indicator names
 econ_ind_names <- tolower(c("ind1.1.1", "ind1.A.1.1", "ind1.A.2.1", "ind2.5.2", 
                     "ind3.1.1", "ind3.2.1", "ind3.2.2", "ind3.3.2", "ind3.4.1", "ind3.4.2", "ind3.6.1.1", 
                     "ind3.B.1.1", "ind3.B.1.3", "ind6.1.1.1", "ind6.2.1.1", "ind7.1.1", "ind7.1.2", 
@@ -240,8 +281,11 @@ econ_ind_names <- tolower(c("ind1.1.1", "ind1.A.1.1", "ind1.A.2.1", "ind2.5.2",
                     "ind9.1.2.1", "ind9.1.2.2", "ind9.1.2.3", "ind9.2.1", "ind9.2.2.1", "ind9.2.2.2", 
                     "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1.1", "ind9.C.1.2"))
 
+#' Environmental SDG indicator names
 envir_ind_names <- tolower(c("ind12.2.2.1", "ind12.2.2.2", "ind13.1.1.1", "ind14.1.1.2", 
                      "ind15.1.1", "ind15.1.2.2", "ind15.1.2.3", "ind15.4.1", "ind15.A.1.2", "ind15.B.1.2"))
+
+#' All of the indicator names
 indicaotrs_econ_envir_names <- c(econ_ind_names, envir_ind_names)
 
 #' Read all the SDG indicator files into a list
@@ -384,9 +428,19 @@ write.csv(x = economic_cont_j_dist_per_ind, file = paste0("contribution_results\
 environment_cont_j_dist_per_ind <- cont_yearly_dist_fun(country_synergy_contribution_list, envir_ind_names)
 write.csv(x = economic_cont_j_dist_per_ind, file = paste0("contribution_results\\environment_contribuitons_per_indicator_g7.csv"))
 
-#' yearly positive proportion of contributions to gross synergy of economic and environmental SDG indicators by G7 countries.
+#' Yearly positive proportion of contributions to gross synergy of economic and environmental SDG indicators by G7 countries.
 yearly_economic_cont_j_dist <- cont_dist_fun(country_synergy_contribution_list, econ_ind_names)
 write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\yearly_economic_contributions_by_g7.csv"))
 
 yearly_environment_cont_j_dist <- cont_dist_fun(country_synergy_contribution_list, envir_ind_names)
 write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\yearly_environment_contributions_by_g7.csv"))
+
+#' **************************************************************************************
+#' **************************************************************************************
+#'Normalized contributions to economic indicators' gross synergy by G7 countries. 
+norm_economic_indicator_contirbutions_by_country <- norm_country_cont_fun(country_synergy_contribution_list, econ_ind_names)
+save(x = norm_economic_indicator_contirbutions_by_country, file = "contribution_results//economic_indicator_contributions.RData")
+
+#'Normalized contributions to environmental indicators' gross synergy by G7 countries. 
+norm_environment_indicator_contirbutions_by_country <- norm_country_cont_fun(country_synergy_contribution_list, envir_ind_names)
+save(x = norm_environment_indicator_contirbutions_by_country, file = "contribution_results//environment_indicator_contributions.RData")

@@ -274,19 +274,19 @@ norm_country_cont_fun <- function(contribution_list, ind_names) {
 #' **************************************************************************************
 #' **************************************************************************************
 #' Economic SDG indicator names
-econ_ind_names <- tolower(c("ind1.1.1", "ind1.A.1.1", "ind1.A.2.1", "ind2.5.2", 
-                    "ind3.1.1", "ind3.2.1", "ind3.2.2", "ind3.3.2", "ind3.4.1", "ind3.4.2", "ind3.6.1.1", 
-                    "ind3.B.1.1", "ind3.B.1.3", "ind6.1.1.1", "ind6.2.1.1", "ind7.1.1", "ind7.1.2", 
-                    "ind7.2.1", "ind7.3.1", "ind8.1.1", "ind8.2.1", "ind8.4.2.1", "ind8.4.2.2","ind8.5.2.1",
-                    "ind9.1.2.1", "ind9.1.2.2", "ind9.1.2.3", "ind9.2.1", "ind9.2.2.1", "ind9.2.2.2", 
-                    "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1.1", "ind9.C.1.2"))
+econ_ind_names <- tolower(c("ind1.1.1", "ind1.A.1(1)", "ind1.A.2(1)", "ind2.5.2", 
+                            "ind3.1.1", "ind3.2.1", "ind3.2.2", "ind3.3.2", "ind3.4.1", "ind3.4.2", "ind3.6.1(1)", 
+                            "ind3.B.1(1)", "ind3.B.1(2)", "ind6.1.1(1)", "ind6.2.1(1)", "ind7.1.1", "ind7.1.2", 
+                            "ind7.2.1", "ind7.3.1", "ind8.1.1", "ind8.2.1", "ind8.4.2(1)", "ind8.4.2(2)","ind8.5.2(1)",
+                            "ind9.1.2(1)", "ind9.1.2(2)", "ind9.1.2(3)", "ind9.2.1", "ind9.2.2(1)", "ind9.2.2(2)", 
+                            "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1(1)", "ind9.C.1(2)"))
 
 #' Environmental SDG indicator names
-envir_ind_names <- tolower(c("ind12.2.2.1", "ind12.2.2.2", "ind13.1.1.1", "ind14.1.1.2", 
-                     "ind15.1.1", "ind15.1.2.2", "ind15.1.2.3", "ind15.4.1", "ind15.A.1.2", "ind15.B.1.2"))
+envir_ind_names <- tolower(c("ind12.2.2(1)", "ind12.2.2(2)", "ind13.1.1(1)", "ind14.1.1(2)", 
+                             "ind15.1.1", "ind15.1.2(1)", "ind15.1.2(2)", "ind15.4.1", "ind15.A.1(1)", "ind15.B.1(1)"))
 
 #' All of the indicator names
-indicaotrs_econ_envir_names <- c(econ_ind_names, envir_ind_names)
+indicators_econ_envir_names <- c(econ_ind_names, envir_ind_names)
 
 #' Read all the SDG indicator files into a list
 filenames = list.files(path = SDG_INDICATORS_PATH, pattern="*.csv", full.names=TRUE)
@@ -340,10 +340,25 @@ indicator_gradient_group <- evaluate_grads_group_fun(sdg_indicator_selected_clea
 #' Compute the difference for individual countries in the group.
 indicator_gradient_countries_list <- evaluate_grad_individual_fun(sdg_indicator_selected_clean)
 
+
+
+econ_ind_names_c <- tolower(c("ind1.1.1", "ind1.A.1.1", "ind1.A.2.1", "ind2.5.2", 
+                            "ind3.1.1", "ind3.2.1", "ind3.2.2", "ind3.3.2", "ind3.4.1", "ind3.4.2", "ind3.6.1.1", 
+                            "ind3.B.1.1", "ind3.B.1.3", "ind6.1.1.1", "ind6.2.1.1", "ind7.1.1", "ind7.1.2", 
+                            "ind7.2.1", "ind7.3.1", "ind8.1.1", "ind8.2.1", "ind8.4.2.1", "ind8.4.2.2","ind8.5.2.1",
+                            "ind9.1.2.1", "ind9.1.2.2", "ind9.1.2.3", "ind9.2.1", "ind9.2.2.1", "ind9.2.2.2", 
+                            "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1.1", "ind9.C.1.2"))
+
+#' Environmental SDG indicator names
+envir_ind_names_c <- tolower(c("ind12.2.2.1", "ind12.2.2.2", "ind13.1.1.1", "ind14.1.1.2", 
+                             "ind15.1.1", "ind15.1.2.2", "ind15.1.2.3", "ind15.4.1", "ind15.A.1.2", "ind15.B.1.2"))
+indicators_econ_envir_names_c <- c(envir_ind_names_c, econ_ind_names_c)
+
 #' This section reads the goal direction of the SDG indicators.
 true_direction_df <- read.csv("sdg_conditions_true_directions.csv")
 true_direction_df <- true_direction_df %>% filter(included == 1)
-true_direction_df_copy <- true_direction_df %>% filter(tolower(indicator) %in% indicaotrs_econ_envir_names)
+true_direction_df_copy <- true_direction_df %>% filter(tolower(indicator) %in% indicators_econ_envir_names_c)
+true_direction_df_copy <- true_direction_df_copy[order(true_direction_df_copy$indicator),]
 
 #' Create a data-frame that has rows either +1 or -1 to show the increasing and decreasing of 
 #' SDG indicators. 

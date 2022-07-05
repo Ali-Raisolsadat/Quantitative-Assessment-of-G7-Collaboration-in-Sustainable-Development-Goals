@@ -17,6 +17,8 @@ library(scales)
 library(ggpubr)
 library(grid)
 library(gridExtra)
+library(patchwork)
+library(ggthemes)
 
 #' Constants. Please apply changes here. 
 YEAR_THRESHOLD <- 1995
@@ -271,6 +273,56 @@ norm_country_cont_fun <- function(contribution_list, ind_names) {
   return(norm_indicator_contirbutions_by_country)
 }
 
+#' This function generates heat maps for the G7 countries' contributions to the gross synergy. 
+#' @param normed_sdg_contributions_by_country is a list of normalized SDG contributions to G7 countries
+#' @param loc is the location to save the heatmaps
+heatmap_generator_g7 <- function(normed_sdg_contributions_by_country, loc) {
+  
+  for (i in 1:length(normed_sdg_contributions_by_country)) {
+    sdg_df <- normed_sdg_contributions_by_country[[i]]
+    colnames(sdg_df) <- gsub("\\.", " ", colnames(sdg_df))
+    col_levels <- levels(colnames(sdg_df))
+    
+    sdg_df$Year <- as.Date(as.character(rownames(sdg_df)))
+    sdg_df$Ind <- names(normed_sdg_contributions_by_country)[i]
+    sdg_df$Ind <- gsub("ind", "SDG ", sdg_df$Ind)
+    unique(sdg_df$Ind) 
+    
+    sdg_df_gather <- gather(sdg_df, key = "Country", value="Contribution",  -Year, -Ind)
+    sdg_df_gather$Country <- factor(sdg_df_gather$Country, levels =  c("Canada", "France", "Germany", "Italy",  "Japan", "United Kingdom", "United States"))
+    
+    p1<- ggplot(sdg_df_gather, aes(Country, Year,  fill= Contribution))+
+      geom_tile( stat = "identity", position = "identity", color = "white",
+                 lwd = 1.5,
+                 linetype = 1)+
+      theme_few(base_size = 26)+
+      labs(x = "", y = "Year") +
+      scale_fill_gradientn(colors = hcl.colors(20, "Spectral")) +
+      theme(plot.title = element_text(hjust = 0.5))+
+      theme(legend.title = element_blank())+
+      theme(axis.text.x =  element_text(angle = 45,vjust = 0.6))+
+      geom_text(aes(label = format(paste0(round(Contribution, 1), "%") )), size = 6, alpha = 0.7)+
+      theme(legend.position = "none") 
+    
+    p2<- ggplot(sdg_df_gather, aes(Country,  Contribution))+
+      geom_boxplot(aes(color = Country), lwd = 1.2)+
+      theme_few(base_size = 26)+
+      geom_jitter(aes(color= Country), alpha = 0.5 , size = 5,  position = position_jitter(width = 0.1))+
+      theme(legend.position = "none")+
+      ggtitle (unique(sdg_df$Ind)) +
+      theme(plot.title = element_text(hjust = 0.5))+
+      theme(axis.ticks.x = element_blank())+
+      theme(axis.text.x = element_blank())+
+      labs(x = "", y = "(%)") 
+    
+    
+    joint_p <- p2 / p1 + plot_layout(widths = c(1, 1), heights = unit(c(1.7, 5), c('null', 'null')))
+    filename_plot <- paste0(loc, "//", unique(sdg_df$Ind), ".jpeg")
+    ggsave(filename_plot, plot = joint_p, width = 523.875, height = 285.75, units = "mm", dpi = 500)
+    
+  }
+}
+
 #' **************************************************************************************
 #' **************************************************************************************
 #' Economic SDG indicator names
@@ -455,7 +507,9 @@ write.csv(x = yearly_economic_cont_j_dist, file = paste0("contribution_results\\
 #'Normalized contributions to economic indicators' gross synergy by G7 countries. 
 norm_economic_indicator_contirbutions_by_country <- norm_country_cont_fun(country_synergy_contribution_list, econ_ind_names)
 save(x = norm_economic_indicator_contirbutions_by_country, file = "contribution_results//economic_indicator_contributions.RData")
+heatmap_generator_g7(norm_economic_indicator_contirbutions_by_country, "heatmaps//economic")
 
 #'Normalized contributions to environmental indicators' gross synergy by G7 countries. 
 norm_environment_indicator_contirbutions_by_country <- norm_country_cont_fun(country_synergy_contribution_list, envir_ind_names)
 save(x = norm_environment_indicator_contirbutions_by_country, file = "contribution_results//environment_indicator_contributions.RData")
+heatmap_generator_g7(norm_environment_indicator_contirbutions_by_country, "heatmaps//environment")

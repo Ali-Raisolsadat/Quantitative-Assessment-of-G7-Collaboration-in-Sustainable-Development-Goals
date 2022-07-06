@@ -297,11 +297,11 @@ heatmap_generator_g7 <- function(normed_sdg_contributions_by_country, loc) {
                  linetype = 1)+
       theme_few(base_size = 26)+
       labs(x = "", y = "Year") +
-      scale_fill_gradientn(colors = hcl.colors(20, "Spectral")) +
+      scale_fill_gradientn(colors = hcl.colors(20, "Spectral"), na.value = "grey") +
       theme(plot.title = element_text(hjust = 0.5))+
       theme(legend.title = element_blank())+
       theme(axis.text.x =  element_text(angle = 45,vjust = 0.6))+
-      geom_text(aes(label = format(paste0(round(Contribution, 1), "%") )), size = 6, alpha = 0.7)+
+      geom_text(  aes(label = ifelse(is.na(Contribution), "", format(paste0(round(Contribution, 1), "%") ))) , size = 6, alpha = 0.7)+
       theme(legend.position = "none") 
     
     p2<- ggplot(sdg_df_gather, aes(Country,  Contribution))+
@@ -318,7 +318,7 @@ heatmap_generator_g7 <- function(normed_sdg_contributions_by_country, loc) {
     
     joint_p <- p2 / p1 + plot_layout(widths = c(1, 1), heights = unit(c(1.7, 5), c('null', 'null')))
     filename_plot <- paste0(loc, "//", unique(sdg_df$Ind), ".jpeg")
-    ggsave(filename_plot, plot = joint_p, width = 523.875, height = 285.75, units = "mm", dpi = 500)
+    ggsave(filename_plot, plot = joint_p, height = 523.875, width = 285.75, units = "mm", dpi = 500)
     
   }
 }

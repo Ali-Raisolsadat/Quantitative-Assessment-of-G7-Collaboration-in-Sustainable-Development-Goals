@@ -392,8 +392,6 @@ indicator_gradient_group <- evaluate_grads_group_fun(sdg_indicator_selected_clea
 #' Compute the difference for individual countries in the group.
 indicator_gradient_countries_list <- evaluate_grad_individual_fun(sdg_indicator_selected_clean)
 
-
-
 econ_ind_names_c <- tolower(c("ind1.1.1", "ind1.A.1.1", "ind1.A.2.1", "ind2.5.2", 
                             "ind3.1.1", "ind3.2.1", "ind3.2.2", "ind3.3.2", "ind3.4.1", "ind3.4.2", "ind3.6.1.1", 
                             "ind3.B.1.1", "ind3.B.1.3", "ind6.1.1.1", "ind6.2.1.1", "ind7.1.1", "ind7.1.2", 

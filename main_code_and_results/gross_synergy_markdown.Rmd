@@ -1,7 +1,7 @@
 ---
 title: "Gross Synergy Driver"
 author: "Ali Raisolsadat & Quan Dau"
-date: "6 June 2023"
+date: "Latest Changes: 26 May 2024"
 output: html_document
 ---
 
@@ -376,11 +376,11 @@ econ_ind_names <- tolower(c("ind1.1.1", "ind1.A.1(1)", "ind1.A.2(1)", "ind2.5.2"
                             "ind3.B.1(1)", "ind6.1.1(1)", "ind6.2.1(1)", "ind7.1.1", "ind7.1.2", 
                             "ind7.2.1", "ind7.3.1", "ind8.1.1", "ind8.2.1", "ind8.4.2(1)", "ind8.4.2(2)","ind8.5.2(1)",
                             "ind9.1.2(1)", "ind9.1.2(2)", "ind9.1.2(3)", "ind9.2.1", "ind9.2.2(1)", "ind9.2.2(2)", 
-                            "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1(1)", "ind9.C.1(2)")) #"ind3.B.1(2)"
+                            "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1(1)", "ind9.C.1(2)")) 
 
 #' Environmental SDG indicator names
 envir_ind_names <- tolower(c("ind12.2.2(1)", "ind12.2.2(2)", "ind13.1.1(1)", "ind14.1.1(1)", 
-                             "ind15.1.1", "ind15.1.2(1)", "ind15.4.1", "ind15.A.1(1)")) #, "ind15.B.1(1)", "ind15.1.2(1)" "ind15.A.1(1)"
+                             "ind15.1.1", "ind15.1.2(1)", "ind15.4.1", "ind15.A.1(1)")) 
 
 #' All of the indicator names
 indicators_econ_envir_names <- c(econ_ind_names, envir_ind_names)
@@ -418,8 +418,6 @@ econ_impact_ind_df <- data.frame(t(econ_impact_ind_df))
 colnames(econ_impact_ind_df) <- c(COUNTRY_NAMES, "G7")
 rownames(econ_impact_ind_df) <- NEW_YEAR_SEQ
 write.csv(x = econ_impact_ind_df, file = paste0("results/plot_1_a_distance_average_economic_indicators.csv")) #figure 1(a)
-#' Write the impact results.
-save(x = indicator_impact_countries_list, file = "results/plot_2_domestic_changes.RData") # Figure 2
 ```
 
 
@@ -439,7 +437,7 @@ write.csv(x = env_impact_ind_df, file = paste0("results/plot_1_b_distance_averag
 
 ```{r figure 2}
 #' Write the impact results.
-save(x = indicator_impact_countries_list, file = "results/plot_2_domestic_changes.RData") # Figure 2
+save(x = indicator_impact_countries_list, file = "results/plot_2_domestic_changes.RData") # figure 2
 ```
 
 
@@ -528,8 +526,6 @@ names(country_synergy_contribution_list) <- names(indicator_impact_countries_lis
 
 
 #' CHANGES HERE - June 6 - 2023:
-#' SEE FUNCTION 11 AT THE BEGINNING
-#'Normalized contributions to economic indicators' gross synergy by G7 countries. 
 
 #' Figure 4 code
 economic_indicator_contirbutions_by_country <- country_cont_fun(country_synergy_contribution_list, econ_ind_names)

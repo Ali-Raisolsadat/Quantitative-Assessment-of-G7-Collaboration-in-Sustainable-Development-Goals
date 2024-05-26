@@ -1,12 +1,17 @@
-This main Folder contains:
+Quantitative Assessment of G7's Collaboration in Sustainable Development Goals
 
-- SDG_Project.Rproj: This is R project
+This repository contains the code for this project:
 
-- main_code_and_results folder: This folder stores all figures for the manuscript and supplementary, as well as an Excel file, namely "SDG_Data" summarized all the results from this work. 
+- SDG_Project.Rproj: The R project file.
 
-- results_and_figures_used_in_manuscript folder: This folder contains R script and data was used in this study.
-      + indicators(raw data) folder: This is raw data downloaded from https://sdg-tracker.org databased. 
-      + sdg_data folder: This is clean SDG indicators between 1999-2020
-      + partial_true_direction_un: This is desirable direction used in the syngergy
-      + gross_synergy_markdown.Rmd: This is R script    
-      + results folder: This is the outputs of the study derived from the R script (gross_synergy_markdown.Rmd)
+- main_code_and_results:
+      - Contains all figures for the manuscript and supplementary materials.
+      - Includes an Excel file named "SDG_Data" summarizing all results from this work.
+
+- results_and_figures_used_in_manuscript:
+      - Contains the R script and data used in this study.
+      - indicators (raw data): Raw data downloaded from the SDG Tracker database.
+      - sdg_data: Cleaned SDG indicators data from 1999-2020.
+      - partial_true_direction_un: Data indicating the desirable directions used in the synergy analysis.
+      - gross_synergy_markdown.Rmd: The R script for the analysis.
+      - results: Outputs of the study derived from the R script (gross_synergy_markdown.Rmd).

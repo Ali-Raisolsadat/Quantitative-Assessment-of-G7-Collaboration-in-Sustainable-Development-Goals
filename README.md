@@ -1,12 +1,14 @@
 ### Quantitative Assessment of G7's Collaboration in Sustainable Development Goals
 
 Authors: Kai Liu, Ali Raisolsadat, Van Quan Dau, Xander Wang
+
 School of Climate Change and Adaptation, 
 University of Prince Edward Island, 
 Charlottetown, PE, C1A 4P3,
 Canada
 
 Corresponding author: Dr. Xander Wang
+
 Contact Information: xxwang@upei.ca
 
 This repository contains the code for this project:

@@ -30,7 +30,7 @@ This repository contains the code and data for the project titled "Quantitative 
     - Cleaned SDG indicators data from 1999-2020.
   - **partial_true_direction_un.csv**: 
     - This CSV file indicates the desirable directions used in the synergy analysis.
-  - **gross_synergy_markdown.Rmd**: 
+  - `gross_synergy_markdown.Rmd`: 
     - The main R markdown file for this project.
     - Contains the implementation of the methodology.
     - Researchers can use this file to replicate or create new synergy values.

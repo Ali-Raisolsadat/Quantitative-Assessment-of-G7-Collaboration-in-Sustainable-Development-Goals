@@ -1,0 +1,442 @@
+Entity,Code,Year,17.18.3 - Countries with national statistical plans that are fully funded (1 = YES; 0 = NO) - SG_STT_NSDSFND,17.18.3 - Countries with national statistical plans with funding from donors (1 = YES; 0 = NO) - SG_STT_NSDSFDDNR,17.18.3 - Countries with national statistical plans with funding from others (1 = YES; 0 = NO) - SG_STT_NSDSFDOTHR,17.18.3 - Countries with national statistical plans with funding from Government (1 = YES; 0 = NO) - SG_STT_NSDSFDGVT,17.18.3 - Countries with national statistical plans that are under implementation (1 = YES; 0 = NO) - SG_STT_NSDSIMPL
+Afghanistan,AFG,2019,,,,,1
+Afghanistan,AFG,2020,,,,,1
+Albania,ALB,2019,0,1,,,0
+Albania,ALB,2020,0,,,,0
+Algeria,DZA,2019,1,1,,1,1
+Algeria,DZA,2020,1,1,,1,1
+Andorra,AND,2019,1,,,1,1
+Andorra,AND,2020,1,,,1,1
+Angola,AGO,2019,,,,,1
+Angola,AGO,2020,,,,,1
+Anguilla,AIA,2019,,,,,0
+Anguilla,AIA,2020,,,,,0
+Antigua and Barbuda,ATG,2019,1,,,1,1
+Antigua and Barbuda,ATG,2020,1,,,,
+Argentina,ARG,2019,1,,,1,0
+Argentina,ARG,2020,0,,,,
+Armenia,ARM,2019,1,1,,1,1
+Armenia,ARM,2020,1,1,,1,1
+Asia,,2019,25,13,2,33,36
+Asia,,2020,23,7,1,27,34
+Australia,AUS,2019,1,,,1,1
+Australia,AUS,2020,1,,,1,1
+Australia and New Zealand,,2019,2,,1,2,2
+Australia and New Zealand,,2020,2,0,1,2,2
+Austria,AUT,2019,1,,,1,1
+Austria,AUT,2020,1,,,1,1
+Bahamas,BHS,2019,,,,,0
+Bahamas,BHS,2020,,,,,0
+Bangladesh,BGD,2019,1,1,,1,1
+Bangladesh,BGD,2020,1,1,,1,1
+Barbados,BRB,2019,0,,,1,0
+Barbados,BRB,2020,0,,,,0
+Belarus,BLR,2019,1,,,1,1
+Belarus,BLR,2020,1,,,1,1
+Belgium,BEL,2019,1,,,1,1
+Belgium,BEL,2020,1,,,1,1
+Belize,BLZ,2019,0,1,,1,1
+Belize,BLZ,2020,0,,,,
+Benin,BEN,2019,0,1,1,1,1
+Benin,BEN,2020,0,,,,1
+Bhutan,BTN,2019,1,1,,,1
+Bhutan,BTN,2020,1,1,,,1
+Bolivia,BOL,2019,0,1,,1,0
+Bolivia,BOL,2020,0,,,,0
+Bosnia and Herzegovina,BIH,2019,1,1,,1,1
+Bosnia and Herzegovina,BIH,2020,1,1,,1,1
+Botswana,BWA,2019,1,1,1,1,1
+Botswana,BWA,2020,1,1,1,1,1
+Brunei,BRN,2019,1,,,1,0
+Brunei,BRN,2020,0,,,,0
+Bulgaria,BGR,2019,1,1,,1,1
+Bulgaria,BGR,2020,1,1,,1,1
+Burkina Faso,BFA,2019,,,,,1
+Burkina Faso,BFA,2020,,,,,1
+Burundi,BDI,2019,0,1,,1,1
+Burundi,BDI,2020,0,,,1,1
+Cambodia,KHM,2019,0,1,,1,0
+Cambodia,KHM,2020,0,,,,0
+Cameroon,CMR,2019,0,1,,1,1
+Cameroon,CMR,2020,0,,,1,1
+Canada,CAN,2019,1,,,1,1
+Canada,CAN,2020,1,,,1,1
+Cape Verde,CPV,2019,1,1,,1,1
+Cape Verde,CPV,2020,1,1,,1,1
+Caribbean,,2019,7,3,1,11,9
+Caribbean,,2020,5,1,1,6,8
+Cayman Islands,CYM,2019,1,,,1,1
+Cayman Islands,CYM,2020,,,,,1
+Central African Republic,CAF,2019,0,1,1,1,0
+Central African Republic,CAF,2020,0,,,,
+Central America,,2019,2,3,1,6,3
+Central America,,2020,2,1,1,2,2
+Central Asia,,2019,3,3,2,4,3
+Central Asia,,2020,3,2,1,3,3
+Central and Southern Asia,,2019,7,7,2,10,11
+Central and Southern Asia,,2020,6,4,1,8,11
+Chad,TCD,2019,0,1,,1,0
+Chad,TCD,2020,0,,,,0
+Chile,CHL,2019,0,,1,1,1
+Chile,CHL,2020,0,,1,1,1
+China,CHN,2019,1,,,1,1
+China,CHN,2020,1,,,1,1
+"China, Hong Kong Special Administrative Region",,2019,1,,,1,1
+"China, Hong Kong Special Administrative Region",,2020,1,,,1,1
+Colombia,COL,2019,0,,,1,1
+Colombia,COL,2020,0,,,1,1
+Comoros,COM,2019,0,1,,1,1
+Comoros,COM,2020,0,,,1,1
+Congo,COG,2019,0,,,1,0
+Congo,COG,2020,0,,,,0
+Cook Islands,COK,2019,0,,,1,1
+Cook Islands,COK,2020,0,,,,
+Costa Rica,CRI,2019,1,1,,1,1
+Costa Rica,CRI,2020,1,1,,1,1
+Cote d'Ivoire,CIV,2019,0,1,1,1,1
+Cote d'Ivoire,CIV,2020,0,,,,
+Croatia,HRV,2019,1,1,,1,1
+Croatia,HRV,2020,1,1,,1,1
+Curacao,CUW,2019,1,,,1,1
+Curacao,CUW,2020,,,,,1
+Cyprus,CYP,2019,1,,,1,1
+Cyprus,CYP,2020,1,,,1,1
+Czechia,CZE,2019,1,,1,1,1
+Czechia,CZE,2020,1,,1,1,1
+Democratic Republic of Congo,COD,2019,0,1,,1,
+Denmark,DNK,2019,1,,,1,1
+Denmark,DNK,2020,1,,,1,1
+Djibouti,DJI,2019,0,1,,1,0
+Djibouti,DJI,2020,0,,,,0
+Dominica,DMA,2019,0,1,,1,0
+Dominica,DMA,2020,0,,,,0
+Dominican Republic,DOM,2019,0,,,1,1
+Dominican Republic,DOM,2020,0,,,1,1
+Eastern Africa,,2019,4,7,,9,15
+Eastern Africa,,2020,4,1,0,8,15
+Eastern Asia,,2019,5,2,,6,7
+Eastern Asia,,2020,5,1,0,6,7
+Eastern Europe,,2019,9,4,3,10,10
+Eastern Europe,,2020,8,2,3,9,10
+Eastern and South-Eastern Asia,,2019,8,3,,11,14
+Eastern and South-Eastern Asia,,2020,7,1,0,8,12
+Ecuador,ECU,2019,1,,,1,1
+Ecuador,ECU,2020,1,,,,
+Egypt,EGY,2019,0,1,1,1,1
+Egypt,EGY,2020,0,,,,1
+El Salvador,SLV,2019,0,1,,1,0
+El Salvador,SLV,2020,0,,,,0
+Equatorial Guinea,GNQ,2019,1,,,1,1
+Equatorial Guinea,GNQ,2020,1,,,1,1
+Estonia,EST,2019,1,,1,1,1
+Estonia,EST,2020,1,,1,1,1
+Eswatini,SWZ,2019,0,,,1,1
+Eswatini,SWZ,2020,0,,,1,1
+Ethiopia,ETH,2019,,,,,1
+Ethiopia,ETH,2020,,,,,1
+Europe,,2019,35,9,8,38,37
+Europe,,2020,34,6,8,36,37
+Europe and Northern America,,2019,36,9,8,39,38
+Europe and Northern America,,2020,35,6,8,37,38
+Faeroe Islands,FRO,2019,1,,1,1,1
+Faeroe Islands,FRO,2020,1,,1,1,1
+Fiji,FJI,2019,,,,,0
+Finland,FIN,2019,1,,1,1,1
+Finland,FIN,2020,1,,1,1,1
+France,FRA,2019,1,,,1,1
+France,FRA,2020,1,,,1,1
+French Guiana,GUF,2019,1,,,1,1
+French Guiana,GUF,2020,1,,,1,1
+Gabon,GAB,2019,1,,,1,1
+Gabon,GAB,2020,1,,,1,1
+Gambia,GMB,2019,0,1,,,1
+Gambia,GMB,2020,0,1,,,1
+Germany,DEU,2019,1,,,1,1
+Germany,DEU,2020,1,,,1,1
+Ghana,GHA,2019,,,,,1
+Ghana,GHA,2020,,,,,1
+Greece,GRC,2019,1,,,1,1
+Greece,GRC,2020,1,,,1,1
+Grenada,GRD,2019,,,,,0
+Grenada,GRD,2020,,,,,0
+Guadeloupe,GLP,2019,1,,,1,1
+Guadeloupe,GLP,2020,1,,,1,1
+Guatemala,GTM,2019,0,,,1,0
+Guatemala,GTM,2020,0,,,,0
+Guinea,GIN,2019,0,1,,1,1
+Guinea,GIN,2020,0,,,1,1
+Guyana,GUY,2019,,,,,0
+Guyana,GUY,2020,,,,,0
+Haiti,HTI,2019,,,,,0
+Haiti,HTI,2020,,,,,0
+Honduras,HND,2019,0,,,1,0
+Honduras,HND,2020,0,,,,0
+Hungary,HUN,2019,1,1,1,1,1
+Hungary,HUN,2020,1,1,1,1,1
+Iceland,ISL,2019,0,,,1,0
+Iceland,ISL,2020,0,,,,0
+India,IND,2019,0,,,1,1
+India,IND,2020,0,,,1,1
+Indonesia,IDN,2019,0,,,1,0
+Indonesia,IDN,2020,0,,,,0
+Iran,IRN,2019,1,,,1,1
+Iran,IRN,2020,,,,,1
+Iraq,IRQ,2019,0,,,1,0
+Iraq,IRQ,2020,0,,,,0
+Ireland,IRL,2019,1,,,1,1
+Ireland,IRL,2020,1,,,1,1
+Israel,ISR,2019,1,,,1,1
+Israel,ISR,2020,1,,,1,1
+Italy,ITA,2019,1,,,1,1
+Italy,ITA,2020,1,,,1,1
+Jamaica,JAM,2019,0,1,,1,1
+Jamaica,JAM,2020,0,,,1,1
+Japan,JPN,2019,1,,,1,1
+Japan,JPN,2020,1,,,1,1
+Jordan,JOR,2019,0,1,,1,1
+Jordan,JOR,2020,0,,,1,1
+Kazakhstan,KAZ,2019,1,,,1,1
+Kazakhstan,KAZ,2020,1,,,1,1
+Kenya,KEN,2019,,,,,1
+Kenya,KEN,2020,,,,,1
+Kiribati,KIR,2019,,,,,0
+Kiribati,KIR,2020,,,,,0
+Kuwait,KWT,2019,1,,,1,1
+Kuwait,KWT,2020,1,,,1,1
+Kyrgyzstan,KGZ,2019,1,1,,1,1
+Kyrgyzstan,KGZ,2020,1,1,,1,1
+Landlocked developing countries (LLDCs),,2019,8,16,4,20,24
+Landlocked developing countries (LLDCs),,2020,8,7,2,14,22
+Laos,LAO,2019,,,,,1
+Laos,LAO,2020,,,,,1
+Latin America and the Caribbean,,2019,14,7,3,26,18
+Latin America and the Caribbean,,2020,11,2,3,13,15
+Latvia,LVA,2019,1,,1,1,1
+Latvia,LVA,2020,1,,1,1,1
+Least developed countries (LDCs),,2019,5,22,3,20,32
+Least developed countries (LDCs),,2020,4,5,0,11,28
+Lesotho,LSO,2019,,,,,0
+Lesotho,LSO,2020,,,,,0
+Liberia,LBR,2019,0,,,,0
+Liberia,LBR,2020,0,,,,0
+Libya,LBY,2019,0,,,,0
+Libya,LBY,2020,0,,,,0
+Liechtenstein,LIE,2019,1,,,1,1
+Liechtenstein,LIE,2020,1,,,1,1
+Lithuania,LTU,2019,1,,,1,1
+Lithuania,LTU,2020,1,,,1,1
+Luxembourg,LUX,2019,0,,,1,1
+Luxembourg,LUX,2020,0,,,1,1
+Macao,MAC,2019,1,,,1,1
+Macao,MAC,2020,1,,,1,1
+Madagascar,MDG,2019,0,1,,,0
+Madagascar,MDG,2020,0,,,,0
+Malawi,MWI,2019,,,,,1
+Malawi,MWI,2020,,,,,1
+Maldives,MDV,2019,0,,,1,1
+Maldives,MDV,2020,0,,,1,1
+Mali,MLI,2019,0,,,1,1
+Martinique,MTQ,2019,1,,,1,1
+Martinique,MTQ,2020,1,,,1,1
+Mauritania,MRT,2019,0,1,,1,1
+Mauritania,MRT,2020,0,,,1,1
+Mauritius,MUS,2019,1,,,1,1
+Mauritius,MUS,2020,1,,,1,1
+Mayotte,MYT,2019,1,,,1,1
+Mayotte,MYT,2020,1,,,1,1
+Melanesia,OWID_MNS,2020,0,0,0,0,2
+Melanesia,OWID_MNS,2019,,,,1,2
+Mexico,MEX,2019,1,,1,1,1
+Mexico,MEX,2020,1,,1,1,1
+Micronesia (country),FSM,2019,1,,,2,0
+Micronesia (country),FSM,2020,0,0,0,0,0
+Middle Africa,,2019,3,5,1,7,5
+Middle Africa,,2020,2,0,0,3,5
+Moldova,MDA,2019,0,1,,1,1
+Moldova,MDA,2020,0,,,1,1
+Mongolia,MNG,2019,1,1,,1,1
+Mongolia,MNG,2020,1,1,,1,1
+Morocco,MAR,2019,1,,,1,1
+Morocco,MAR,2020,1,,,1,1
+Mozambique,MOZ,2019,,,,,1
+Mozambique,MOZ,2020,,,,,1
+Myanmar,MMR,2019,,,,,1
+Namibia,NAM,2019,,,,,1
+Namibia,NAM,2020,,,,,1
+Nauru,NRU,2019,0,,,1,0
+Nauru,NRU,2020,0,,,,0
+Nepal,NPL,2019,0,1,,1,1
+Nepal,NPL,2020,0,,,1,1
+Netherlands,NLD,2019,1,,1,1,1
+Netherlands,NLD,2020,1,,1,1,1
+New Zealand,NZL,2019,1,,1,1,1
+New Zealand,NZL,2020,1,,1,1,1
+Nicaragua,NIC,2019,,,,,0
+Nicaragua,NIC,2020,,,,,0
+Niger,NER,2019,0,,,,1
+Niger,NER,2020,0,,,,
+Nigeria,NGA,2019,,,,,0
+North Korea,PRK,2019,,1,,,1
+North Korea,PRK,2020,,,,,1
+North Macedonia,MKD,2019,1,1,,1,1
+North Macedonia,MKD,2020,1,1,,1,1
+Northern Africa,,2019,3,3,1,5,5
+Northern Africa,,2020,3,1,0,4,5
+Northern Africa and Western Asia,,2019,13,6,1,17,16
+Northern Africa and Western Asia,,2020,13,3,0,15,16
+Northern America,,2019,1,,,1,1
+Northern America,,2020,1,0,0,1,1
+Northern Europe,,2019,9,,4,10,9
+Northern Europe,,2020,9,0,4,9,9
+Northern Mariana Islands,MNP,2019,0,,,,0
+Northern Mariana Islands,MNP,2020,0,,,,
+Norway,NOR,2019,1,,,1,1
+Norway,NOR,2020,1,,,1,1
+Oceania,,2019,5,3,2,9,8
+Oceania,,2020,4,2,2,4,7
+Oceania (exc. Australia and New Zealand),,2019,3,3,1,7,6
+Oceania (exc. Australia and New Zealand),,2020,2,2,1,2,5
+Oman,OMN,2019,1,,,1,1
+Oman,OMN,2020,1,,,1,1
+Pakistan,PAK,2019,1,,,1,1
+Pakistan,PAK,2020,1,,,1,1
+Palau,PLW,2019,1,,,1,0
+Palau,PLW,2020,0,,,,0
+Palestine,PSE,2019,1,1,,1,1
+Palestine,PSE,2020,1,1,,1,1
+Panama,PAN,2019,0,,,,0
+Panama,PAN,2020,0,,,,0
+Papua New Guinea,PNG,2019,,,,,1
+Papua New Guinea,PNG,2020,,,,,1
+Paraguay,PRY,2019,0,,,1,0
+Paraguay,PRY,2020,0,,,,0
+Philippines,PHL,2019,,,,,1
+Philippines,PHL,2020,,,,,1
+Poland,POL,2019,1,,1,1,1
+Poland,POL,2020,1,,1,1,1
+Polynesia,OWID_PYA,2019,2,3,1,4,4
+Polynesia,OWID_PYA,2020,2,2,1,2,3
+Portugal,PRT,2019,1,,,1,1
+Portugal,PRT,2020,1,,,1,1
+Puerto Rico,PRI,2019,1,,1,1,1
+Puerto Rico,PRI,2020,1,,1,1,1
+Qatar,QAT,2019,1,,,1,1
+Qatar,QAT,2020,1,,,1,1
+Reunion,REU,2019,1,,,1,1
+Reunion,REU,2020,1,,,1,1
+Romania,ROU,2019,1,,,1,1
+Romania,ROU,2020,1,,,1,1
+Russia,RUS,2019,1,,,1,1
+Russia,RUS,2020,1,,,1,1
+Rwanda,RWA,2019,,,,,1
+Rwanda,RWA,2020,,,,,1
+Saint Kitts and Nevis,KNA,2019,1,1,,1,1
+Saint Kitts and Nevis,KNA,2020,1,1,,1,1
+Saint Lucia,LCA,2019,,,,,0
+Saint Lucia,LCA,2020,,,,,0
+Saint Vincent and the Grenadines,VCT,2019,,,,,0
+Saint Vincent and the Grenadines,VCT,2020,,,,,0
+Samoa,WSM,2019,1,1,,1,1
+Samoa,WSM,2020,1,1,,1,1
+Sao Tome and Principe,STP,2019,1,1,,,1
+Sao Tome and Principe,STP,2020,,,,,1
+Saudi Arabia,SAU,2019,1,,,1,1
+Saudi Arabia,SAU,2020,1,,,1,1
+Senegal,SEN,2019,0,1,,1,1
+Senegal,SEN,2020,0,,,1,1
+Serbia,SRB,2019,1,,,1,1
+Serbia,SRB,2020,1,,,1,1
+Seychelles,SYC,2019,,,,,0
+Seychelles,SYC,2020,,,,,0
+Sierra Leone,SLE,2019,0,1,,,1
+Sierra Leone,SLE,2020,0,1,,,1
+Singapore,SGP,2019,1,,,1,1
+Singapore,SGP,2020,1,,,1,1
+Slovakia,SVK,2019,1,,,1,1
+Slovakia,SVK,2020,1,,,1,1
+Slovenia,SVN,2019,1,1,,1,1
+Slovenia,SVN,2020,1,1,,1,1
+Small Island Developing States (SIDS),,2019,12,9,2,21,21
+Small Island Developing States (SIDS),,2020,9,4,2,12,17
+Solomon Islands,SLB,2019,,,,,1
+Solomon Islands,SLB,2020,,,,,1
+South Africa,ZAF,2019,0,,,1,1
+South Africa,ZAF,2020,0,,,1,1
+South America,,2019,5,1,1,9,6
+South America,,2020,4,0,1,5,5
+South Korea,KOR,2019,0,,,1,1
+South Korea,KOR,2020,0,,,1,1
+South Sudan,SSD,2019,0,,,1,1
+South Sudan,SSD,2020,0,,,1,1
+South-eastern Asia,,2019,3,1,,5,7
+South-eastern Asia,,2020,2,0,0,2,5
+Southern Africa,,2019,1,1,1,3,4
+Southern Africa,,2020,1,1,1,3,4
+Southern Asia,,2019,4,4,,6,8
+Southern Asia,,2020,3,2,0,5,8
+Southern Europe,,2019,10,5,,10,10
+Southern Europe,,2020,10,4,0,10,10
+Spain,ESP,2019,1,,,1,1
+Spain,ESP,2020,1,,,1,1
+Sri Lanka,LKA,2019,0,1,,,0
+Sri Lanka,LKA,2020,0,,,,0
+Sub-Saharan Africa,,2019,9,22,5,27,36
+Sub-Saharan Africa,,2020,8,5,1,18,33
+Sudan,SDN,2019,0,1,,1,1
+Sudan,SDN,2020,0,,,1,1
+Suriname,SUR,2019,1,,,1,1
+Suriname,SUR,2020,1,,,1,1
+Sweden,SWE,2019,1,,,1,1
+Sweden,SWE,2020,1,,,1,1
+Switzerland,CHE,2019,1,,,1,1
+Switzerland,CHE,2020,1,,,1,1
+Syria,SYR,2019,,,,,0
+Syria,SYR,2020,,,,,0
+Tajikistan,TJK,2019,0,1,1,1,0
+Tajikistan,TJK,2020,0,,,,0
+Tanzania,TZA,2019,1,1,,,1
+Tanzania,TZA,2020,1,1,,,1
+Thailand,THA,2019,1,,,1,1
+Thailand,THA,2020,1,,,1,1
+Timor,TLS,2019,,,,,1
+Togo,TGO,2019,0,1,1,1,0
+Togo,TGO,2020,0,,,,0
+Tokelau,TKL,2019,0,1,,1,0
+Tokelau,TKL,2020,0,,,,0
+Tonga,TON,2019,1,1,1,1,1
+Tonga,TON,2020,1,1,1,1,1
+Tunisia,TUN,2019,1,,,1,1
+Tunisia,TUN,2020,1,,,1,1
+Turkey,TUR,2019,1,,,1,1
+Turkey,TUR,2020,1,,,1,1
+Turkmenistan,TKM,2019,,,,,0
+Turkmenistan,TKM,2020,,,,,0
+Tuvalu,TUV,2019,,,,,1
+Tuvalu,TUV,2020,,,,,1
+Uganda,UGA,2019,0,1,,1,1
+Uganda,UGA,2020,0,,,1,1
+Ukraine,UKR,2019,1,1,,1,1
+Ukraine,UKR,2020,,,,,1
+United Arab Emirates,ARE,2019,1,,,1,1
+United Arab Emirates,ARE,2020,1,,,1,1
+Uruguay,URY,2019,1,,,1,1
+Uruguay,URY,2020,1,,,1,1
+Uzbekistan,UZB,2019,1,1,1,1,1
+Uzbekistan,UZB,2020,1,1,1,1,1
+Vanuatu,VUT,2019,0,,,1,0
+Vanuatu,VUT,2020,0,,,,0
+Vietnam,VNM,2019,,,,,1
+Vietnam,VNM,2020,,,,,1
+Western Africa,,2019,1,9,3,8,12
+Western Africa,,2020,1,3,0,4,9
+Western Asia,,2019,10,3,,12,11
+Western Asia,,2020,10,2,0,11,11
+Western Europe,,2019,7,,1,8,8
+Western Europe,,2020,7,0,1,8,8
+World,OWID_WRL,2019,92,57,21,139,141
+World,OWID_WRL,2020,84,23,15,103,132
+Yemen,YEM,2019,,,,,0
+Zambia,ZMB,2019,,,,,1
+Zambia,ZMB,2020,,,,,1
+Zimbabwe,ZWE,2019,0,1,,1,1
+Zimbabwe,ZWE,2020,0,,,1,1

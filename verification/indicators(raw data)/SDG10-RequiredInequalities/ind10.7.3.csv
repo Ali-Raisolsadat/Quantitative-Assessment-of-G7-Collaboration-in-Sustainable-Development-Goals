@@ -1,0 +1,758 @@
+Entity,Code,Year,10.7.3 - Total deaths and disappearances recorded during migration (number) - SM_DTH_MIGR
+Afghanistan,AFG,2017,10
+Afghanistan,AFG,2018,3
+Afghanistan,AFG,2019,1
+Afghanistan,AFG,2020,11
+Afghanistan,AFG,2021,188
+Africa,,2014,3590
+Africa,,2015,4114
+Africa,,2016,5861
+Africa,,2017,4594
+Africa,,2018,3372
+Africa,,2019,3408
+Africa,,2020,2411
+Africa,,2021,2999
+Africa,,2022,185
+Albania,ALB,2020,3
+Algeria,DZA,2014,46
+Algeria,DZA,2015,19
+Algeria,DZA,2016,8
+Algeria,DZA,2017,34
+Algeria,DZA,2018,107
+Algeria,DZA,2019,276
+Algeria,DZA,2020,269
+Algeria,DZA,2021,232
+Algeria,DZA,2022,14
+Americas,,2014,493
+Americas,,2015,527
+Americas,,2016,746
+Americas,,2017,678
+Americas,,2018,578
+Americas,,2019,854
+Americas,,2020,798
+Americas,,2021,1238
+Americas,,2022,96
+Angola,AGO,2018,6
+Argentina,ARG,2021,4
+Aruba,ABW,2016,1
+Aruba,ABW,2018,2
+Asia,,2014,968
+Asia,,2015,1388
+Asia,,2016,587
+Asia,,2017,762
+Asia,,2018,645
+Asia,,2019,649
+Asia,,2020,758
+Asia,,2021,927
+Asia,,2022,54
+Austria,AUT,2015,72
+Austria,AUT,2016,3
+Austria,AUT,2021,2
+Bahamas,BHS,2015,3
+Bahamas,BHS,2016,29
+Bahamas,BHS,2017,1
+Bahamas,BHS,2019,31
+Bahamas,BHS,2020,44
+Bahamas,BHS,2021,7
+Bangladesh,BGD,2016,1
+Bangladesh,BGD,2017,238
+Bangladesh,BGD,2018,4
+Bangladesh,BGD,2019,98
+Bangladesh,BGD,2020,165
+Bangladesh,BGD,2021,33
+Belarus,BLR,2021,10
+Belgium,BEL,2016,1
+Belgium,BEL,2017,2
+Belgium,BEL,2018,6
+Belgium,BEL,2019,2
+Benin,BEN,2017,7
+Benin,BEN,2018,6
+Benin,BEN,2019,16
+Bolivia,BOL,2016,1
+Bolivia,BOL,2021,16
+Bosnia and Herzegovina,BIH,2018,3
+Bosnia and Herzegovina,BIH,2019,18
+Bosnia and Herzegovina,BIH,2020,19
+Bosnia and Herzegovina,BIH,2021,8
+Bosnia and Herzegovina,BIH,2022,1
+Brazil,BRA,2018,4
+Brazil,BRA,2019,3
+Bulgaria,BGR,2014,4
+Bulgaria,BGR,2015,3
+Bulgaria,BGR,2016,14
+Bulgaria,BGR,2017,12
+Bulgaria,BGR,2018,1
+Bulgaria,BGR,2021,1
+Burkina Faso,BFA,2017,10
+Burkina Faso,BFA,2018,50
+Burkina Faso,BFA,2019,177
+Cameroon,CMR,2017,1
+Cameroon,CMR,2018,13
+Cameroon,CMR,2019,4
+Canada,CAN,2019,1
+Canada,CAN,2022,4
+Cape Verde,CPV,2020,35
+Cape Verde,CPV,2021,0
+Caribbean,,2014,41
+Caribbean,,2015,63
+Caribbean,,2016,71
+Caribbean,,2017,170
+Caribbean,,2018,19
+Caribbean,,2019,76
+Caribbean,,2020,147
+Caribbean,,2021,112
+Caribbean,,2022,17
+Cayman Islands,CYM,2015,1
+Central African Republic,CAF,2019,17
+Central America,,2014,134
+Central America,,2015,152
+Central America,,2016,261
+Central America,,2017,160
+Central America,,2018,146
+Central America,,2019,236
+Central America,,2020,165
+Central America,,2021,323
+Central America,,2022,10
+Central Asia,,2014,2
+Central Asia,,2018,52
+Chad,TCD,2017,3
+Chad,TCD,2018,15
+Chad,TCD,2019,47
+Chad,TCD,2020,19
+Chile,CHL,2016,2
+Chile,CHL,2019,1
+Chile,CHL,2020,10
+Chile,CHL,2021,22
+Chile,CHL,2022,3
+China,CHN,2014,14
+China,CHN,2016,3
+China,CHN,2018,3
+"China, Hong Kong Special Administrative Region",,2017,1
+Colombia,COL,2015,2
+Colombia,COL,2016,49
+Colombia,COL,2018,19
+Colombia,COL,2019,29
+Colombia,COL,2020,34
+Colombia,COL,2021,79
+Colombia,COL,2022,7
+Comoros,COM,2015,30
+Comoros,COM,2017,22
+Comoros,COM,2018,16
+Comoros,COM,2020,10
+Costa Rica,CRI,2016,5
+Costa Rica,CRI,2017,2
+Costa Rica,CRI,2021,1
+Cote d'Ivoire,CIV,2018,30
+Cote d'Ivoire,CIV,2019,51
+Croatia,HRV,2015,1
+Croatia,HRV,2017,1
+Croatia,HRV,2018,13
+Croatia,HRV,2019,7
+Croatia,HRV,2020,3
+Croatia,HRV,2021,8
+Croatia,HRV,2022,1
+Cuba,CUB,2014,1
+Cuba,CUB,2015,13
+Cuba,CUB,2016,22
+Cuba,CUB,2017,2
+Cuba,CUB,2020,18
+Cuba,CUB,2021,16
+Cyprus,CYP,2018,60
+Cyprus,CYP,2019,5
+Democratic Republic of Congo,COD,2014,251
+Democratic Republic of Congo,COD,2018,53
+Djibouti,DJI,2014,63
+Djibouti,DJI,2015,2
+Djibouti,DJI,2016,27
+Djibouti,DJI,2017,31
+Djibouti,DJI,2018,20
+Djibouti,DJI,2019,86
+Djibouti,DJI,2020,52
+Djibouti,DJI,2021,76
+Dominican Republic,DOM,2014,17
+Dominican Republic,DOM,2015,5
+Dominican Republic,DOM,2016,2
+Dominican Republic,DOM,2017,59
+Dominican Republic,DOM,2018,14
+Dominican Republic,DOM,2019,20
+Dominican Republic,DOM,2020,41
+Dominican Republic,DOM,2021,68
+Eastern Africa,,2014,258
+Eastern Africa,,2015,159
+Eastern Africa,,2016,263
+Eastern Africa,,2017,133
+Eastern Africa,,2018,253
+Eastern Africa,,2019,139
+Eastern Africa,,2020,208
+Eastern Africa,,2021,173
+Eastern Asia,,2014,14
+Eastern Asia,,2015,15
+Eastern Asia,,2016,3
+Eastern Asia,,2017,1
+Eastern Asia,,2018,3
+Eastern Asia,,2019,5
+Eastern Asia,,2020,2
+Eastern Europe,,2014,5
+Eastern Europe,,2015,6
+Eastern Europe,,2016,15
+Eastern Europe,,2017,14
+Eastern Europe,,2018,1
+Eastern Europe,,2019,2
+Eastern Europe,,2020,9
+Eastern Europe,,2021,31
+Ecuador,ECU,2018,6
+Ecuador,ECU,2019,5
+Ecuador,ECU,2020,4
+Ecuador,ECU,2021,3
+Egypt,EGY,2014,143
+Egypt,EGY,2015,106
+Egypt,EGY,2016,970
+Egypt,EGY,2017,119
+Egypt,EGY,2018,19
+Egypt,EGY,2019,17
+Egypt,EGY,2020,31
+Egypt,EGY,2021,1
+El Salvador,SLV,2017,1
+El Salvador,SLV,2021,4
+Eritrea,ERI,2015,5
+Eritrea,ERI,2016,26
+Eritrea,ERI,2017,7
+Eritrea,ERI,2018,3
+Ethiopia,ETH,2015,26
+Ethiopia,ETH,2016,56
+Ethiopia,ETH,2017,20
+Ethiopia,ETH,2018,75
+Ethiopia,ETH,2019,3
+Ethiopia,ETH,2021,26
+Europe,,2014,267
+Europe,,2015,720
+Europe,,2016,890
+Europe,,2017,251
+Europe,,2018,380
+Europe,,2019,430
+Europe,,2020,288
+Europe,,2021,728
+Europe,,2022,83
+Finland,FIN,2019,4
+France,FRA,2014,12
+France,FRA,2015,29
+France,FRA,2016,23
+France,FRA,2017,13
+France,FRA,2018,8
+France,FRA,2019,8
+France,FRA,2020,14
+France,FRA,2021,47
+France,FRA,2022,3
+Gabon,GAB,2019,3
+Gambia,GMB,2018,8
+Germany,DEU,2017,2
+Germany,DEU,2021,2
+Ghana,GHA,2017,3
+Ghana,GHA,2018,8
+Ghana,GHA,2019,15
+Gibraltar,GIB,2019,0
+Greece,GRC,2014,51
+Greece,GRC,2015,464
+Greece,GRC,2016,548
+Greece,GRC,2017,54
+Greece,GRC,2018,80
+Greece,GRC,2019,65
+Greece,GRC,2020,61
+Greece,GRC,2021,102
+Greece,GRC,2022,2
+Grenada,GRD,2021,4
+Guatemala,GTM,2015,1
+Guatemala,GTM,2016,5
+Guatemala,GTM,2018,4
+Guatemala,GTM,2019,3
+Guatemala,GTM,2020,2
+Guatemala,GTM,2022,2
+Guinea,GIN,2017,1
+Guinea,GIN,2018,6
+Guinea,GIN,2019,11
+Guinea-Bissau,GNB,2018,3
+Guyana,GUY,2021,3
+Haiti,HTI,2015,40
+Haiti,HTI,2016,1
+Haiti,HTI,2017,37
+Honduras,HND,2016,2
+Honduras,HND,2018,2
+Honduras,HND,2019,1
+Honduras,HND,2020,2
+Hungary,HUN,2015,3
+Hungary,HUN,2017,1
+Hungary,HUN,2021,7
+India,IND,2014,1
+India,IND,2017,8
+India,IND,2018,5
+India,IND,2020,1
+India,IND,2021,9
+Indonesia,IDN,2015,3
+Indonesia,IDN,2016,60
+Indonesia,IDN,2019,4
+Indonesia,IDN,2020,26
+Indonesia,IDN,2022,4
+Iran,IRN,2014,1
+Iran,IRN,2015,22
+Iran,IRN,2016,14
+Iran,IRN,2017,181
+Iran,IRN,2018,20
+Iran,IRN,2019,96
+Iran,IRN,2020,297
+Iran,IRN,2021,468
+Iran,IRN,2022,9
+Iraq,IRQ,2017,5
+Iraq,IRQ,2018,6
+Italy,ITA,2014,138
+Italy,ITA,2015,61
+Italy,ITA,2016,232
+Italy,ITA,2017,82
+Italy,ITA,2018,20
+Italy,ITA,2019,63
+Italy,ITA,2020,27
+Italy,ITA,2021,59
+Italy,ITA,2022,9
+Japan,JPN,2019,5
+Kazakhstan,KAZ,2018,52
+Kenya,KEN,2015,2
+Kenya,KEN,2016,6
+Kenya,KEN,2017,5
+Kenya,KEN,2018,4
+Kenya,KEN,2019,3
+Landlocked developing countries (LLDCs),,2014,19
+Landlocked developing countries (LLDCs),,2015,117
+Landlocked developing countries (LLDCs),,2016,182
+Landlocked developing countries (LLDCs),,2017,518
+Landlocked developing countries (LLDCs),,2018,536
+Landlocked developing countries (LLDCs),,2019,725
+Landlocked developing countries (LLDCs),,2020,72
+Landlocked developing countries (LLDCs),,2021,247
+Landlocked developing countries (LLDCs),,2022,3
+Laos,LAO,2019,2
+Latin America and the Caribbean,,2014,175
+Latin America and the Caribbean,,2015,222
+Latin America and the Caribbean,,2016,384
+Latin America and the Caribbean,,2017,330
+Latin America and the Caribbean,,2018,195
+Latin America and the Caribbean,,2019,435
+Latin America and the Caribbean,,2020,427
+Latin America and the Caribbean,,2021,600
+Latin America and the Caribbean,,2022,39
+Least developed countries (LDCs),,2014,1277
+Least developed countries (LDCs),,2015,1141
+Least developed countries (LDCs),,2016,1025
+Least developed countries (LDCs),,2017,1179
+Least developed countries (LDCs),,2018,1095
+Least developed countries (LDCs),,2019,1216
+Least developed countries (LDCs),,2020,776
+Least developed countries (LDCs),,2021,465
+Lebanon,LBN,2016,4
+Lebanon,LBN,2017,2
+Lebanon,LBN,2018,19
+Lebanon,LBN,2020,14
+Lebanon,LBN,2021,4
+Lesotho,LSO,2021,12
+Liberia,LBR,2018,3
+Liberia,LBR,2020,1
+Libya,LBY,2014,2827
+Libya,LBY,2015,3386
+Libya,LBY,2016,3709
+Libya,LBY,2017,3231
+Libya,LBY,2018,1547
+Libya,LBY,2019,1371
+Libya,LBY,2020,793
+Libya,LBY,2021,1107
+Libya,LBY,2022,57
+Macao,MAC,2015,15
+Madagascar,MDG,2015,8
+Madagascar,MDG,2018,1
+Malawi,MWI,2016,2
+Malawi,MWI,2018,11
+Malaysia,MYS,2014,55
+Malaysia,MYS,2015,191
+Malaysia,MYS,2016,61
+Malaysia,MYS,2017,49
+Malaysia,MYS,2018,33
+Malaysia,MYS,2019,12
+Malaysia,MYS,2020,37
+Malaysia,MYS,2021,97
+Malaysia,MYS,2022,13
+Mali,MLI,2015,4
+Mali,MLI,2017,44
+Mali,MLI,2018,117
+Mali,MLI,2019,301
+Malta,MLT,2014,18
+Malta,MLT,2015,21
+Malta,MLT,2018,2
+Malta,MLT,2019,84
+Malta,MLT,2020,13
+Malta,MLT,2021,3
+Mauritania,MRT,2015,29
+Mauritania,MRT,2016,28
+Mauritania,MRT,2018,2
+Mauritania,MRT,2019,77
+Mauritania,MRT,2020,194
+Mauritania,MRT,2021,49
+Mayotte,MYT,2015,35
+Mayotte,MYT,2016,10
+Mayotte,MYT,2017,9
+Mayotte,MYT,2018,15
+Mayotte,MYT,2019,4
+Mayotte,MYT,2020,37
+Mayotte,MYT,2021,63
+Mexico,MEX,2014,134
+Mexico,MEX,2015,145
+Mexico,MEX,2016,207
+Mexico,MEX,2017,143
+Mexico,MEX,2018,135
+Mexico,MEX,2019,216
+Mexico,MEX,2020,154
+Mexico,MEX,2021,285
+Mexico,MEX,2022,7
+Middle Africa,,2014,251
+Middle Africa,,2017,4
+Middle Africa,,2018,87
+Middle Africa,,2019,71
+Middle Africa,,2020,19
+Morocco,MAR,2014,50
+Morocco,MAR,2015,85
+Morocco,MAR,2016,74
+Morocco,MAR,2017,145
+Morocco,MAR,2018,586
+Morocco,MAR,2019,481
+Morocco,MAR,2020,321
+Morocco,MAR,2021,310
+Morocco,MAR,2022,50
+Mozambique,MOZ,2015,4
+Mozambique,MOZ,2016,22
+Mozambique,MOZ,2017,20
+Mozambique,MOZ,2018,26
+Mozambique,MOZ,2020,102
+Myanmar,MMR,2014,750
+Myanmar,MMR,2015,647
+Myanmar,MMR,2016,59
+Myanmar,MMR,2017,12
+Myanmar,MMR,2018,10
+Myanmar,MMR,2019,24
+Myanmar,MMR,2020,20
+Nepal,NPL,2020,12
+Netherlands,NLD,2014,1
+Netherlands,NLD,2015,1
+Netherlands,NLD,2018,18
+Netherlands,NLD,2019,1
+Netherlands,NLD,2021,1
+Nicaragua,NIC,2015,1
+Nicaragua,NIC,2016,12
+Nicaragua,NIC,2017,7
+Nicaragua,NIC,2020,1
+Nicaragua,NIC,2021,7
+Nicaragua,NIC,2022,1
+Niger,NER,2015,56
+Niger,NER,2016,96
+Niger,NER,2017,429
+Niger,NER,2018,195
+Niger,NER,2019,172
+Niger,NER,2020,16
+Nigeria,NGA,2017,10
+Nigeria,NGA,2018,4
+Nigeria,NGA,2019,5
+Nigeria,NGA,2021,23
+North Korea,PRK,2020,2
+North Macedonia,MKD,2015,16
+North Macedonia,MKD,2016,3
+North Macedonia,MKD,2018,3
+North Macedonia,MKD,2019,5
+North Macedonia,MKD,2020,5
+North Macedonia,MKD,2021,4
+North Macedonia,MKD,2022,2
+Northern Africa,,2014,3081
+Northern Africa,,2015,3863
+Northern Africa,,2016,5459
+Northern Africa,,2017,3951
+Northern Africa,,2018,2611
+Northern Africa,,2019,2398
+Northern Africa,,2020,1774
+Northern Africa,,2021,2704
+Northern Africa,,2022,178
+Northern America,,2014,318
+Northern America,,2015,305
+Northern America,,2016,362
+Northern America,,2017,348
+Northern America,,2018,383
+Northern America,,2019,419
+Northern America,,2020,371
+Northern America,,2021,638
+Northern America,,2022,57
+Northern Europe,,2014,4
+Northern Europe,,2015,8
+Northern Europe,,2016,2
+Northern Europe,,2017,1
+Northern Europe,,2018,1
+Northern Europe,,2019,46
+Northern Europe,,2021,16
+Norway,NOR,2014,1
+Pakistan,PAK,2017,23
+Pakistan,PAK,2018,2
+Panama,PAN,2015,5
+Panama,PAN,2016,30
+Panama,PAN,2017,7
+Panama,PAN,2018,5
+Panama,PAN,2019,16
+Panama,PAN,2020,6
+Panama,PAN,2021,26
+Paraguay,PRY,2020,7
+Paraguay,PRY,2022,1
+Peru,PER,2019,1
+Peru,PER,2020,5
+Peru,PER,2021,4
+Peru,PER,2022,1
+Poland,POL,2021,13
+Portugal,PRT,2020,1
+Puerto Rico,PRI,2014,23
+Puerto Rico,PRI,2015,1
+Puerto Rico,PRI,2016,1
+Puerto Rico,PRI,2017,3
+Puerto Rico,PRI,2018,3
+Puerto Rico,PRI,2019,6
+Puerto Rico,PRI,2020,22
+Puerto Rico,PRI,2022,15
+Romania,ROU,2017,1
+Romania,ROU,2020,8
+Russia,RUS,2014,1
+Russia,RUS,2016,1
+Russia,RUS,2019,2
+Russia,RUS,2020,1
+Rwanda,RWA,2020,2
+Saudi Arabia,SAU,2016,1
+Saudi Arabia,SAU,2018,6
+Senegal,SEN,2017,2
+Senegal,SEN,2018,15
+Senegal,SEN,2019,15
+Senegal,SEN,2020,164
+Senegal,SEN,2021,38
+Serbia,SRB,2015,1
+Serbia,SRB,2016,8
+Serbia,SRB,2017,1
+Serbia,SRB,2018,4
+Serbia,SRB,2019,18
+Serbia,SRB,2020,4
+Serbia,SRB,2021,7
+Sierra Leone,SLE,2019,3
+Singapore,SGP,2018,1
+Slovenia,SVN,2015,2
+Slovenia,SVN,2018,9
+Slovenia,SVN,2019,7
+Slovenia,SVN,2020,1
+Slovenia,SVN,2021,4
+Small Island Developing States (SIDS),,2014,41
+Small Island Developing States (SIDS),,2015,92
+Small Island Developing States (SIDS),,2016,71
+Small Island Developing States (SIDS),,2017,124
+Small Island Developing States (SIDS),,2018,39
+Small Island Developing States (SIDS),,2019,57
+Small Island Developing States (SIDS),,2020,192
+Small Island Developing States (SIDS),,2021,108
+Small Island Developing States (SIDS),,2022,17
+Somalia,SOM,2014,178
+Somalia,SOM,2015,27
+Somalia,SOM,2016,74
+Somalia,SOM,2017,4
+Somalia,SOM,2018,30
+Somalia,SOM,2019,43
+Somalia,SOM,2020,5
+Somalia,SOM,2021,7
+South Africa,ZAF,2015,3
+South Africa,ZAF,2016,15
+South Africa,ZAF,2022,7
+South America,,2015,7
+South America,,2016,52
+South America,,2018,30
+South America,,2019,123
+South America,,2020,115
+South America,,2021,165
+South America,,2022,12
+South-eastern Asia,,2014,835
+South-eastern Asia,,2015,907
+South-eastern Asia,,2016,188
+South-eastern Asia,,2017,72
+South-eastern Asia,,2018,100
+South-eastern Asia,,2019,217
+South-eastern Asia,,2020,86
+South-eastern Asia,,2021,112
+South-eastern Asia,,2022,18
+Southern Africa,,2015,3
+Southern Africa,,2016,15
+Southern Africa,,2021,12
+Southern Africa,,2022,7
+Southern Asia,,2014,2
+Southern Asia,,2015,22
+Southern Asia,,2016,15
+Southern Asia,,2017,460
+Southern Asia,,2018,34
+Southern Asia,,2019,195
+Southern Asia,,2020,486
+Southern Asia,,2021,698
+Southern Asia,,2022,9
+Southern Europe,,2014,245
+Southern Europe,,2015,604
+Southern Europe,,2016,846
+Southern Europe,,2017,218
+Southern Europe,,2018,345
+Southern Europe,,2019,371
+Southern Europe,,2020,265
+Southern Europe,,2021,629
+Southern Europe,,2022,80
+Spain,ESP,2014,38
+Spain,ESP,2015,38
+Spain,ESP,2016,55
+Spain,ESP,2017,80
+Spain,ESP,2018,211
+Spain,ESP,2019,104
+Spain,ESP,2020,128
+Spain,ESP,2021,434
+Spain,ESP,2022,65
+Sub-Saharan Africa,,2014,509
+Sub-Saharan Africa,,2015,251
+Sub-Saharan Africa,,2016,402
+Sub-Saharan Africa,,2017,643
+Sub-Saharan Africa,,2018,761
+Sub-Saharan Africa,,2019,1010
+Sub-Saharan Africa,,2020,637
+Sub-Saharan Africa,,2021,295
+Sub-Saharan Africa,,2022,7
+Sudan,SDN,2014,11
+Sudan,SDN,2015,174
+Sudan,SDN,2016,539
+Sudan,SDN,2017,200
+Sudan,SDN,2018,208
+Sudan,SDN,2019,37
+Sudan,SDN,2020,3
+Sudan,SDN,2021,6
+Switzerland,CHE,2017,1
+Switzerland,CHE,2018,1
+Syria,SYR,2014,3
+Syria,SYR,2015,2
+Syria,SYR,2016,81
+Syria,SYR,2017,72
+Syria,SYR,2018,38
+Syria,SYR,2019,6
+Syria,SYR,2021,1
+Tajikistan,TJK,2014,2
+Tanzania,TZA,2015,5
+Tanzania,TZA,2016,16
+Tanzania,TZA,2017,13
+Tanzania,TZA,2018,37
+Thailand,THA,2014,30
+Thailand,THA,2015,66
+Thailand,THA,2016,8
+Thailand,THA,2017,11
+Thailand,THA,2018,56
+Thailand,THA,2019,173
+Thailand,THA,2020,3
+Thailand,THA,2021,15
+Thailand,THA,2022,1
+Togo,TGO,2018,4
+Togo,TGO,2019,8
+Trinidad and Tobago,TTO,2020,22
+Trinidad and Tobago,TTO,2021,10
+Trinidad and Tobago,TTO,2022,2
+Tunisia,TUN,2014,4
+Tunisia,TUN,2015,55
+Tunisia,TUN,2016,18
+Tunisia,TUN,2017,222
+Tunisia,TUN,2018,144
+Tunisia,TUN,2019,166
+Tunisia,TUN,2020,203
+Tunisia,TUN,2021,496
+Tunisia,TUN,2022,53
+Turkey,TUR,2014,88
+Turkey,TUR,2015,358
+Turkey,TUR,2016,241
+Turkey,TUR,2017,81
+Turkey,TUR,2018,171
+Turkey,TUR,2019,143
+Turkey,TUR,2020,169
+Turkey,TUR,2021,82
+Turkey,TUR,2022,27
+Turks and Caicos Islands,TCA,2017,68
+Turks and Caicos Islands,TCA,2019,19
+Turks and Caicos Islands,TCA,2021,7
+Uganda,UGA,2018,3
+United Arab Emirates,ARE,2020,1
+United Kingdom,GBR,2014,3
+United Kingdom,GBR,2015,8
+United Kingdom,GBR,2016,2
+United Kingdom,GBR,2017,1
+United Kingdom,GBR,2018,1
+United Kingdom,GBR,2019,42
+United Kingdom,GBR,2021,16
+United States,USA,2014,318
+United States,USA,2015,305
+United States,USA,2016,362
+United States,USA,2017,348
+United States,USA,2018,383
+United States,USA,2019,418
+United States,USA,2020,371
+United States,USA,2021,638
+United States,USA,2022,53
+United States Virgin Islands,VIR,2016,15
+Venezuela,VEN,2015,5
+Venezuela,VEN,2018,1
+Venezuela,VEN,2019,84
+Venezuela,VEN,2020,55
+Venezuela,VEN,2021,34
+Vietnam,VNM,2019,2
+Western Africa,,2015,89
+Western Africa,,2016,124
+Western Africa,,2017,506
+Western Africa,,2018,421
+Western Africa,,2019,800
+Western Africa,,2020,410
+Western Africa,,2021,110
+Western Asia,,2014,115
+Western Asia,,2015,444
+Western Asia,,2016,381
+Western Asia,,2017,229
+Western Asia,,2018,456
+Western Asia,,2019,232
+Western Asia,,2020,184
+Western Asia,,2021,117
+Western Asia,,2022,27
+Western Europe,,2014,13
+Western Europe,,2015,102
+Western Europe,,2016,27
+Western Europe,,2017,18
+Western Europe,,2018,33
+Western Europe,,2019,11
+Western Europe,,2020,14
+Western Europe,,2021,52
+Western Europe,,2022,3
+Western Sahara,ESH,2015,38
+Western Sahara,ESH,2016,141
+Western Sahara,ESH,2019,50
+Western Sahara,ESH,2020,154
+Western Sahara,ESH,2021,552
+Western Sahara,ESH,2022,4
+World,OWID_WRL,2014,5318
+World,OWID_WRL,2015,6749
+World,OWID_WRL,2016,8084
+World,OWID_WRL,2017,6285
+World,OWID_WRL,2018,4975
+World,OWID_WRL,2019,5341
+World,OWID_WRL,2020,4255
+World,OWID_WRL,2021,5892
+World,OWID_WRL,2022,418
+Yemen,YEM,2014,24
+Yemen,YEM,2015,84
+Yemen,YEM,2016,54
+Yemen,YEM,2017,69
+Yemen,YEM,2018,156
+Yemen,YEM,2019,78
+Yemen,YEM,2021,30
+Zambia,ZMB,2016,24
+Zambia,ZMB,2018,9
+Zimbabwe,ZWE,2014,17
+Zimbabwe,ZWE,2015,15
+Zimbabwe,ZWE,2017,2
+Zimbabwe,ZWE,2018,3
+Zimbabwe,ZWE,2021,1

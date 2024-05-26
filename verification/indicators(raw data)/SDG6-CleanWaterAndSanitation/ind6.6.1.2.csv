@@ -1,0 +1,869 @@
+Entity,Code,Year,6.6.1 - Mangrove total area change (%) - EN_WBE_MANGC
+American Samoa,ASM,2000,0
+American Samoa,ASM,2007,0
+American Samoa,ASM,2008,0
+American Samoa,ASM,2009,0
+American Samoa,ASM,2010,0
+American Samoa,ASM,2015,0
+American Samoa,ASM,2016,0
+Americas,,2000,0
+Americas,,2007,-3.55245
+Americas,,2008,-3.35505
+Americas,,2009,-3.50934
+Americas,,2010,-5.29153
+Americas,,2015,-6.34749
+Americas,,2016,-6.53915
+Angola,AGO,2000,0
+Angola,AGO,2007,-2.39
+Angola,AGO,2008,-2.22
+Angola,AGO,2009,-2.5
+Angola,AGO,2010,-3.38
+Angola,AGO,2015,-2.57
+Angola,AGO,2016,-2.52
+Anguilla,AIA,2000,0
+Anguilla,AIA,2007,0
+Anguilla,AIA,2008,0
+Anguilla,AIA,2009,0
+Anguilla,AIA,2010,-68.42
+Anguilla,AIA,2015,-73.68
+Anguilla,AIA,2016,-68.42
+Antigua and Barbuda,ATG,2000,0
+Antigua and Barbuda,ATG,2007,0
+Antigua and Barbuda,ATG,2008,0.16
+Antigua and Barbuda,ATG,2009,-0.17
+Antigua and Barbuda,ATG,2010,-2.22
+Antigua and Barbuda,ATG,2015,-2.78
+Antigua and Barbuda,ATG,2016,-2.15
+Aruba,ABW,2000,0
+Aruba,ABW,2007,-37.72
+Aruba,ABW,2008,-37.72
+Aruba,ABW,2009,-37.72
+Aruba,ABW,2010,-37.72
+Aruba,ABW,2015,-37.72
+Aruba,ABW,2016,-37.72
+Asia,,2000,0
+Asia,,2007,-2.15864
+Asia,,2008,-2.47001
+Asia,,2009,-2.96674
+Asia,,2010,-3.22108
+Asia,,2015,-2.82999
+Asia,,2016,-2.3359
+Australia,AUS,2000,0
+Australia,AUS,2007,-0.94
+Australia,AUS,2008,-0.81
+Australia,AUS,2009,-0.79
+Australia,AUS,2010,-0.59
+Australia,AUS,2015,-2.84
+Australia,AUS,2016,-2.82
+Australia and New Zealand,,2000,0
+Australia and New Zealand,,2007,-1.03577
+Australia and New Zealand,,2008,-0.90014
+Australia and New Zealand,,2009,-0.88942
+Australia and New Zealand,,2010,-0.76995
+Australia and New Zealand,,2015,-2.89965
+Australia and New Zealand,,2016,-2.88024
+Bahamas,BHS,2000,0
+Bahamas,BHS,2007,-4.5
+Bahamas,BHS,2008,-4.52
+Bahamas,BHS,2009,-4.71
+Bahamas,BHS,2010,-8.37
+Bahamas,BHS,2015,-8.46
+Bahamas,BHS,2016,-10.12
+Bahrain,BHR,2000,0
+Bahrain,BHR,2007,-13.64
+Bahrain,BHR,2008,-4.76
+Bahrain,BHR,2009,-4.76
+Bahrain,BHR,2010,-2.43
+Bahrain,BHR,2015,0
+Bahrain,BHR,2016,0
+Bangladesh,BGD,2000,0
+Bangladesh,BGD,2007,-0.05
+Bangladesh,BGD,2008,-0.11
+Bangladesh,BGD,2009,-0.23
+Bangladesh,BGD,2010,0.05
+Bangladesh,BGD,2015,-0.98
+Bangladesh,BGD,2016,-1.29
+Barbados,BRB,2000,0
+Barbados,BRB,2007,0
+Barbados,BRB,2008,0
+Barbados,BRB,2009,0
+Barbados,BRB,2010,0
+Barbados,BRB,2015,0
+Barbados,BRB,2016,0
+Belize,BLZ,2000,0
+Belize,BLZ,2007,-2.09
+Belize,BLZ,2008,-1.51
+Belize,BLZ,2009,-1.91
+Belize,BLZ,2010,-16.6
+Belize,BLZ,2015,-9.51
+Belize,BLZ,2016,-10.34
+Benin,BEN,2000,0
+Benin,BEN,2007,-31.42
+Benin,BEN,2008,-24.72
+Benin,BEN,2009,-25.24
+Benin,BEN,2010,-32.89
+Benin,BEN,2015,40.25
+Benin,BEN,2016,16.41
+Bonaire Sint Eustatius and Saba,BES,2000,0
+Bonaire Sint Eustatius and Saba,BES,2007,-14.96
+Bonaire Sint Eustatius and Saba,BES,2008,-16.5
+Bonaire Sint Eustatius and Saba,BES,2009,-16.99
+Bonaire Sint Eustatius and Saba,BES,2010,-22.68
+Bonaire Sint Eustatius and Saba,BES,2015,-18.98
+Bonaire Sint Eustatius and Saba,BES,2016,-22.2
+Brazil,BRA,2000,0
+Brazil,BRA,2007,-2.33
+Brazil,BRA,2008,-2.27
+Brazil,BRA,2009,-2.24
+Brazil,BRA,2010,-2.15
+Brazil,BRA,2015,-3.39
+Brazil,BRA,2016,-3.14
+British Virgin Islands,VGB,2000,0
+British Virgin Islands,VGB,2007,0
+British Virgin Islands,VGB,2008,0
+British Virgin Islands,VGB,2009,0
+British Virgin Islands,VGB,2010,0
+British Virgin Islands,VGB,2015,0
+British Virgin Islands,VGB,2016,-99.95
+Brunei,BRN,2000,0
+Brunei,BRN,2007,-2.53
+Brunei,BRN,2008,-2.06
+Brunei,BRN,2009,-1.76
+Brunei,BRN,2010,-0.56
+Brunei,BRN,2015,-2.72
+Brunei,BRN,2016,-2.26
+Cambodia,KHM,2000,0
+Cambodia,KHM,2007,-6.15
+Cambodia,KHM,2008,-6.01
+Cambodia,KHM,2009,-5.97
+Cambodia,KHM,2010,-7.15
+Cambodia,KHM,2015,-8.39
+Cambodia,KHM,2016,-7.51
+Cameroon,CMR,2000,0
+Cameroon,CMR,2007,-0.07
+Cameroon,CMR,2008,-0.08
+Cameroon,CMR,2009,-0.06
+Cameroon,CMR,2010,0.36
+Cameroon,CMR,2015,-0.4
+Cameroon,CMR,2016,-0.39
+Caribbean,,2000,0
+Caribbean,,2007,-3.43861
+Caribbean,,2008,-3.53851
+Caribbean,,2009,-3.79777
+Caribbean,,2010,-5.60366
+Caribbean,,2015,-5.36482
+Caribbean,,2016,-5.93546
+Cayman Islands,CYM,2000,0
+Cayman Islands,CYM,2007,-2.56
+Cayman Islands,CYM,2008,-2.54
+Cayman Islands,CYM,2009,-2.6
+Cayman Islands,CYM,2010,-3.7
+Cayman Islands,CYM,2015,-4.11
+Cayman Islands,CYM,2016,-3.81
+Central America,,2000,0
+Central America,,2007,-2.89081
+Central America,,2008,-2.18511
+Central America,,2009,-3.11916
+Central America,,2010,-8.79485
+Central America,,2015,-6.04187
+Central America,,2016,-7.54396
+China,CHN,2000,0
+China,CHN,2007,0
+China,CHN,2008,-1.68
+China,CHN,2009,-2.97
+China,CHN,2010,-3.36
+China,CHN,2015,0.35
+China,CHN,2016,0.82
+Colombia,COL,2000,0
+Colombia,COL,2007,-4.55
+Colombia,COL,2008,-3.91
+Colombia,COL,2009,-4.09
+Colombia,COL,2010,-6.89
+Colombia,COL,2015,-7.15
+Colombia,COL,2016,-7.41
+Comoros,COM,2000,0
+Comoros,COM,2007,0
+Comoros,COM,2008,0.33
+Comoros,COM,2009,0.66
+Comoros,COM,2010,0.58
+Comoros,COM,2015,0.58
+Comoros,COM,2016,0.58
+Costa Rica,CRI,2000,0
+Costa Rica,CRI,2007,-1.84
+Costa Rica,CRI,2008,-1.81
+Costa Rica,CRI,2009,-1.87
+Costa Rica,CRI,2010,-2.22
+Costa Rica,CRI,2015,-2.68
+Costa Rica,CRI,2016,-3.43
+Cote d'Ivoire,CIV,2000,0
+Cote d'Ivoire,CIV,2007,-2.17
+Cote d'Ivoire,CIV,2008,-2.24
+Cote d'Ivoire,CIV,2009,-2.44
+Cote d'Ivoire,CIV,2010,-2.95
+Cote d'Ivoire,CIV,2015,-3.99
+Cote d'Ivoire,CIV,2016,-7.82
+Cuba,CUB,2000,0
+Cuba,CUB,2007,-3.03
+Cuba,CUB,2008,-3.16
+Cuba,CUB,2009,-3.33
+Cuba,CUB,2010,-4.63
+Cuba,CUB,2015,-4.62
+Cuba,CUB,2016,-4.95
+Curacao,CUW,2000,0
+Curacao,CUW,2007,-54.41
+Curacao,CUW,2008,-63.53
+Curacao,CUW,2009,-65
+Curacao,CUW,2010,-75.59
+Curacao,CUW,2015,-71.47
+Curacao,CUW,2016,0
+Democratic Republic of Congo,COD,2000,0
+Democratic Republic of Congo,COD,2007,-3.41
+Democratic Republic of Congo,COD,2008,-3.31
+Democratic Republic of Congo,COD,2009,-3.48
+Democratic Republic of Congo,COD,2010,-3.34
+Democratic Republic of Congo,COD,2015,-2.86
+Democratic Republic of Congo,COD,2016,-3.45
+Djibouti,DJI,2000,0
+Djibouti,DJI,2007,-0.62
+Djibouti,DJI,2008,-0.67
+Djibouti,DJI,2009,-0.67
+Djibouti,DJI,2010,-0.67
+Djibouti,DJI,2015,0.69
+Djibouti,DJI,2016,-0.9
+Dominica,DMA,2000,0
+Dominica,DMA,2007,0
+Dominica,DMA,2008,-4.55
+Dominica,DMA,2009,-4.55
+Dominica,DMA,2010,-4.55
+Dominica,DMA,2015,-4.55
+Dominica,DMA,2016,-4.55
+Dominican Republic,DOM,2000,0
+Dominican Republic,DOM,2007,-2.55
+Dominican Republic,DOM,2008,-2.49
+Dominican Republic,DOM,2009,-2.71
+Dominican Republic,DOM,2010,-4.8
+Dominican Republic,DOM,2015,-4.29
+Dominican Republic,DOM,2016,-4.83
+Eastern Africa,,2000,0
+Eastern Africa,,2007,-3.12804
+Eastern Africa,,2008,-2.8398
+Eastern Africa,,2009,-2.90816
+Eastern Africa,,2010,-3.51173
+Eastern Africa,,2015,-3.82516
+Eastern Africa,,2016,-3.68072
+Eastern Asia,,2000,0
+Eastern Asia,,2007,-0.07633
+Eastern Asia,,2008,-1.67926
+Eastern Asia,,2009,-2.92271
+Eastern Asia,,2010,-3.25908
+Eastern Asia,,2015,0.31276
+Eastern Asia,,2016,0.76526
+Eastern and South-Eastern Asia,,2000,0
+Eastern and South-Eastern Asia,,2007,-1.52674
+Eastern and South-Eastern Asia,,2008,-2.59023
+Eastern and South-Eastern Asia,,2009,-3.5007
+Eastern and South-Eastern Asia,,2010,-3.94721
+Eastern and South-Eastern Asia,,2015,-1.81731
+Eastern and South-Eastern Asia,,2016,-1.27381
+Ecuador,ECU,2000,0
+Ecuador,ECU,2007,-3.98
+Ecuador,ECU,2008,-3.89
+Ecuador,ECU,2009,-4.02
+Ecuador,ECU,2010,-3.99
+Ecuador,ECU,2015,-4.64
+Ecuador,ECU,2016,-4.31
+Egypt,EGY,2000,0
+Egypt,EGY,2007,-2.44
+Egypt,EGY,2008,-3.87
+Egypt,EGY,2009,-3.87
+Egypt,EGY,2010,-3.49
+Egypt,EGY,2015,-2.89
+Egypt,EGY,2016,-3.43
+El Salvador,SLV,2000,0
+El Salvador,SLV,2007,-0.73
+El Salvador,SLV,2008,-1.3
+El Salvador,SLV,2009,-1.57
+El Salvador,SLV,2010,-2.57
+El Salvador,SLV,2015,-2.25
+El Salvador,SLV,2016,-2.96
+Equatorial Guinea,GNQ,2000,0
+Equatorial Guinea,GNQ,2007,-1.63
+Equatorial Guinea,GNQ,2008,-1.28
+Equatorial Guinea,GNQ,2009,-1.12
+Equatorial Guinea,GNQ,2010,-0.41
+Equatorial Guinea,GNQ,2015,-1.31
+Equatorial Guinea,GNQ,2016,-1.43
+Eritrea,ERI,2000,0
+Eritrea,ERI,2007,-1.3
+Eritrea,ERI,2008,-0.93
+Eritrea,ERI,2009,-1.3
+Eritrea,ERI,2010,-2.19
+Eritrea,ERI,2015,-3.07
+Eritrea,ERI,2016,-1.69
+Fiji,FJI,2000,0
+Fiji,FJI,2007,0
+Fiji,FJI,2008,0.15
+Fiji,FJI,2009,0
+Fiji,FJI,2010,-0.97
+Fiji,FJI,2015,-0.97
+Fiji,FJI,2016,-0.97
+French Guiana,GUF,2000,0
+French Guiana,GUF,2007,8.87
+French Guiana,GUF,2008,10.71
+French Guiana,GUF,2009,12.03
+French Guiana,GUF,2010,15.19
+French Guiana,GUF,2015,16
+French Guiana,GUF,2016,15.68
+Gabon,GAB,2000,0
+Gabon,GAB,2007,-1.27
+Gabon,GAB,2008,-1.1
+Gabon,GAB,2009,-1.02
+Gabon,GAB,2010,-0.81
+Gabon,GAB,2015,-1.3
+Gabon,GAB,2016,-1.45
+Gambia,GMB,2000,0
+Gambia,GMB,2007,1.28
+Gambia,GMB,2008,1.76
+Gambia,GMB,2009,1.95
+Gambia,GMB,2010,2.2
+Gambia,GMB,2015,0.71
+Gambia,GMB,2016,0.44
+Ghana,GHA,2000,0
+Ghana,GHA,2007,-10.22
+Ghana,GHA,2008,-10.1
+Ghana,GHA,2009,-10.19
+Ghana,GHA,2010,-10.42
+Ghana,GHA,2015,-9.6
+Ghana,GHA,2016,-10.44
+Grenada,GRD,2000,0
+Grenada,GRD,2007,0
+Grenada,GRD,2008,-0.88
+Grenada,GRD,2009,-1.15
+Grenada,GRD,2010,-1.19
+Grenada,GRD,2015,-1.28
+Grenada,GRD,2016,-0.35
+Guadeloupe,GLP,2000,0
+Guadeloupe,GLP,2007,0
+Guadeloupe,GLP,2008,0.26
+Guadeloupe,GLP,2009,0.42
+Guadeloupe,GLP,2010,0.44
+Guadeloupe,GLP,2015,0.04
+Guadeloupe,GLP,2016,0.24
+Guatemala,GTM,2000,0
+Guatemala,GTM,2007,0.3
+Guatemala,GTM,2008,-0.18
+Guatemala,GTM,2009,-0.76
+Guatemala,GTM,2010,-3.74
+Guatemala,GTM,2015,-1.32
+Guatemala,GTM,2016,-2.19
+Guinea,GIN,2000,0
+Guinea,GIN,2007,-0.73
+Guinea,GIN,2008,-0.39
+Guinea,GIN,2009,-0.37
+Guinea,GIN,2010,0.14
+Guinea,GIN,2015,-0.4
+Guinea,GIN,2016,-0.74
+Guinea-Bissau,GNB,2000,0
+Guinea-Bissau,GNB,2007,0.79
+Guinea-Bissau,GNB,2008,0.75
+Guinea-Bissau,GNB,2009,0.65
+Guinea-Bissau,GNB,2010,0.84
+Guinea-Bissau,GNB,2015,0.32
+Guinea-Bissau,GNB,2016,0.13
+Guyana,GUY,2000,0
+Guyana,GUY,2007,-1.84
+Guyana,GUY,2008,-2.18
+Guyana,GUY,2009,-2.44
+Guyana,GUY,2010,-1.7
+Guyana,GUY,2015,-2.83
+Guyana,GUY,2016,-2.08
+Haiti,HTI,2000,0
+Haiti,HTI,2007,-7.67
+Haiti,HTI,2008,-7.75
+Haiti,HTI,2009,-8.22
+Haiti,HTI,2010,-11.02
+Haiti,HTI,2015,-9.52
+Haiti,HTI,2016,-10.34
+Honduras,HND,2000,0
+Honduras,HND,2007,-5.19
+Honduras,HND,2008,-5.94
+Honduras,HND,2009,-6.38
+Honduras,HND,2010,-9.23
+Honduras,HND,2015,-9.68
+Honduras,HND,2016,-10.67
+India,IND,2000,0
+India,IND,2007,-2.36
+India,IND,2008,-2.43
+India,IND,2009,-2.45
+India,IND,2010,-2.34
+India,IND,2015,-3.27
+India,IND,2016,-2.74
+Indonesia,IDN,2000,0
+Indonesia,IDN,2007,-4.43
+Indonesia,IDN,2008,-4.71
+Indonesia,IDN,2009,-4.91
+Indonesia,IDN,2010,-5.37
+Indonesia,IDN,2015,-6.16
+Indonesia,IDN,2016,-6.13
+Iran,IRN,2000,0
+Iran,IRN,2007,-0.74
+Iran,IRN,2008,-1.03
+Iran,IRN,2009,-0.97
+Iran,IRN,2010,-0.86
+Iran,IRN,2015,-2.54
+Iran,IRN,2016,-1.81
+Jamaica,JAM,2000,0
+Jamaica,JAM,2007,-3.38
+Jamaica,JAM,2008,-3.88
+Jamaica,JAM,2009,-4.91
+Jamaica,JAM,2010,-6.63
+Jamaica,JAM,2015,-5.06
+Jamaica,JAM,2016,-6.03
+Japan,JPN,2000,0
+Japan,JPN,2007,-2.05
+Japan,JPN,2008,-1.66
+Japan,JPN,2009,-1.7
+Japan,JPN,2010,-0.65
+Japan,JPN,2015,-0.65
+Japan,JPN,2016,-0.65
+Kenya,KEN,2000,0
+Kenya,KEN,2007,-3.75
+Kenya,KEN,2008,-3.55
+Kenya,KEN,2009,-3.6
+Kenya,KEN,2010,-3.7
+Kenya,KEN,2015,-4.65
+Kenya,KEN,2016,-4.57
+Latin America and the Caribbean,,2000,0
+Latin America and the Caribbean,,2007,-2.67999
+Latin America and the Caribbean,,2008,-2.54658
+Latin America and the Caribbean,,2009,-2.72179
+Latin America and the Caribbean,,2010,-3.88902
+Latin America and the Caribbean,,2015,-4.30146
+Latin America and the Caribbean,,2016,-4.45751
+Liberia,LBR,2000,0
+Liberia,LBR,2007,0.07
+Liberia,LBR,2008,-0.34
+Liberia,LBR,2009,-0.45
+Liberia,LBR,2010,-1.31
+Liberia,LBR,2015,-1.41
+Liberia,LBR,2016,-1.88
+Madagascar,MDG,2000,0
+Madagascar,MDG,2007,-1.1
+Madagascar,MDG,2008,-0.74
+Madagascar,MDG,2009,-0.68
+Madagascar,MDG,2010,-0.96
+Madagascar,MDG,2015,-2.13
+Madagascar,MDG,2016,-1.34
+Malaysia,MYS,2000,0
+Malaysia,MYS,2007,-2.16
+Malaysia,MYS,2008,-1.92
+Malaysia,MYS,2009,-1.8
+Malaysia,MYS,2010,-0.97
+Malaysia,MYS,2015,-2.4
+Malaysia,MYS,2016,-2.3
+Martinique,MTQ,2000,0
+Martinique,MTQ,2007,0
+Martinique,MTQ,2008,0.14
+Martinique,MTQ,2009,0.16
+Martinique,MTQ,2010,0.35
+Martinique,MTQ,2015,0.65
+Martinique,MTQ,2016,0.48
+Mauritius,MUS,2000,0
+Mauritius,MUS,2007,-3.39
+Mauritius,MUS,2008,-3.1
+Mauritius,MUS,2009,-2.35
+Mauritius,MUS,2010,-2.91
+Mauritius,MUS,2015,-3.24
+Mauritius,MUS,2016,-1.79
+Mayotte,MYT,2000,0
+Mayotte,MYT,2007,0
+Mayotte,MYT,2008,0.07
+Mayotte,MYT,2009,-0.19
+Mayotte,MYT,2010,-0.24
+Mayotte,MYT,2015,-0.36
+Mayotte,MYT,2016,-0.36
+Melanesia,OWID_MNS,2000,0
+Melanesia,OWID_MNS,2007,-0.67733
+Melanesia,OWID_MNS,2008,-0.67343
+Melanesia,OWID_MNS,2009,-0.64503
+Melanesia,OWID_MNS,2010,-0.38138
+Melanesia,OWID_MNS,2015,-1.36586
+Melanesia,OWID_MNS,2016,-1.26626
+Mexico,MEX,2000,0
+Mexico,MEX,2007,-3.22
+Mexico,MEX,2008,-2.26
+Mexico,MEX,2009,-3.35
+Mexico,MEX,2010,-9.79
+Mexico,MEX,2015,-6.41
+Mexico,MEX,2016,-8.13
+Micronesia (country),FSM,2000,0
+Micronesia (country),FSM,2007,0
+Micronesia (country),FSM,2008,0.4
+Micronesia (country),FSM,2009,0.33
+Micronesia (country),FSM,2010,0.33
+Micronesia (country),FSM,2015,0.33
+Micronesia (country),FSM,2016,0.33
+Middle Africa,,2000,0
+Middle Africa,,2007,-2.60144
+Middle Africa,,2008,-2.48734
+Middle Africa,,2009,-2.65114
+Middle Africa,,2010,-2.76982
+Middle Africa,,2015,-2.39837
+Middle Africa,,2016,-2.6959
+Mozambique,MOZ,2000,0
+Mozambique,MOZ,2007,-5.95
+Mozambique,MOZ,2008,-5.62
+Mozambique,MOZ,2009,-5.9
+Mozambique,MOZ,2010,-6.23
+Mozambique,MOZ,2015,-6.19
+Mozambique,MOZ,2016,-6.54
+Myanmar,MMR,2000,0
+Myanmar,MMR,2007,-7.05
+Myanmar,MMR,2008,-5.74
+Myanmar,MMR,2009,-5.8
+Myanmar,MMR,2010,-7.45
+Myanmar,MMR,2015,-8.68
+Myanmar,MMR,2016,-8.01
+New Caledonia,NCL,2000,0
+New Caledonia,NCL,2007,0
+New Caledonia,NCL,2008,-0.21
+New Caledonia,NCL,2009,-0.54
+New Caledonia,NCL,2010,-2.51
+New Caledonia,NCL,2015,-2.51
+New Caledonia,NCL,2016,-2.51
+New Zealand,NZL,2000,0
+New Zealand,NZL,2007,-3.83
+New Zealand,NZL,2008,-3.53
+New Zealand,NZL,2009,-3.79
+New Zealand,NZL,2010,-6.02
+New Zealand,NZL,2015,-4.64
+New Zealand,NZL,2016,-4.64
+Nicaragua,NIC,2000,0
+Nicaragua,NIC,2007,-0.26
+Nicaragua,NIC,2008,-0.33
+Nicaragua,NIC,2009,-0.72
+Nicaragua,NIC,2010,-3.97
+Nicaragua,NIC,2015,-4.65
+Nicaragua,NIC,2016,-5.37
+Nigeria,NGA,2000,0
+Nigeria,NGA,2007,-0.34
+Nigeria,NGA,2008,-0.3
+Nigeria,NGA,2009,-0.34
+Nigeria,NGA,2010,-0.9
+Nigeria,NGA,2015,-1.33
+Nigeria,NGA,2016,-1.34
+Oceania,,2000,0
+Oceania,,2007,-1.01279
+Oceania,,2008,-0.88544
+Oceania,,2009,-0.87356
+Oceania,,2010,-0.74531
+Oceania,,2015,-2.80225
+Oceania,,2016,-2.77804
+Oceania (exc. Australia and New Zealand),,2000,0
+Oceania (exc. Australia and New Zealand),,2007,-0.67111
+Oceania (exc. Australia and New Zealand),,2008,-0.66691
+Oceania (exc. Australia and New Zealand),,2009,-0.63782
+Oceania (exc. Australia and New Zealand),,2010,-0.37914
+Oceania (exc. Australia and New Zealand),,2015,-1.35442
+Oceania (exc. Australia and New Zealand),,2016,-1.25689
+Oman,OMN,2000,0
+Oman,OMN,2007,-0.35
+Oman,OMN,2008,-1.61
+Oman,OMN,2009,-1.96
+Oman,OMN,2010,-5.99
+Oman,OMN,2015,-4.71
+Oman,OMN,2016,-6.06
+Pakistan,PAK,2000,0
+Pakistan,PAK,2007,-5.56
+Pakistan,PAK,2008,-5.51
+Pakistan,PAK,2009,-5.36
+Pakistan,PAK,2010,-3.97
+Pakistan,PAK,2015,-6.01
+Pakistan,PAK,2016,-5.18
+Palau,PLW,2000,0
+Palau,PLW,2007,0
+Palau,PLW,2008,-0.1
+Palau,PLW,2009,-0.17
+Palau,PLW,2010,-0.05
+Palau,PLW,2015,-0.01
+Palau,PLW,2016,0.01
+Panama,PAN,2000,0
+Panama,PAN,2007,-1.25
+Panama,PAN,2008,-1.18
+Panama,PAN,2009,-1.12
+Panama,PAN,2010,-1.07
+Panama,PAN,2015,-2.29
+Panama,PAN,2016,-1.98
+Papua New Guinea,PNG,2000,0
+Papua New Guinea,PNG,2007,-0.7
+Papua New Guinea,PNG,2008,-0.69
+Papua New Guinea,PNG,2009,-0.63
+Papua New Guinea,PNG,2010,-0.17
+Papua New Guinea,PNG,2015,-1.37
+Papua New Guinea,PNG,2016,-1.24
+Peru,PER,2000,0
+Peru,PER,2007,-5.27
+Peru,PER,2008,-6.28
+Peru,PER,2009,-6.52
+Peru,PER,2010,-7.98
+Peru,PER,2015,-8.1
+Peru,PER,2016,-8.71
+Philippines,PHL,2000,0
+Philippines,PHL,2007,-3.91
+Philippines,PHL,2008,-4.32
+Philippines,PHL,2009,-4.68
+Philippines,PHL,2010,-6.53
+Philippines,PHL,2015,-4.92
+Philippines,PHL,2016,-5.12
+Puerto Rico,PRI,2000,0
+Puerto Rico,PRI,2007,0
+Puerto Rico,PRI,2008,-0.19
+Puerto Rico,PRI,2009,-0.56
+Puerto Rico,PRI,2010,-3.54
+Puerto Rico,PRI,2015,-4.08
+Puerto Rico,PRI,2016,-4.42
+Qatar,QAT,2000,0
+Qatar,QAT,2007,-0.32
+Qatar,QAT,2008,-0.27
+Qatar,QAT,2009,-1.23
+Qatar,QAT,2010,-1.36
+Qatar,QAT,2015,0.65
+Qatar,QAT,2016,-0.4
+Saint Kitts and Nevis,KNA,2000,0
+Saint Kitts and Nevis,KNA,2007,0
+Saint Kitts and Nevis,KNA,2008,0.28
+Saint Kitts and Nevis,KNA,2009,-0.56
+Saint Kitts and Nevis,KNA,2010,-5.35
+Saint Kitts and Nevis,KNA,2015,-5.35
+Saint Kitts and Nevis,KNA,2016,-5.07
+Saint Lucia,LCA,2000,0
+Saint Lucia,LCA,2007,0
+Saint Lucia,LCA,2008,-0.21
+Saint Lucia,LCA,2009,-0.46
+Saint Lucia,LCA,2010,-0.46
+Saint Lucia,LCA,2015,-0.31
+Saint Lucia,LCA,2016,-0.15
+Saint Martin (French part),MAF,2000,0
+Saint Martin (French part),MAF,2007,0
+Saint Martin (French part),MAF,2008,0
+Saint Martin (French part),MAF,2009,-1.01
+Saint Martin (French part),MAF,2010,-19.1
+Saint Martin (French part),MAF,2015,-18.09
+Saint Martin (French part),MAF,2016,-13.07
+Saint Vincent and the Grenadines,VCT,2000,0
+Saint Vincent and the Grenadines,VCT,2007,0
+Saint Vincent and the Grenadines,VCT,2008,-1.32
+Saint Vincent and the Grenadines,VCT,2009,-2.11
+Saint Vincent and the Grenadines,VCT,2010,-2.11
+Saint Vincent and the Grenadines,VCT,2015,-2.11
+Saint Vincent and the Grenadines,VCT,2016,-2.11
+Samoa,WSM,2000,0
+Samoa,WSM,2007,0
+Samoa,WSM,2008,0
+Samoa,WSM,2009,0.26
+Samoa,WSM,2010,0.26
+Samoa,WSM,2015,0.26
+Samoa,WSM,2016,0.26
+Sao Tome and Principe,STP,2000,0
+Sao Tome and Principe,STP,2007,0
+Sao Tome and Principe,STP,2008,0
+Sao Tome and Principe,STP,2009,0
+Sao Tome and Principe,STP,2010,0
+Sao Tome and Principe,STP,2015,0
+Sao Tome and Principe,STP,2016,42.86
+Saudi Arabia,SAU,2000,0
+Saudi Arabia,SAU,2007,-6.93
+Saudi Arabia,SAU,2008,-2.93
+Saudi Arabia,SAU,2009,-2.26
+Saudi Arabia,SAU,2010,-1.92
+Saudi Arabia,SAU,2015,-7.85
+Saudi Arabia,SAU,2016,-7.92
+Senegal,SEN,2000,0
+Senegal,SEN,2007,-1.21
+Senegal,SEN,2008,-1.15
+Senegal,SEN,2009,-1.15
+Senegal,SEN,2010,-1.24
+Senegal,SEN,2015,-2.7
+Senegal,SEN,2016,-4.02
+Seychelles,SYC,2000,0
+Seychelles,SYC,2007,0
+Seychelles,SYC,2008,0
+Seychelles,SYC,2009,-1.56
+Seychelles,SYC,2010,-1.56
+Seychelles,SYC,2015,0.16
+Seychelles,SYC,2016,3.61
+Sierra Leone,SLE,2000,0
+Sierra Leone,SLE,2007,-0.3
+Sierra Leone,SLE,2008,-0.06
+Sierra Leone,SLE,2009,-0.03
+Sierra Leone,SLE,2010,0
+Sierra Leone,SLE,2015,-0.44
+Sierra Leone,SLE,2016,-0.36
+Singapore,SGP,2000,0
+Singapore,SGP,2007,-2.24
+Singapore,SGP,2008,-2.05
+Singapore,SGP,2009,-1.43
+Singapore,SGP,2010,1.3
+Singapore,SGP,2015,-2.04
+Singapore,SGP,2016,-2.54
+Small Island Developing States (SIDS),,2000,0
+Small Island Developing States (SIDS),,2007,-0.83002
+Small Island Developing States (SIDS),,2008,-0.86853
+Small Island Developing States (SIDS),,2009,-0.98419
+Small Island Developing States (SIDS),,2010,-1.08742
+Small Island Developing States (SIDS),,2015,-1.80254
+Small Island Developing States (SIDS),,2016,-1.72
+Solomon Islands,SLB,2000,0
+Solomon Islands,SLB,2007,-1.49
+Solomon Islands,SLB,2008,-1.53
+Solomon Islands,SLB,2009,-1.65
+Solomon Islands,SLB,2010,-2.18
+Solomon Islands,SLB,2015,-1.37
+Solomon Islands,SLB,2016,-1.48
+Somalia,SOM,2000,0
+Somalia,SOM,2007,-3.52
+Somalia,SOM,2008,-3.09
+Somalia,SOM,2009,-2.87
+Somalia,SOM,2010,-5.15
+Somalia,SOM,2015,-4.33
+Somalia,SOM,2016,-3.45
+South Africa,ZAF,2000,0
+South Africa,ZAF,2007,-5.16
+South Africa,ZAF,2008,-3.82
+South Africa,ZAF,2009,-2.03
+South Africa,ZAF,2010,-0.69
+South Africa,ZAF,2015,-2.71
+South Africa,ZAF,2016,-5.81
+South America,,2000,0
+South America,,2007,-2.62414
+South America,,2008,-2.60043
+South America,,2009,-2.62298
+South America,,2010,-2.88068
+South America,,2015,-3.93567
+South America,,2016,-3.81618
+South-eastern Asia,,2000,0
+South-eastern Asia,,2007,-4.9812
+South-eastern Asia,,2008,-4.76003
+South-eastern Asia,,2009,-4.87739
+South-eastern Asia,,2010,-5.58626
+South-eastern Asia,,2015,-6.89111
+South-eastern Asia,,2016,-6.05412
+Southern Asia,,2000,0
+Southern Asia,,2007,-2.26035
+Southern Asia,,2008,-2.37675
+Southern Asia,,2009,-2.37951
+Southern Asia,,2010,-2.15473
+Southern Asia,,2015,-3.45657
+Southern Asia,,2016,-2.86168
+Sri Lanka,LKA,2000,0
+Sri Lanka,LKA,2007,-1.05
+Sri Lanka,LKA,2008,-1.02
+Sri Lanka,LKA,2009,-3.47
+Sri Lanka,LKA,2010,-9.26
+Sri Lanka,LKA,2015,-9.86
+Sri Lanka,LKA,2016,-10.71
+Sudan,SDN,2000,0
+Sudan,SDN,2007,-1.64
+Sudan,SDN,2008,-1.83
+Sudan,SDN,2009,-1.83
+Sudan,SDN,2010,-1.87
+Sudan,SDN,2015,-2.12
+Sudan,SDN,2016,-0.85
+Suriname,SUR,2000,0
+Suriname,SUR,2007,3.76
+Suriname,SUR,2008,3.99
+Suriname,SUR,2009,3.8
+Suriname,SUR,2010,5.95
+Suriname,SUR,2015,3.98
+Suriname,SUR,2016,3.93
+Tanzania,TZA,2000,0
+Tanzania,TZA,2007,-1.56
+Tanzania,TZA,2008,-1.4
+Tanzania,TZA,2009,-1.55
+Tanzania,TZA,2010,-1.73
+Tanzania,TZA,2015,-2.17
+Tanzania,TZA,2016,-2.59
+Thailand,THA,2000,0
+Thailand,THA,2007,-6.02
+Thailand,THA,2008,-5.11
+Thailand,THA,2009,-4.99
+Thailand,THA,2010,-5.13
+Thailand,THA,2015,-10.07
+Thailand,THA,2016,-4.97
+Timor,TLS,2000,0
+Timor,TLS,2007,-2.72
+Timor,TLS,2008,-3.17
+Timor,TLS,2009,-3.35
+Timor,TLS,2010,-3.91
+Timor,TLS,2015,-3.97
+Timor,TLS,2016,-3.37
+Tonga,TON,2000,0
+Tonga,TON,2007,0
+Tonga,TON,2008,-0.08
+Tonga,TON,2009,-0.28
+Tonga,TON,2010,-2.25
+Tonga,TON,2015,-2.16
+Tonga,TON,2016,-3.03
+Trinidad and Tobago,TTO,2000,0
+Trinidad and Tobago,TTO,2007,-4.96
+Trinidad and Tobago,TTO,2008,-4.68
+Trinidad and Tobago,TTO,2009,-4.62
+Trinidad and Tobago,TTO,2010,-4.07
+Trinidad and Tobago,TTO,2015,-8.24
+Trinidad and Tobago,TTO,2016,-7.79
+Turks and Caicos Islands,TCA,2000,0
+Turks and Caicos Islands,TCA,2007,-2.5
+Turks and Caicos Islands,TCA,2008,-2.17
+Turks and Caicos Islands,TCA,2009,-2.33
+Turks and Caicos Islands,TCA,2010,-5.17
+Turks and Caicos Islands,TCA,2015,-5.35
+Turks and Caicos Islands,TCA,2016,-8.06
+United States,USA,2000,0
+United States,USA,2007,-4.98
+United States,USA,2008,-4.68
+United States,USA,2009,-4.8
+United States,USA,2010,-7.59
+United States,USA,2015,-9.7
+United States,USA,2016,-9.95
+United States Virgin Islands,VIR,2000,0
+United States Virgin Islands,VIR,2007,0
+United States Virgin Islands,VIR,2008,-0.49
+United States Virgin Islands,VIR,2009,-0.08
+United States Virgin Islands,VIR,2010,-0.2
+United States Virgin Islands,VIR,2015,-0.53
+United States Virgin Islands,VIR,2016,-0.86
+Vanuatu,VUT,2000,0
+Vanuatu,VUT,2007,0
+Vanuatu,VUT,2008,-0.02
+Vanuatu,VUT,2009,-0.02
+Vanuatu,VUT,2010,-0.03
+Vanuatu,VUT,2015,-0.08
+Vanuatu,VUT,2016,-0.33
+Venezuela,VEN,2000,0
+Venezuela,VEN,2007,-1.15
+Venezuela,VEN,2008,-0.89
+Venezuela,VEN,2009,-0.91
+Venezuela,VEN,2010,-0.57
+Venezuela,VEN,2015,-2.34
+Venezuela,VEN,2016,-2.05
+Vietnam,VNM,2000,0
+Vietnam,VNM,2007,-5.64
+Vietnam,VNM,2008,-5.26
+Vietnam,VNM,2009,-5.52
+Vietnam,VNM,2010,-6.95
+Vietnam,VNM,2015,-8.18
+Vietnam,VNM,2016,-7.51
+Western Asia,,2000,0
+Western Asia,,2007,-4.83473
+Western Asia,,2008,-2.09486
+Western Asia,,2009,-1.61412
+Western Asia,,2010,-1.86709
+Western Asia,,2015,-6.27833
+Western Asia,,2016,-6.21338
+Yemen,YEM,2000,0
+Yemen,YEM,2007,0.75
+Yemen,YEM,2008,1.1
+Yemen,YEM,2009,1.37
+Yemen,YEM,2010,0.84
+Yemen,YEM,2015,-0.93
+Yemen,YEM,2016,0.82

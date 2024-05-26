@@ -1,0 +1,391 @@
+Entity,Code,Year,"15.8.1 - National Biodiversity Strategy and Action Plan (NBSAP) targets alignment to Aichi Biodiversity target 9 set out in the Strategic Plan for Biodiversity 2011-2020 (1 = YES, 0 = NO) - ER_IAS_NBSAP"
+Afghanistan,AFG,2016,1
+Afghanistan,AFG,2020,1
+Albania,ALB,2016,1
+Albania,ALB,2020,1
+Algeria,DZA,2016,1
+Algeria,DZA,2020,1
+Andorra,AND,2016,1
+Andorra,AND,2020,1
+Angola,AGO,2016,0
+Angola,AGO,2020,1
+Antigua and Barbuda,ATG,2016,1
+Antigua and Barbuda,ATG,2020,1
+Argentina,ARG,2016,1
+Argentina,ARG,2020,1
+Armenia,ARM,2016,1
+Armenia,ARM,2020,1
+Australia,AUS,2016,1
+Australia,AUS,2020,1
+Austria,AUT,2016,1
+Austria,AUT,2020,1
+Azerbaijan,AZE,2016,1
+Azerbaijan,AZE,2020,1
+Bahamas,BHS,2016,0
+Bahamas,BHS,2020,0
+Bahrain,BHR,2016,1
+Bahrain,BHR,2020,1
+Bangladesh,BGD,2016,1
+Bangladesh,BGD,2020,1
+Barbados,BRB,2016,0
+Barbados,BRB,2020,1
+Belarus,BLR,2016,1
+Belarus,BLR,2020,1
+Belgium,BEL,2016,1
+Belgium,BEL,2020,1
+Belize,BLZ,2016,1
+Belize,BLZ,2020,1
+Benin,BEN,2016,1
+Benin,BEN,2020,1
+Bhutan,BTN,2016,1
+Bhutan,BTN,2020,1
+Bolivia,BOL,2016,1
+Bolivia,BOL,2020,1
+Bosnia and Herzegovina,BIH,2016,1
+Bosnia and Herzegovina,BIH,2020,1
+Botswana,BWA,2016,1
+Botswana,BWA,2020,1
+Brazil,BRA,2016,1
+Brazil,BRA,2020,1
+Brunei,BRN,2016,1
+Brunei,BRN,2020,1
+Bulgaria,BGR,2016,0
+Bulgaria,BGR,2020,0
+Burkina Faso,BFA,2016,1
+Burkina Faso,BFA,2020,1
+Burundi,BDI,2016,1
+Burundi,BDI,2020,1
+Cambodia,KHM,2016,1
+Cambodia,KHM,2020,1
+Cameroon,CMR,2016,1
+Cameroon,CMR,2020,1
+Canada,CAN,2016,1
+Canada,CAN,2020,1
+Cape Verde,CPV,2016,1
+Cape Verde,CPV,2020,1
+Central African Republic,CAF,2016,1
+Central African Republic,CAF,2020,0
+Chad,TCD,2016,1
+Chad,TCD,2020,1
+Chile,CHL,2016,1
+Chile,CHL,2020,1
+China,CHN,2016,1
+China,CHN,2020,1
+Colombia,COL,2016,1
+Colombia,COL,2020,1
+Comoros,COM,2016,1
+Comoros,COM,2020,1
+Congo,COG,2016,1
+Congo,COG,2020,1
+Cook Islands,COK,2016,1
+Cook Islands,COK,2020,1
+Costa Rica,CRI,2016,1
+Costa Rica,CRI,2020,1
+Cote d'Ivoire,CIV,2016,1
+Cote d'Ivoire,CIV,2020,1
+Croatia,HRV,2016,1
+Croatia,HRV,2020,1
+Cuba,CUB,2016,1
+Cuba,CUB,2020,1
+Cyprus,CYP,2016,0
+Cyprus,CYP,2020,0
+Czechia,CZE,2016,1
+Czechia,CZE,2020,1
+Democratic Republic of Congo,COD,2016,1
+Democratic Republic of Congo,COD,2020,1
+Denmark,DNK,2016,1
+Denmark,DNK,2020,1
+Djibouti,DJI,2016,0
+Djibouti,DJI,2020,0
+Dominica,DMA,2016,1
+Dominica,DMA,2020,1
+Dominican Republic,DOM,2016,1
+Dominican Republic,DOM,2020,1
+Ecuador,ECU,2016,1
+Ecuador,ECU,2020,1
+Egypt,EGY,2016,1
+Egypt,EGY,2020,1
+El Salvador,SLV,2016,1
+El Salvador,SLV,2020,1
+Equatorial Guinea,GNQ,2016,0
+Equatorial Guinea,GNQ,2020,0
+Eritrea,ERI,2016,1
+Eritrea,ERI,2020,1
+Estonia,EST,2016,1
+Estonia,EST,2020,1
+Eswatini,SWZ,2016,1
+Eswatini,SWZ,2020,1
+Ethiopia,ETH,2016,1
+Ethiopia,ETH,2020,1
+Fiji,FJI,2016,0
+Fiji,FJI,2020,0
+Finland,FIN,2016,1
+Finland,FIN,2020,1
+France,FRA,2016,1
+France,FRA,2020,1
+Gabon,GAB,2016,0
+Gabon,GAB,2020,0
+Gambia,GMB,2016,1
+Gambia,GMB,2020,1
+Georgia,GEO,2016,1
+Georgia,GEO,2020,1
+Germany,DEU,2016,1
+Germany,DEU,2020,1
+Ghana,GHA,2016,1
+Ghana,GHA,2020,1
+Greece,GRC,2016,1
+Greece,GRC,2020,1
+Grenada,GRD,2016,0
+Grenada,GRD,2020,1
+Guatemala,GTM,2016,1
+Guatemala,GTM,2020,1
+Guinea,GIN,2016,1
+Guinea,GIN,2020,1
+Guinea-Bissau,GNB,2016,1
+Guinea-Bissau,GNB,2020,1
+Guyana,GUY,2016,0
+Guyana,GUY,2020,1
+Haiti,HTI,2016,0
+Haiti,HTI,2020,0
+Honduras,HND,2016,0
+Honduras,HND,2020,1
+Hungary,HUN,2016,1
+Hungary,HUN,2020,1
+Iceland,ISL,2016,1
+Iceland,ISL,2020,0
+India,IND,2016,1
+India,IND,2020,1
+Indonesia,IDN,2016,0
+Indonesia,IDN,2020,1
+Iran,IRN,2016,1
+Iran,IRN,2020,1
+Iraq,IRQ,2016,1
+Iraq,IRQ,2020,1
+Ireland,IRL,2016,1
+Ireland,IRL,2020,1
+Israel,ISR,2016,0
+Israel,ISR,2020,0
+Italy,ITA,2016,0
+Italy,ITA,2020,0
+Jamaica,JAM,2016,1
+Jamaica,JAM,2020,1
+Japan,JPN,2016,1
+Japan,JPN,2020,1
+Jordan,JOR,2016,0
+Jordan,JOR,2020,0
+Kazakhstan,KAZ,2016,0
+Kazakhstan,KAZ,2020,0
+Kenya,KEN,2016,0
+Kenya,KEN,2020,0
+Kiribati,KIR,2016,1
+Kiribati,KIR,2020,1
+Kuwait,KWT,2016,0
+Kuwait,KWT,2020,1
+Kyrgyzstan,KGZ,2016,1
+Kyrgyzstan,KGZ,2020,1
+Laos,LAO,2016,1
+Laos,LAO,2020,1
+Latvia,LVA,2016,0
+Latvia,LVA,2020,0
+Lebanon,LBN,2016,1
+Lebanon,LBN,2020,1
+Lesotho,LSO,2016,0
+Lesotho,LSO,2020,0
+Liberia,LBR,2016,1
+Liberia,LBR,2020,1
+Libya,LBY,2016,0
+Libya,LBY,2020,0
+Liechtenstein,LIE,2016,0
+Liechtenstein,LIE,2020,0
+Lithuania,LTU,2016,1
+Lithuania,LTU,2020,1
+Luxembourg,LUX,2016,1
+Luxembourg,LUX,2020,1
+Madagascar,MDG,2016,1
+Madagascar,MDG,2020,1
+Malawi,MWI,2016,1
+Malawi,MWI,2020,1
+Malaysia,MYS,2016,1
+Malaysia,MYS,2020,1
+Maldives,MDV,2016,1
+Maldives,MDV,2020,1
+Mali,MLI,2016,1
+Mali,MLI,2020,1
+Malta,MLT,2016,1
+Malta,MLT,2020,1
+Marshall Islands,MHL,2016,0
+Marshall Islands,MHL,2020,0
+Mauritania,MRT,2016,1
+Mauritania,MRT,2020,1
+Mauritius,MUS,2016,1
+Mauritius,MUS,2020,1
+Mexico,MEX,2016,1
+Mexico,MEX,2020,1
+Micronesia (country),FSM,2016,0
+Micronesia (country),FSM,2020,1
+Moldova,MDA,2016,1
+Moldova,MDA,2020,1
+Monaco,MCO,2016,0
+Monaco,MCO,2020,0
+Mongolia,MNG,2016,1
+Mongolia,MNG,2020,1
+Montenegro,MNE,2016,1
+Montenegro,MNE,2020,1
+Morocco,MAR,2016,1
+Morocco,MAR,2020,1
+Mozambique,MOZ,2016,1
+Mozambique,MOZ,2020,1
+Myanmar,MMR,2016,1
+Myanmar,MMR,2020,1
+Namibia,NAM,2016,1
+Namibia,NAM,2020,1
+Nauru,NRU,2016,0
+Nauru,NRU,2020,0
+Nepal,NPL,2016,1
+Nepal,NPL,2020,1
+Netherlands,NLD,2016,1
+Netherlands,NLD,2020,1
+New Zealand,NZL,2016,1
+New Zealand,NZL,2020,1
+Nicaragua,NIC,2016,1
+Nicaragua,NIC,2020,1
+Niger,NER,2016,1
+Niger,NER,2020,1
+Nigeria,NGA,2016,1
+Nigeria,NGA,2020,1
+Niue,NIU,2016,1
+Niue,NIU,2020,1
+North Korea,PRK,2016,1
+North Korea,PRK,2020,1
+North Macedonia,MKD,2016,1
+North Macedonia,MKD,2020,1
+Norway,NOR,2016,1
+Norway,NOR,2020,1
+Oman,OMN,2016,1
+Oman,OMN,2020,1
+Pakistan,PAK,2016,0
+Pakistan,PAK,2020,1
+Palau,PLW,2016,0
+Palau,PLW,2020,1
+Palestine,PSE,2016,0
+Palestine,PSE,2020,0
+Panama,PAN,2016,0
+Panama,PAN,2020,1
+Papua New Guinea,PNG,2016,0
+Papua New Guinea,PNG,2020,0
+Paraguay,PRY,2016,1
+Paraguay,PRY,2020,1
+Peru,PER,2016,1
+Peru,PER,2020,1
+Philippines,PHL,2016,1
+Philippines,PHL,2020,1
+Poland,POL,2016,1
+Poland,POL,2020,1
+Portugal,PRT,2016,1
+Portugal,PRT,2020,1
+Qatar,QAT,2016,1
+Qatar,QAT,2020,1
+Romania,ROU,2016,1
+Romania,ROU,2020,1
+Russia,RUS,2016,1
+Russia,RUS,2020,1
+Rwanda,RWA,2016,1
+Rwanda,RWA,2020,1
+Saint Kitts and Nevis,KNA,2016,1
+Saint Kitts and Nevis,KNA,2020,1
+Saint Lucia,LCA,2016,0
+Saint Lucia,LCA,2020,1
+Saint Vincent and the Grenadines,VCT,2016,0
+Saint Vincent and the Grenadines,VCT,2020,1
+Samoa,WSM,2016,1
+Samoa,WSM,2020,1
+San Marino,SMR,2016,0
+San Marino,SMR,2020,0
+Sao Tome and Principe,STP,2016,1
+Sao Tome and Principe,STP,2020,1
+Saudi Arabia,SAU,2016,0
+Saudi Arabia,SAU,2020,0
+Senegal,SEN,2016,1
+Senegal,SEN,2020,1
+Serbia,SRB,2016,1
+Serbia,SRB,2020,1
+Seychelles,SYC,2016,1
+Seychelles,SYC,2020,1
+Sierra Leone,SLE,2016,0
+Sierra Leone,SLE,2020,1
+Singapore,SGP,2016,0
+Singapore,SGP,2020,1
+Slovakia,SVK,2016,1
+Slovakia,SVK,2020,1
+Slovenia,SVN,2016,1
+Slovenia,SVN,2020,1
+Solomon Islands,SLB,2016,1
+Solomon Islands,SLB,2020,1
+Somalia,SOM,2016,1
+Somalia,SOM,2020,1
+South Africa,ZAF,2016,1
+South Africa,ZAF,2020,1
+South Korea,KOR,2016,1
+South Korea,KOR,2020,1
+South Sudan,SSD,2016,0
+South Sudan,SSD,2020,1
+Spain,ESP,2016,1
+Spain,ESP,2020,1
+Sri Lanka,LKA,2016,1
+Sri Lanka,LKA,2020,1
+Sudan,SDN,2016,1
+Sudan,SDN,2020,1
+Suriname,SUR,2016,0
+Suriname,SUR,2020,0
+Sweden,SWE,2016,1
+Sweden,SWE,2020,1
+Switzerland,CHE,2016,1
+Switzerland,CHE,2020,1
+Syria,SYR,2016,0
+Syria,SYR,2020,0
+Tajikistan,TJK,2016,0
+Tajikistan,TJK,2020,1
+Tanzania,TZA,2016,1
+Tanzania,TZA,2020,1
+Thailand,THA,2016,1
+Thailand,THA,2020,1
+Timor,TLS,2016,1
+Timor,TLS,2020,1
+Togo,TGO,2016,1
+Togo,TGO,2020,1
+Tonga,TON,2016,0
+Tonga,TON,2020,0
+Trinidad and Tobago,TTO,2016,0
+Trinidad and Tobago,TTO,2020,1
+Tunisia,TUN,2016,0
+Tunisia,TUN,2020,0
+Turkey,TUR,2016,1
+Turkey,TUR,2020,1
+Turkmenistan,TKM,2016,0
+Turkmenistan,TKM,2020,0
+Tuvalu,TUV,2016,0
+Tuvalu,TUV,2020,1
+Uganda,UGA,2016,1
+Uganda,UGA,2020,1
+Ukraine,UKR,2016,1
+Ukraine,UKR,2020,1
+United Arab Emirates,ARE,2016,1
+United Arab Emirates,ARE,2020,1
+United Kingdom,GBR,2016,1
+United Kingdom,GBR,2020,1
+Uruguay,URY,2016,1
+Uruguay,URY,2020,1
+Uzbekistan,UZB,2016,1
+Uzbekistan,UZB,2020,1
+Vanuatu,VUT,2016,0
+Vanuatu,VUT,2020,1
+Venezuela,VEN,2016,1
+Venezuela,VEN,2020,1
+Vietnam,VNM,2016,1
+Vietnam,VNM,2020,1
+Yemen,YEM,2016,0
+Yemen,YEM,2020,1
+Zambia,ZMB,2016,1
+Zambia,ZMB,2020,1
+Zimbabwe,ZWE,2016,1
+Zimbabwe,ZWE,2020,1

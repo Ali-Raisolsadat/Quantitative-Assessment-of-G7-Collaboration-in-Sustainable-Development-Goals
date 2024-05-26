@@ -1,0 +1,727 @@
+Entity,Code,Year,15.4.2 - Mountain Green Cover Index - ER_MTN_GRNCVI - All elevations
+Afghanistan,AFG,2000,70.54
+Afghanistan,AFG,2010,71.02
+Afghanistan,AFG,2015,70.98
+Afghanistan,AFG,2018,70.59
+Africa,,2000,81.42
+Africa,,2005,81.58
+Africa,,2010,81.7
+Africa,,2015,81.71
+Africa,,2020,81.72
+Albania,ALB,2000,96.04
+Albania,ALB,2010,95.97
+Albania,ALB,2015,95.93
+Albania,ALB,2018,95.97
+Algeria,DZA,2000,33.43
+Algeria,DZA,2010,35.08
+Algeria,DZA,2015,35.13
+Algeria,DZA,2018,35.07
+Americas,,2000,59.91
+Americas,,2005,59.89
+Americas,,2010,59.88
+Americas,,2015,59.84
+Americas,,2020,59.8
+Andorra,AND,2000,83.28
+Andorra,AND,2010,83.25
+Andorra,AND,2015,82.93
+Andorra,AND,2018,82.89
+Angola,AGO,2000,96.73
+Angola,AGO,2010,96.43
+Angola,AGO,2015,96.28
+Angola,AGO,2018,96.25
+Argentina,ARG,2000,48.38
+Argentina,ARG,2010,48.35
+Argentina,ARG,2015,48.3
+Argentina,ARG,2018,48.28
+Armenia,ARM,2000,96.26
+Armenia,ARM,2010,96.18
+Armenia,ARM,2015,95.9
+Armenia,ARM,2018,95.85
+Asia,,2000,78.66
+Asia,,2005,78.84
+Asia,,2010,78.99
+Asia,,2015,79.1
+Asia,,2020,78.91
+Australia and New Zealand,,2000,94.33
+Australia and New Zealand,,2005,94.42
+Australia and New Zealand,,2010,94.37
+Australia and New Zealand,,2015,94.28
+Australia and New Zealand,,2020,94.38
+Austria,AUT,2000,93.05
+Austria,AUT,2010,92.36
+Austria,AUT,2015,92.33
+Austria,AUT,2018,92.34
+Azerbaijan,AZE,2000,90.09
+Azerbaijan,AZE,2010,90.22
+Azerbaijan,AZE,2015,90.04
+Azerbaijan,AZE,2018,90.05
+Bangladesh,BGD,2010,99.67
+Bangladesh,BGD,2015,99.56
+Belgium,BEL,2000,99.58
+Belgium,BEL,2010,99.2
+Belgium,BEL,2015,99.2
+Belgium,BEL,2018,99.2
+Belize,BLZ,2000,100
+Belize,BLZ,2010,100
+Belize,BLZ,2015,100
+Belize,BLZ,2018,100
+Benin,BEN,2000,99.96
+Benin,BEN,2010,99.96
+Benin,BEN,2015,99.92
+Benin,BEN,2018,99.92
+Bhutan,BTN,2000,96.82
+Bhutan,BTN,2010,96.82
+Bhutan,BTN,2015,96.81
+Bhutan,BTN,2018,96.81
+Bosnia and Herzegovina,BIH,2000,99.32
+Bosnia and Herzegovina,BIH,2010,99.21
+Bosnia and Herzegovina,BIH,2015,99.15
+Bosnia and Herzegovina,BIH,2018,99.14
+Botswana,BWA,2000,99.41
+Botswana,BWA,2010,99.31
+Botswana,BWA,2015,99.23
+Botswana,BWA,2018,99.07
+Brunei,BRN,2000,100
+Brunei,BRN,2010,100
+Brunei,BRN,2015,100
+Brunei,BRN,2018,100
+Bulgaria,BGR,2000,98.04
+Bulgaria,BGR,2010,97.85
+Bulgaria,BGR,2015,97.74
+Bulgaria,BGR,2018,97.75
+Cambodia,KHM,2000,99.99
+Cambodia,KHM,2010,99.99
+Cambodia,KHM,2015,99.99
+Cambodia,KHM,2018,99.99
+Cameroon,CMR,2000,99.85
+Cameroon,CMR,2010,99.79
+Cameroon,CMR,2015,99.76
+Cameroon,CMR,2018,99.75
+Cape Verde,CPV,2000,80.28
+Cape Verde,CPV,2010,81.02
+Cape Verde,CPV,2015,81.38
+Cape Verde,CPV,2018,81.38
+Caribbean,,2000,99.69
+Caribbean,,2005,99.68
+Caribbean,,2010,99.65
+Caribbean,,2015,99.58
+Caribbean,,2020,99.57
+Central African Republic,CAF,2000,99.8
+Central African Republic,CAF,2010,99.74
+Central African Republic,CAF,2015,99.74
+Central African Republic,CAF,2018,99.74
+Central America,,2000,99.49
+Central America,,2005,99.43
+Central America,,2010,99.39
+Central America,,2015,99.32
+Central America,,2020,99.24
+Central Asia,,2000,77.37
+Central Asia,,2005,77.65
+Central Asia,,2010,77.77
+Central Asia,,2015,77.83
+Central Asia,,2020,77.77
+Central and Southern Asia,,2000,65.26
+Central and Southern Asia,,2005,65.88
+Central and Southern Asia,,2010,66.33
+Central and Southern Asia,,2015,66.41
+Central and Southern Asia,,2020,66.4
+Chad,TCD,2000,12.99
+Chad,TCD,2010,13.01
+Chad,TCD,2015,13.03
+Chad,TCD,2018,13.12
+Chile,CHL,2000,71
+Chile,CHL,2010,71.32
+Chile,CHL,2015,71.55
+Chile,CHL,2018,71.94
+China,CHN,2000,84.55
+China,CHN,2010,84.66
+China,CHN,2015,84.81
+China,CHN,2018,84.56
+Congo,COG,2000,99.97
+Congo,COG,2010,99.97
+Congo,COG,2015,99.97
+Congo,COG,2018,99.97
+Cote d'Ivoire,CIV,2000,99.83
+Cote d'Ivoire,CIV,2010,99.76
+Cote d'Ivoire,CIV,2015,99.67
+Cote d'Ivoire,CIV,2018,99.67
+Croatia,HRV,2000,99.31
+Croatia,HRV,2010,99.27
+Croatia,HRV,2015,99.24
+Croatia,HRV,2018,99.24
+Cuba,CUB,2000,99.76
+Cuba,CUB,2010,99.78
+Cuba,CUB,2015,99.78
+Cuba,CUB,2018,99.77
+Cyprus,CYP,2000,93.77
+Cyprus,CYP,2010,93.75
+Cyprus,CYP,2015,93.71
+Cyprus,CYP,2018,93.74
+Czechia,CZE,2000,98.6
+Czechia,CZE,2010,97.73
+Czechia,CZE,2015,97.72
+Czechia,CZE,2018,97.71
+Democratic Republic of Congo,COD,2000,98.41
+Democratic Republic of Congo,COD,2010,98.42
+Democratic Republic of Congo,COD,2015,98.41
+Democratic Republic of Congo,COD,2018,98.4
+Djibouti,DJI,2000,15.84
+Djibouti,DJI,2010,15.75
+Djibouti,DJI,2015,15.7
+Djibouti,DJI,2018,16.12
+Dominica,DMA,2000,99.44
+Dominica,DMA,2010,99.44
+Dominica,DMA,2015,99.44
+Dominica,DMA,2018,99.44
+Dominican Republic,DOM,2000,99.81
+Dominican Republic,DOM,2010,99.8
+Dominican Republic,DOM,2015,99.78
+Dominican Republic,DOM,2018,99.78
+Eastern Africa,,2000,95.21
+Eastern Africa,,2005,95.25
+Eastern Africa,,2010,95.22
+Eastern Africa,,2015,95.2
+Eastern Africa,,2020,95.21
+Eastern Asia,,2000,81.88
+Eastern Asia,,2005,81.95
+Eastern Asia,,2010,82.04
+Eastern Asia,,2015,82.22
+Eastern Asia,,2020,81.88
+Eastern Europe,,2000,83.66
+Eastern Europe,,2005,83.76
+Eastern Europe,,2010,83.85
+Eastern Europe,,2015,83.77
+Eastern Europe,,2020,83.8
+Eastern and South-Eastern Asia,,2000,85.04
+Eastern and South-Eastern Asia,,2005,85.09
+Eastern and South-Eastern Asia,,2010,85.16
+Eastern and South-Eastern Asia,,2015,85.3
+Eastern and South-Eastern Asia,,2020,85.02
+Egypt,EGY,2000,0.2
+Egypt,EGY,2010,0.2
+Egypt,EGY,2015,0.2
+Egypt,EGY,2018,0.2
+El Salvador,SLV,2000,97.45
+El Salvador,SLV,2010,97.18
+El Salvador,SLV,2015,96.93
+El Salvador,SLV,2018,96.92
+Equatorial Guinea,GNQ,2000,99.98
+Equatorial Guinea,GNQ,2010,99.99
+Equatorial Guinea,GNQ,2015,99.98
+Equatorial Guinea,GNQ,2018,99.98
+Eritrea,ERI,2000,64.69
+Eritrea,ERI,2010,65.14
+Eritrea,ERI,2015,65.15
+Eritrea,ERI,2018,65.37
+Ethiopia,ETH,2000,96.06
+Ethiopia,ETH,2010,96.11
+Ethiopia,ETH,2015,96.09
+Ethiopia,ETH,2018,96.12
+Europe,,2000,82.54
+Europe,,2005,82.6
+Europe,,2010,82.7
+Europe,,2015,82.63
+Europe,,2020,82.65
+Europe and Northern America,,2000,65.91
+Europe and Northern America,,2005,65.92
+Europe and Northern America,,2010,65.96
+Europe and Northern America,,2015,65.9
+Europe and Northern America,,2020,65.89
+Fiji,FJI,2000,99.68
+Fiji,FJI,2010,99.68
+Fiji,FJI,2015,99.68
+Fiji,FJI,2018,99.68
+France,FRA,2000,95.54
+France,FRA,2010,95.13
+France,FRA,2015,95.04
+France,FRA,2018,95.03
+Gabon,GAB,2000,99.97
+Gabon,GAB,2010,99.97
+Gabon,GAB,2015,99.97
+Gabon,GAB,2018,99.97
+Georgia,GEO,2000,95.7
+Georgia,GEO,2010,95.54
+Georgia,GEO,2015,95.41
+Georgia,GEO,2018,95.41
+Germany,DEU,2015,93.24
+Germany,DEU,2018,93.11
+Ghana,GHA,2000,99.89
+Ghana,GHA,2010,99.73
+Ghana,GHA,2015,99.58
+Ghana,GHA,2018,99.58
+Greece,GRC,2000,97.66
+Greece,GRC,2010,97.62
+Greece,GRC,2015,97.57
+Greece,GRC,2018,97.53
+Grenada,GRD,2000,100
+Grenada,GRD,2010,100
+Grenada,GRD,2015,100
+Grenada,GRD,2018,100
+Guatemala,GTM,2000,99.15
+Guatemala,GTM,2010,98.93
+Guatemala,GTM,2015,98.73
+Guatemala,GTM,2018,98.72
+Guinea,GIN,2000,99.85
+Guinea,GIN,2010,99.83
+Guinea,GIN,2015,99.8
+Guinea,GIN,2018,99.8
+Guyana,GUY,2000,99.87
+Guyana,GUY,2010,99.85
+Guyana,GUY,2015,99.85
+Guyana,GUY,2018,99.85
+Haiti,HTI,2000,99.84
+Haiti,HTI,2010,99.82
+Haiti,HTI,2015,99.72
+Haiti,HTI,2018,99.71
+Hungary,HUN,2000,99.7
+Hungary,HUN,2010,99.38
+Hungary,HUN,2015,99.37
+Hungary,HUN,2018,99.37
+Indonesia,IDN,2000,98.92
+Indonesia,IDN,2010,98.89
+Indonesia,IDN,2015,98.84
+Indonesia,IDN,2018,98.82
+Iran,IRN,2000,33.18
+Iran,IRN,2010,34.01
+Iran,IRN,2015,34.28
+Iran,IRN,2018,34.3
+Iraq,IRQ,2000,87.4
+Iraq,IRQ,2010,87.23
+Iraq,IRQ,2015,87.03
+Iraq,IRQ,2018,86.9
+Ireland,IRL,2000,94.47
+Ireland,IRL,2010,94.48
+Ireland,IRL,2015,94.63
+Ireland,IRL,2018,94.66
+Israel,ISR,2018,18.57
+Italy,ITA,2000,95.26
+Italy,ITA,2010,94.97
+Italy,ITA,2015,94.86
+Italy,ITA,2018,94.86
+Jamaica,JAM,2000,96.71
+Jamaica,JAM,2010,94.24
+Jamaica,JAM,2015,93
+Jamaica,JAM,2018,92.26
+Japan,JPN,2000,99.55
+Japan,JPN,2010,99.38
+Japan,JPN,2015,99.23
+Japan,JPN,2018,99.23
+Jordan,JOR,2000,24.16
+Jordan,JOR,2010,23.74
+Jordan,JOR,2015,23.44
+Jordan,JOR,2018,23.34
+Kazakhstan,KAZ,2000,89.01
+Kazakhstan,KAZ,2010,89.86
+Kazakhstan,KAZ,2015,90.01
+Kazakhstan,KAZ,2018,90.06
+Kenya,KEN,2000,96.41
+Kenya,KEN,2010,96.66
+Kenya,KEN,2015,96.65
+Kenya,KEN,2018,96.62
+Kyrgyzstan,KGZ,2000,74.83
+Kyrgyzstan,KGZ,2010,74.96
+Kyrgyzstan,KGZ,2015,75
+Kyrgyzstan,KGZ,2018,75.04
+Landlocked developing countries (LLDCs),,2000,74.98
+Landlocked developing countries (LLDCs),,2005,75.16
+Landlocked developing countries (LLDCs),,2010,75.3
+Landlocked developing countries (LLDCs),,2015,75.42
+Landlocked developing countries (LLDCs),,2020,75.51
+Laos,LAO,2000,99.87
+Laos,LAO,2010,99.86
+Laos,LAO,2015,99.86
+Laos,LAO,2018,99.86
+Latin America and the Caribbean,,2000,81.42
+Latin America and the Caribbean,,2005,81.44
+Latin America and the Caribbean,,2010,81.42
+Latin America and the Caribbean,,2015,81.39
+Latin America and the Caribbean,,2020,81.37
+Least developed countries (LDCs),,2000,85.69
+Least developed countries (LDCs),,2005,85.72
+Least developed countries (LDCs),,2010,85.72
+Least developed countries (LDCs),,2015,85.7
+Least developed countries (LDCs),,2020,85.66
+Lebanon,LBN,2000,80.81
+Lebanon,LBN,2010,81.05
+Lebanon,LBN,2015,80.94
+Lebanon,LBN,2018,80.92
+Lesotho,LSO,2000,99.68
+Lesotho,LSO,2010,99.68
+Lesotho,LSO,2015,99.59
+Lesotho,LSO,2018,99.58
+Liberia,LBR,2000,99.94
+Liberia,LBR,2010,99.89
+Liberia,LBR,2015,99.85
+Liberia,LBR,2018,99.85
+Libya,LBY,2000,6.39
+Libya,LBY,2010,6.38
+Libya,LBY,2015,6.37
+Libya,LBY,2018,6.36
+Liechtenstein,LIE,2000,97.17
+Liechtenstein,LIE,2010,91.41
+Liechtenstein,LIE,2015,91.41
+Liechtenstein,LIE,2018,91.21
+Luxembourg,LUX,2000,99.54
+Luxembourg,LUX,2010,99.31
+Luxembourg,LUX,2015,99.31
+Luxembourg,LUX,2018,99.31
+Madagascar,MDG,2000,99.84
+Madagascar,MDG,2010,99.83
+Madagascar,MDG,2015,99.83
+Madagascar,MDG,2018,99.83
+Malawi,MWI,2000,95.89
+Malawi,MWI,2010,95.83
+Malawi,MWI,2015,95.72
+Malawi,MWI,2018,95.71
+Malaysia,MYS,2000,99.95
+Malaysia,MYS,2010,99.94
+Malaysia,MYS,2015,99.79
+Malaysia,MYS,2018,99.76
+Mali,MLI,2000,97.09
+Mali,MLI,2010,97.03
+Mali,MLI,2015,97.03
+Mali,MLI,2018,97
+Mauritania,MRT,2000,8.52
+Mauritania,MRT,2010,8.92
+Mauritania,MRT,2015,9.05
+Mauritania,MRT,2018,9.21
+Mauritius,MUS,2000,94.53
+Mauritius,MUS,2010,93.65
+Mauritius,MUS,2015,92.91
+Mauritius,MUS,2018,92.91
+Melanesia,OWID_MNS,2000,99.34
+Melanesia,OWID_MNS,2005,99.34
+Melanesia,OWID_MNS,2010,99.33
+Melanesia,OWID_MNS,2015,99.33
+Melanesia,OWID_MNS,2020,99.33
+Micronesia (country),FSM,2000,98.29
+Micronesia (country),FSM,2005,98.29
+Micronesia (country),FSM,2010,98.29
+Micronesia (country),FSM,2015,98.29
+Micronesia (country),FSM,2020,98.29
+Middle Africa,,2000,87.78
+Middle Africa,,2005,87.73
+Middle Africa,,2010,87.7
+Middle Africa,,2015,87.66
+Middle Africa,,2020,87.63
+Moldova,MDA,2000,99.61
+Moldova,MDA,2010,97.25
+Moldova,MDA,2015,97.25
+Moldova,MDA,2018,97.25
+Mongolia,MNG,2000,56.72
+Mongolia,MNG,2010,57.33
+Mongolia,MNG,2015,57.85
+Mongolia,MNG,2018,58.05
+Montenegro,MNE,2000,98.64
+Montenegro,MNE,2010,98.57
+Montenegro,MNE,2015,98.49
+Montenegro,MNE,2018,98.48
+Morocco,MAR,2000,63.88
+Mozambique,MOZ,2000,96.4
+Mozambique,MOZ,2010,96.36
+Mozambique,MOZ,2015,96.41
+Mozambique,MOZ,2018,96.41
+Myanmar,MMR,2000,99.88
+Myanmar,MMR,2010,99.87
+Myanmar,MMR,2015,99.85
+Myanmar,MMR,2018,99.85
+Nepal,NPL,2000,94.15
+Nepal,NPL,2010,94.1
+Nepal,NPL,2015,94.06
+Nepal,NPL,2018,94.03
+New Zealand,NZL,2000,90.69
+New Zealand,NZL,2010,90.59
+New Zealand,NZL,2015,90.43
+New Zealand,NZL,2018,90.37
+Niger,NER,2000,2.96
+Niger,NER,2010,2.9
+Niger,NER,2015,2.9
+Niger,NER,2018,3.65
+Nigeria,NGA,2000,99.87
+Nigeria,NGA,2010,99.73
+Nigeria,NGA,2015,99.67
+Nigeria,NGA,2018,99.62
+North Macedonia,MKD,2000,97.8
+North Macedonia,MKD,2010,97.73
+North Macedonia,MKD,2015,97.6
+North Macedonia,MKD,2018,97.59
+Northern Africa,,2000,31.4
+Northern Africa,,2005,31.87
+Northern Africa,,2010,32.31
+Northern Africa,,2015,32.39
+Northern Africa,,2020,32.44
+Northern Africa and Western Asia,,2000,54.71
+Northern Africa and Western Asia,,2005,54.84
+Northern Africa and Western Asia,,2010,55.01
+Northern Africa and Western Asia,,2015,55
+Northern Africa and Western Asia,,2020,55
+Northern America,,2000,50.33
+Northern America,,2005,50.3
+Northern America,,2010,50.29
+Northern America,,2015,50.23
+Northern America,,2020,50.19
+Northern Europe,,2000,52.23
+Northern Europe,,2005,52.31
+Northern Europe,,2010,52.62
+Northern Europe,,2015,52.71
+Northern Europe,,2020,52.79
+Oceania,,2000,95.77
+Oceania,,2005,95.83
+Oceania,,2010,95.8
+Oceania,,2015,95.73
+Oceania,,2020,95.8
+Oceania (exc. Australia and New Zealand),,2000,99.34
+Oceania (exc. Australia and New Zealand),,2005,99.33
+Oceania (exc. Australia and New Zealand),,2010,99.33
+Oceania (exc. Australia and New Zealand),,2015,99.32
+Oceania (exc. Australia and New Zealand),,2020,99.32
+Oman,OMN,2000,4.29
+Oman,OMN,2010,4.23
+Oman,OMN,2015,4.22
+Oman,OMN,2018,4.19
+Pakistan,PAK,2000,19.3
+Pakistan,PAK,2010,22.3
+Pakistan,PAK,2015,22.8
+Pakistan,PAK,2018,23.1
+Panama,PAN,2000,99.93
+Panama,PAN,2010,99.93
+Panama,PAN,2015,99.93
+Panama,PAN,2018,99.93
+Papua New Guinea,PNG,2000,99.38
+Papua New Guinea,PNG,2010,99.37
+Papua New Guinea,PNG,2015,99.37
+Papua New Guinea,PNG,2018,99.37
+Paraguay,PRY,2000,100
+Paraguay,PRY,2010,100
+Paraguay,PRY,2015,100
+Paraguay,PRY,2018,100
+Philippines,PHL,2000,98.96
+Philippines,PHL,2010,98.95
+Philippines,PHL,2015,98.93
+Philippines,PHL,2018,98.92
+Poland,POL,2015,94.72
+Poland,POL,2018,94.7
+Polynesia,OWID_PYA,2000,98.89
+Polynesia,OWID_PYA,2005,98.89
+Polynesia,OWID_PYA,2010,98.89
+Polynesia,OWID_PYA,2015,98.89
+Polynesia,OWID_PYA,2020,98.89
+Romania,ROU,2000,99.03
+Romania,ROU,2010,98.43
+Romania,ROU,2015,98.31
+Romania,ROU,2018,98.31
+Russia,RUS,2000,83.07
+Russia,RUS,2010,83.3
+Russia,RUS,2015,83.22
+Russia,RUS,2018,83.25
+Rwanda,RWA,2000,97.89
+Rwanda,RWA,2010,97.66
+Rwanda,RWA,2015,97.54
+Rwanda,RWA,2018,97.51
+Saint Lucia,LCA,2000,99.79
+Saint Lucia,LCA,2010,99.79
+Saint Lucia,LCA,2015,99.79
+Saint Lucia,LCA,2018,99.79
+Saint Vincent and the Grenadines,VCT,2000,95.61
+Saint Vincent and the Grenadines,VCT,2010,95.61
+Saint Vincent and the Grenadines,VCT,2015,95.61
+Saint Vincent and the Grenadines,VCT,2018,95.61
+Samoa,WSM,2000,99.86
+Samoa,WSM,2010,99.86
+Samoa,WSM,2015,99.86
+Samoa,WSM,2018,99.86
+San Marino,SMR,2000,87.42
+San Marino,SMR,2010,86.79
+San Marino,SMR,2015,86.79
+San Marino,SMR,2018,86.79
+Sao Tome and Principe,STP,2000,100
+Sao Tome and Principe,STP,2010,100
+Sao Tome and Principe,STP,2015,100
+Sao Tome and Principe,STP,2018,100
+Saudi Arabia,SAU,2015,46.67
+Senegal,SEN,2000,100
+Senegal,SEN,2010,100
+Senegal,SEN,2015,100
+Senegal,SEN,2018,100
+Serbia,SRB,2000,99.36
+Serbia,SRB,2010,99.26
+Serbia,SRB,2015,99.17
+Serbia,SRB,2018,99.15
+Seychelles,SYC,2000,100
+Seychelles,SYC,2010,100
+Seychelles,SYC,2015,100
+Seychelles,SYC,2018,100
+Sierra Leone,SLE,2000,99.99
+Sierra Leone,SLE,2010,99.92
+Sierra Leone,SLE,2015,99.88
+Sierra Leone,SLE,2018,99.88
+Slovakia,SVK,2000,98.47
+Slovakia,SVK,2010,97.87
+Slovakia,SVK,2015,97.86
+Slovakia,SVK,2018,97.86
+Slovenia,SVN,2000,98.67
+Slovenia,SVN,2010,94.11
+Slovenia,SVN,2015,98.28
+Slovenia,SVN,2018,98.26
+Small Island Developing States (SIDS),,2000,99.38
+Small Island Developing States (SIDS),,2005,99.37
+Small Island Developing States (SIDS),,2010,99.37
+Small Island Developing States (SIDS),,2015,99.35
+Small Island Developing States (SIDS),,2020,99.35
+South Africa,ZAF,2000,96.19
+South Africa,ZAF,2010,96.13
+South Africa,ZAF,2015,96.06
+South Africa,ZAF,2018,96.02
+South America,,2000,75.49
+South America,,2005,75.53
+South America,,2010,75.53
+South America,,2015,75.5
+South America,,2020,75.5
+South Korea,KOR,2000,99.9
+South Korea,KOR,2010,99.88
+South Korea,KOR,2015,99.86
+South Korea,KOR,2018,99.86
+South Sudan,SSD,2000,99.83
+South Sudan,SSD,2010,99.84
+South Sudan,SSD,2015,99.83
+South Sudan,SSD,2018,99.84
+South-eastern Asia,,2000,99.48
+South-eastern Asia,,2005,99.47
+South-eastern Asia,,2010,99.46
+South-eastern Asia,,2015,99.42
+South-eastern Asia,,2020,99.4
+Southern Africa,,2000,89.7
+Southern Africa,,2005,90.15
+Southern Africa,,2010,90.53
+Southern Africa,,2015,90.61
+Southern Africa,,2020,90.62
+Southern Asia,,2000,61.47
+Southern Asia,,2005,62.19
+Southern Asia,,2010,62.75
+Southern Asia,,2015,62.84
+Southern Asia,,2020,62.85
+Southern Europe,,2000,97.05
+Southern Europe,,2005,97
+Southern Europe,,2010,96.96
+Southern Europe,,2015,96.88
+Southern Europe,,2020,96.86
+Spain,ESP,2018,97.22
+Sri Lanka,LKA,2000,98.93
+Sri Lanka,LKA,2010,98.56
+Sri Lanka,LKA,2015,98.33
+Sri Lanka,LKA,2018,98.33
+Sub-Saharan Africa,,2000,92.06
+Sub-Saharan Africa,,2005,92.15
+Sub-Saharan Africa,,2010,92.2
+Sub-Saharan Africa,,2015,92.19
+Sub-Saharan Africa,,2020,92.2
+Sudan,SDN,2000,34.85
+Sudan,SDN,2010,34.71
+Sudan,SDN,2015,34.71
+Sudan,SDN,2018,34.99
+Sweden,SWE,2000,70.56
+Sweden,SWE,2010,71.38
+Sweden,SWE,2015,71.5
+Sweden,SWE,2018,71.51
+Switzerland,CHE,2000,83.15
+Switzerland,CHE,2010,81.84
+Switzerland,CHE,2015,81.78
+Switzerland,CHE,2018,81.77
+Syria,SYR,2000,46.04
+Syria,SYR,2010,46.01
+Syria,SYR,2015,45.82
+Syria,SYR,2018,45.73
+Tajikistan,TJK,2000,69.98
+Tajikistan,TJK,2010,69.92
+Tajikistan,TJK,2015,69.75
+Tajikistan,TJK,2018,69.14
+Tanzania,TZA,2000,98.59
+Tanzania,TZA,2010,98.58
+Tanzania,TZA,2015,98.56
+Tanzania,TZA,2018,98.56
+Thailand,THA,2000,99.87
+Thailand,THA,2010,99.86
+Thailand,THA,2015,99.85
+Thailand,THA,2018,99.85
+Timor,TLS,2000,99.5
+Timor,TLS,2010,99.5
+Timor,TLS,2015,99.5
+Timor,TLS,2018,99.5
+Togo,TGO,2000,99.9
+Togo,TGO,2010,99.88
+Togo,TGO,2015,99.83
+Togo,TGO,2018,99.83
+Trinidad and Tobago,TTO,2000,100
+Trinidad and Tobago,TTO,2010,100
+Trinidad and Tobago,TTO,2015,100
+Trinidad and Tobago,TTO,2018,100
+Tunisia,TUN,2000,65.93
+Tunisia,TUN,2010,71.07
+Tunisia,TUN,2015,71.87
+Tunisia,TUN,2018,71.88
+Turkey,TUR,2018,83.3
+Turkmenistan,TKM,2000,42.68
+Turkmenistan,TKM,2010,44.12
+Turkmenistan,TKM,2015,44.32
+Turkmenistan,TKM,2018,44.44
+Ukraine,UKR,2000,99.38
+Ukraine,UKR,2010,98.72
+Ukraine,UKR,2015,98.7
+Ukraine,UKR,2018,98.7
+United Arab Emirates,ARE,2000,1.45
+United Arab Emirates,ARE,2010,1.35
+United Arab Emirates,ARE,2015,1.35
+United Arab Emirates,ARE,2018,1.2
+United Kingdom,GBR,2000,85.6
+United Kingdom,GBR,2010,85.57
+United Kingdom,GBR,2015,85.56
+United Kingdom,GBR,2018,85.58
+Uruguay,URY,2018,99.09
+Uzbekistan,UZB,2000,69.15
+Uzbekistan,UZB,2010,69.55
+Uzbekistan,UZB,2015,69.82
+Uzbekistan,UZB,2018,69.69
+Vanuatu,VUT,2000,98.9
+Vanuatu,VUT,2010,98.85
+Vanuatu,VUT,2015,98.87
+Vanuatu,VUT,2018,98.87
+Venezuela,VEN,2000,99.55
+Venezuela,VEN,2010,99.43
+Venezuela,VEN,2015,99.39
+Venezuela,VEN,2018,99.36
+Vietnam,VNM,2000,99.87
+Vietnam,VNM,2010,99.83
+Vietnam,VNM,2015,99.8
+Vietnam,VNM,2018,99.8
+Western Africa,,2000,86.5
+Western Africa,,2005,86.45
+Western Africa,,2010,86.44
+Western Africa,,2015,86.41
+Western Africa,,2020,86.45
+Western Asia,,2000,66.5
+Western Asia,,2005,66.46
+Western Asia,,2010,66.49
+Western Asia,,2015,66.44
+Western Asia,,2020,66.42
+Western Europe,,2000,93.51
+Western Europe,,2005,92.88
+Western Europe,,2010,92.8
+Western Europe,,2015,92.74
+Western Europe,,2020,92.72
+World,OWID_WRL,2000,73.15
+World,OWID_WRL,2005,73.23
+World,OWID_WRL,2010,73.3
+World,OWID_WRL,2015,73.3
+World,OWID_WRL,2020,73.23
+Yemen,YEM,2000,19.39
+Yemen,YEM,2010,19.4
+Yemen,YEM,2015,19.4
+Yemen,YEM,2018,19.43
+Zambia,ZMB,2000,99.3
+Zambia,ZMB,2010,99.28
+Zambia,ZMB,2015,99.27
+Zambia,ZMB,2018,99.25
+Zimbabwe,ZWE,2000,98.48
+Zimbabwe,ZWE,2010,98.5
+Zimbabwe,ZWE,2015,98.5
+Zimbabwe,ZWE,2018,98.48

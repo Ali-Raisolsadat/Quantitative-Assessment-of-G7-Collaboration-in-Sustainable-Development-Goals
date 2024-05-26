@@ -1,0 +1,532 @@
+Entity,Code,Year,16.3.2 - Unsentenced detainees as a proportion of overall prison population (%) - VC_PRS_UNSNT
+Afghanistan,AFG,2005,81
+Afghanistan,AFG,2015,29.5
+Afghanistan,AFG,2018,27.7
+Albania,ALB,2005,22.1
+Albania,ALB,2015,47.1
+Albania,ALB,2018,44.5
+Algeria,DZA,2005,35.5
+Algeria,DZA,2015,7.2
+Algeria,DZA,2018,12.3
+American Samoa,ASM,2005,12.8
+American Samoa,ASM,2015,12.7
+American Samoa,ASM,2018,12.3
+Andorra,AND,2005,24.6
+Andorra,AND,2015,64.2
+Andorra,AND,2018,50.7
+Angola,AGO,2005,63.7
+Angola,AGO,2015,48.4
+Angola,AGO,2018,48
+Anguilla,AIA,2005,41.5
+Anguilla,AIA,2015,38.3
+Anguilla,AIA,2018,48.1
+Antigua and Barbuda,ATG,2005,27
+Antigua and Barbuda,ATG,2015,48.7
+Antigua and Barbuda,ATG,2018,43.7
+Argentina,ARG,2005,57.6
+Argentina,ARG,2015,50.5
+Argentina,ARG,2018,46.2
+Armenia,ARM,2005,28.2
+Armenia,ARM,2015,27.9
+Armenia,ARM,2018,35.6
+Australia,AUS,2005,20.4
+Australia,AUS,2015,25.3
+Australia,AUS,2018,31.6
+Australia and New Zealand,,2005,19.7
+Australia and New Zealand,,2015,23.2
+Australia and New Zealand,,2018,29
+Austria,AUT,2005,23.2
+Austria,AUT,2015,20.8
+Austria,AUT,2018,20.9
+Azerbaijan,AZE,2005,12
+Azerbaijan,AZE,2015,16.9
+Azerbaijan,AZE,2018,15.5
+Bahamas,BHS,2005,22.5
+Bahamas,BHS,2015,43
+Bahamas,BHS,2018,34.1
+Bangladesh,BGD,2005,64
+Bangladesh,BGD,2015,75.7
+Bangladesh,BGD,2018,84.7
+Barbados,BRB,2005,38
+Barbados,BRB,2015,46
+Barbados,BRB,2018,56.1
+Belarus,BLR,2005,19.1
+Belarus,BLR,2015,11.8
+Belarus,BLR,2018,9.4
+Belgium,BEL,2005,38.1
+Belgium,BEL,2015,26
+Belgium,BEL,2018,34.5
+Belize,BLZ,2005,5.6
+Belize,BLZ,2015,63.5
+Belize,BLZ,2018,67.6
+Benin,BEN,2005,93.7
+Benin,BEN,2015,71
+Benin,BEN,2018,62.3
+Bermuda,BMU,2005,15.8
+Bermuda,BMU,2015,9.7
+Bermuda,BMU,2018,12.3
+Bolivia,BOL,2005,73.3
+Bolivia,BOL,2015,84.2
+Bolivia,BOL,2018,72.6
+Bosnia and Herzegovina,BIH,2005,18
+Bosnia and Herzegovina,BIH,2015,12.9
+Bosnia and Herzegovina,BIH,2018,20.9
+Botswana,BWA,2005,52.9
+Botswana,BWA,2015,25.5
+Botswana,BWA,2018,22.3
+Brazil,BRA,2005,31.2
+Brazil,BRA,2015,39.6
+Brazil,BRA,2018,37.1
+Brunei,BRN,2005,7.2
+Brunei,BRN,2015,7.9
+Brunei,BRN,2018,7.1
+Bulgaria,BGR,2005,18.3
+Bulgaria,BGR,2015,8.8
+Bulgaria,BGR,2018,8.7
+Burkina Faso,BFA,2005,47.4
+Burkina Faso,BFA,2015,40.1
+Burkina Faso,BFA,2018,42
+Burundi,BDI,2005,64.9
+Burundi,BDI,2015,53
+Burundi,BDI,2018,51.2
+Cambodia,KHM,2005,32.6
+Cambodia,KHM,2015,49.3
+Cambodia,KHM,2018,31.7
+Cameroon,CMR,2005,76.2
+Cameroon,CMR,2015,59.6
+Cameroon,CMR,2018,54.6
+Canada,CAN,2005,29.1
+Canada,CAN,2015,34.9
+Canada,CAN,2018,38.8
+Cayman Islands,CYM,2005,24.5
+Cayman Islands,CYM,2015,29.6
+Cayman Islands,CYM,2018,23.2
+Central and Southern Asia,,2005,59.4
+Central and Southern Asia,,2015,62.1
+Central and Southern Asia,,2018,63.6
+Chile,CHL,2005,37.2
+Chile,CHL,2015,25
+Chile,CHL,2018,31.3
+"China, Hong Kong Special Administrative Region",,2005,11.5
+"China, Hong Kong Special Administrative Region",,2015,18.1
+"China, Hong Kong Special Administrative Region",,2018,22.2
+Colombia,COL,2005,41.1
+Colombia,COL,2015,33.3
+Colombia,COL,2018,32.6
+Cook Islands,COK,2005,3.7
+Cook Islands,COK,2015,16.9
+Cook Islands,COK,2018,14.6
+Costa Rica,CRI,2005,20.1
+Costa Rica,CRI,2015,20.6
+Costa Rica,CRI,2018,20.6
+Cote d'Ivoire,CIV,2005,22.6
+Cote d'Ivoire,CIV,2015,37.6
+Cote d'Ivoire,CIV,2018,41
+Croatia,HRV,2005,31.4
+Croatia,HRV,2015,21.6
+Croatia,HRV,2018,27.6
+Cyprus,CYP,2005,17
+Cyprus,CYP,2015,20.1
+Cyprus,CYP,2018,26.4
+Czechia,CZE,2005,17.5
+Czechia,CZE,2015,11.5
+Czechia,CZE,2018,8.4
+Denmark,DNK,2005,27.9
+Denmark,DNK,2015,29.6
+Denmark,DNK,2018,32.8
+Dominica,DMA,2005,21
+Dominica,DMA,2015,21.9
+Dominica,DMA,2018,30.3
+Dominican Republic,DOM,2005,62
+Dominican Republic,DOM,2015,57.6
+Dominican Republic,DOM,2018,51.5
+Eastern and South-Eastern Asia,,2005,32.3
+Eastern and South-Eastern Asia,,2015,29.5
+Eastern and South-Eastern Asia,,2018,32.1
+Ecuador,ECU,2005,63.1
+Ecuador,ECU,2015,38.8
+Ecuador,ECU,2018,33.8
+Egypt,EGY,2005,13.7
+Egypt,EGY,2015,9.8
+Egypt,EGY,2018,9.9
+El Salvador,SLV,2005,28.8
+El Salvador,SLV,2015,23.4
+El Salvador,SLV,2018,31.1
+Estonia,EST,2005,25.6
+Estonia,EST,2015,23.4
+Estonia,EST,2018,20.2
+Europe and Northern America,,2005,21.6
+Europe and Northern America,,2015,18.4
+Europe and Northern America,,2018,19.5
+Faeroe Islands,FRO,2005,26.1
+Faeroe Islands,FRO,2015,29
+Faeroe Islands,FRO,2018,30.6
+Fiji,FJI,2005,8.7
+Fiji,FJI,2015,22.7
+Fiji,FJI,2018,25.9
+Finland,FIN,2005,13.3
+Finland,FIN,2015,18.4
+Finland,FIN,2018,19
+France,FRA,2005,33.4
+France,FRA,2015,25.7
+France,FRA,2018,28.8
+Georgia,GEO,2005,54.2
+Georgia,GEO,2015,14.7
+Georgia,GEO,2018,11.5
+Germany,DEU,2005,23.7
+Germany,DEU,2015,20.6
+Germany,DEU,2018,23.6
+Ghana,GHA,2005,30.6
+Ghana,GHA,2015,19
+Ghana,GHA,2018,12.5
+Gibraltar,GIB,2005,54.8
+Gibraltar,GIB,2015,50
+Gibraltar,GIB,2018,26.8
+Greece,GRC,2005,29.7
+Greece,GRC,2015,23.1
+Greece,GRC,2018,31.1
+Greenland,GRL,2005,8.1
+Greenland,GRL,2015,25.7
+Greenland,GRL,2018,30.9
+Grenada,GRD,2005,19.6
+Grenada,GRD,2015,19.1
+Grenada,GRD,2018,19.6
+Guam,GUM,2005,43.5
+Guam,GUM,2015,59.5
+Guam,GUM,2018,42.4
+Guatemala,GTM,2005,46
+Guatemala,GTM,2015,48.7
+Guatemala,GTM,2018,54.4
+Guernsey,GGY,2005,22.6
+Guernsey,GGY,2015,16.1
+Guernsey,GGY,2018,19.4
+Guinea,GIN,2005,69
+Guinea,GIN,2015,54.3
+Guinea,GIN,2018,55.4
+Guyana,GUY,2005,33.2
+Guyana,GUY,2015,36.6
+Guyana,GUY,2018,32
+Haiti,HTI,2005,90.5
+Haiti,HTI,2015,70.8
+Haiti,HTI,2018,62.8
+Honduras,HND,2005,65.3
+Honduras,HND,2015,54.3
+Honduras,HND,2018,55.4
+Hungary,HUN,2005,24.6
+Hungary,HUN,2015,25.3
+Hungary,HUN,2018,20.3
+Iceland,ISL,2005,10.2
+Iceland,ISL,2015,11.2
+Iceland,ISL,2018,10.5
+India,IND,2005,67.9
+India,IND,2015,67.3
+India,IND,2018,67.7
+Indonesia,IDN,2005,46.6
+Indonesia,IDN,2015,35
+Indonesia,IDN,2018,30.7
+Ireland,IRL,2005,15.8
+Ireland,IRL,2015,14.2
+Ireland,IRL,2018,18.7
+Isle of Man,IMN,2005,31.4
+Isle of Man,IMN,2015,15.4
+Isle of Man,IMN,2018,10.4
+Israel,ISR,2005,22.4
+Israel,ISR,2015,26.9
+Israel,ISR,2018,26.6
+Italy,ITA,2005,37.1
+Italy,ITA,2015,18.5
+Italy,ITA,2018,18.1
+Jamaica,JAM,2005,14.1
+Jamaica,JAM,2015,19.2
+Jamaica,JAM,2018,29.4
+Japan,JPN,2005,15
+Japan,JPN,2015,11.2
+Japan,JPN,2018,11.3
+Jersey,JEY,2005,28.8
+Jersey,JEY,2015,25.7
+Jersey,JEY,2018,27.5
+Jordan,JOR,2005,47.9
+Jordan,JOR,2015,45.4
+Jordan,JOR,2018,41.1
+Kazakhstan,KAZ,2005,15.6
+Kazakhstan,KAZ,2015,15
+Kazakhstan,KAZ,2018,10.9
+Kenya,KEN,2005,49.9
+Kenya,KEN,2015,39.8
+Kenya,KEN,2018,38.8
+Kiribati,KIR,2005,2.6
+Kiribati,KIR,2015,9.8
+Kiribati,KIR,2018,5.4
+Kosovo,OWID_KOS,2005,38.6
+Kosovo,OWID_KOS,2015,29.8
+Kosovo,OWID_KOS,2018,23.8
+Kuwait,KWT,2005,9.7
+Kuwait,KWT,2015,8.9
+Kuwait,KWT,2018,5.3
+Kyrgyzstan,KGZ,2005,16.2
+Kyrgyzstan,KGZ,2015,18.2
+Kyrgyzstan,KGZ,2018,16.4
+Landlocked developing countries (LLDCs),,2005,33.6
+Landlocked developing countries (LLDCs),,2015,33.6
+Landlocked developing countries (LLDCs),,2018,33.6
+Latin America and the Caribbean,,2005,40.6
+Latin America and the Caribbean,,2015,42.4
+Latin America and the Caribbean,,2018,39.3
+Latvia,LVA,2005,39
+Latvia,LVA,2015,30.7
+Latvia,LVA,2018,28.7
+Least developed countries (LDCs),,2005,55.3
+Least developed countries (LDCs),,2015,50
+Least developed countries (LDCs),,2018,49.8
+Lebanon,LBN,2005,99
+Lebanon,LBN,2015,40.4
+Lebanon,LBN,2018,42.3
+Lesotho,LSO,2005,17.5
+Lesotho,LSO,2015,21.2
+Lesotho,LSO,2018,19.5
+Liberia,LBR,2005,78.5
+Liberia,LBR,2015,75.3
+Liberia,LBR,2018,60.1
+Libya,LBY,2005,68.5
+Libya,LBY,2015,86.9
+Libya,LBY,2018,90
+Liechtenstein,LIE,2005,16.9
+Liechtenstein,LIE,2015,44.8
+Liechtenstein,LIE,2018,24
+Lithuania,LTU,2005,15.5
+Lithuania,LTU,2015,10.7
+Lithuania,LTU,2018,9.1
+Luxembourg,LUX,2005,54.4
+Luxembourg,LUX,2015,44.9
+Luxembourg,LUX,2018,47.2
+Macao,MAC,2005,26.4
+Macao,MAC,2015,20.9
+Macao,MAC,2018,19.4
+Madagascar,MDG,2005,88.8
+Madagascar,MDG,2015,53.6
+Madagascar,MDG,2018,56.9
+Malawi,MWI,2005,30.4
+Malawi,MWI,2015,16.1
+Malawi,MWI,2018,14.4
+Malaysia,MYS,2005,33.8
+Malaysia,MYS,2015,24
+Malaysia,MYS,2018,33
+Malta,MLT,2005,27.8
+Malta,MLT,2015,26
+Malta,MLT,2018,28.1
+Mauritius,MUS,2005,35.4
+Mauritius,MUS,2015,35.7
+Mauritius,MUS,2018,40.8
+Mexico,MEX,2005,42.1
+Mexico,MEX,2015,43.5
+Mexico,MEX,2018,34.3
+Moldova,MDA,2005,22.8
+Moldova,MDA,2015,21.4
+Moldova,MDA,2018,17.5
+Monaco,MCO,2005,40.9
+Monaco,MCO,2015,57.6
+Monaco,MCO,2018,36.7
+Mongolia,MNG,2005,21.6
+Mongolia,MNG,2015,15.6
+Mongolia,MNG,2018,22.9
+Montenegro,MNE,2005,36.2
+Montenegro,MNE,2015,25.3
+Montenegro,MNE,2018,28.7
+Morocco,MAR,2005,51.8
+Morocco,MAR,2015,42.2
+Morocco,MAR,2018,23.1
+Mozambique,MOZ,2005,75.3
+Mozambique,MOZ,2015,32.6
+Mozambique,MOZ,2018,34.8
+Namibia,NAM,2005,7.2
+Namibia,NAM,2015,3.2
+Namibia,NAM,2018,3.2
+Netherlands,NLD,2005,38
+Netherlands,NLD,2015,25.5
+Netherlands,NLD,2018,25.8
+New Zealand,NZL,2005,17.3
+New Zealand,NZL,2015,14.9
+New Zealand,NZL,2018,18.2
+Nicaragua,NIC,2005,14.9
+Nicaragua,NIC,2015,20.2
+Nicaragua,NIC,2018,17.6
+Niger,NER,2005,52.7
+Niger,NER,2015,54
+Niger,NER,2018,53.5
+Nigeria,NGA,2005,72.7
+Nigeria,NGA,2015,67.1
+Nigeria,NGA,2018,71.8
+North Macedonia,MKD,2005,10.1
+North Macedonia,MKD,2015,13
+North Macedonia,MKD,2018,9.6
+Northern Africa and Western Asia,,2005,37.1
+Northern Africa and Western Asia,,2015,20.6
+Northern Africa and Western Asia,,2018,24.1
+Norway,NOR,2005,19
+Norway,NOR,2015,25.1
+Norway,NOR,2018,25.1
+Oceania (exc. Australia and New Zealand),,2005,25.8
+Oceania (exc. Australia and New Zealand),,2015,30.2
+Oceania (exc. Australia and New Zealand),,2018,33
+Other non-specified areas in Eastern Asia,,2005,10.9
+Other non-specified areas in Eastern Asia,,2015,5.5
+Other non-specified areas in Eastern Asia,,2018,5.2
+Pakistan,PAK,2005,57.8
+Pakistan,PAK,2015,69.3
+Pakistan,PAK,2018,66.1
+Panama,PAN,2005,58.3
+Panama,PAN,2015,64.2
+Panama,PAN,2018,52.8
+Papua New Guinea,PNG,2005,31.3
+Papua New Guinea,PNG,2015,32.5
+Papua New Guinea,PNG,2018,37.8
+Paraguay,PRY,2005,72.4
+Paraguay,PRY,2015,76
+Paraguay,PRY,2018,76
+Peru,PER,2005,69.7
+Peru,PER,2015,50.9
+Peru,PER,2018,40.8
+Philippines,PHL,2005,77
+Philippines,PHL,2015,66.3
+Philippines,PHL,2018,73.4
+Poland,POL,2005,19.3
+Poland,POL,2015,7.4
+Poland,POL,2018,9.1
+Portugal,PRT,2005,24
+Portugal,PRT,2015,16.8
+Portugal,PRT,2018,15.8
+Puerto Rico,PRI,2005,15.6
+Puerto Rico,PRI,2015,13.7
+Puerto Rico,PRI,2018,13.1
+Qatar,QAT,2005,7.9
+Qatar,QAT,2015,43.5
+Qatar,QAT,2018,43.5
+Romania,ROU,2005,15.3
+Romania,ROU,2015,5.4
+Romania,ROU,2018,6
+Russia,RUS,2005,10.3
+Russia,RUS,2015,9
+Russia,RUS,2018,8.9
+Saint Kitts and Nevis,KNA,2005,29.2
+Saint Kitts and Nevis,KNA,2015,29.5
+Saint Kitts and Nevis,KNA,2018,30.5
+Saint Lucia,LCA,2005,33.9
+Saint Lucia,LCA,2015,40.5
+Saint Lucia,LCA,2018,51.7
+Saint Vincent and the Grenadines,VCT,2005,76.2
+Saint Vincent and the Grenadines,VCT,2015,23.3
+Saint Vincent and the Grenadines,VCT,2018,24.5
+Samoa,WSM,2005,8.1
+Samoa,WSM,2015,5.3
+Samoa,WSM,2018,6.5
+Sao Tome and Principe,STP,2005,46.5
+Sao Tome and Principe,STP,2015,7.7
+Sao Tome and Principe,STP,2018,36.7
+Senegal,SEN,2005,8.3
+Senegal,SEN,2015,43
+Senegal,SEN,2018,37.8
+Serbia,SRB,2005,28.9
+Serbia,SRB,2015,16.5
+Serbia,SRB,2018,15.6
+Seychelles,SYC,2005,8.1
+Seychelles,SYC,2015,19.9
+Seychelles,SYC,2018,15.2
+Sierra Leone,SLE,2005,14.9
+Sierra Leone,SLE,2015,55.1
+Sierra Leone,SLE,2018,33
+Singapore,SGP,2005,4.1
+Singapore,SGP,2015,10.2
+Singapore,SGP,2018,11.5
+Slovakia,SVK,2005,32.8
+Slovakia,SVK,2015,13.1
+Slovakia,SVK,2018,15
+Slovenia,SVN,2005,24.8
+Slovenia,SVN,2015,6.8
+Slovenia,SVN,2018,18.4
+Small Island Developing States (SIDS),,2005,30.2
+Small Island Developing States (SIDS),,2015,40.8
+Small Island Developing States (SIDS),,2018,38.6
+Solomon Islands,SLB,2005,35.4
+Solomon Islands,SLB,2015,46.7
+Solomon Islands,SLB,2018,50.4
+South Africa,ZAF,2005,26.5
+South Africa,ZAF,2015,27.7
+South Africa,ZAF,2018,27
+South Korea,KOR,2005,34.2
+South Korea,KOR,2015,35.2
+South Korea,KOR,2018,35.4
+Spain,ESP,2005,22.2
+Spain,ESP,2015,13.2
+Spain,ESP,2018,14.4
+Sri Lanka,LKA,2005,52.4
+Sri Lanka,LKA,2015,45.3
+Sri Lanka,LKA,2018,57.8
+Sub-Saharan Africa,,2005,44.3
+Sub-Saharan Africa,,2015,40.6
+Sub-Saharan Africa,,2018,41
+Sudan,SDN,2005,12.7
+Sudan,SDN,2015,20.4
+Sudan,SDN,2018,18.5
+Sweden,SWE,2005,20.7
+Sweden,SWE,2015,24.6
+Sweden,SWE,2018,27
+Switzerland,CHE,2005,44.5
+Switzerland,CHE,2015,42.9
+Switzerland,CHE,2018,43.2
+Tanzania,TZA,2005,57
+Tanzania,TZA,2015,49.1
+Tanzania,TZA,2018,50
+Thailand,THA,2005,24.6
+Thailand,THA,2015,20.7
+Thailand,THA,2018,18
+Timor,TLS,2005,64.7
+Timor,TLS,2015,76.1
+Timor,TLS,2018,23.2
+Tonga,TON,2005,2.6
+Tonga,TON,2015,7.4
+Tonga,TON,2018,7.4
+Trinidad and Tobago,TTO,2005,40.9
+Trinidad and Tobago,TTO,2015,87.2
+Trinidad and Tobago,TTO,2018,59.7
+Turkey,TUR,2005,53
+Turkey,TUR,2015,15.7
+Turkey,TUR,2018,30
+Uganda,UGA,2005,60.7
+Uganda,UGA,2015,54.5
+Uganda,UGA,2018,51.1
+Ukraine,UKR,2005,12.1
+Ukraine,UKR,2015,19.3
+Ukraine,UKR,2018,32.7
+United Arab Emirates,ARE,2005,41.2
+United Arab Emirates,ARE,2015,35.8
+United Arab Emirates,ARE,2018,38.2
+United Kingdom (England and Wales),,2005,10.6
+United Kingdom (England and Wales),,2015,9.9
+United Kingdom (England and Wales),,2018,7.7
+United Kingdom (Northern Ireland),,2005,32.7
+United Kingdom (Northern Ireland),,2015,24.5
+United Kingdom (Northern Ireland),,2018,27.1
+United Kingdom (Scotland),,2005,18.3
+United Kingdom (Scotland),,2015,18.6
+United Kingdom (Scotland),,2018,18.1
+United States,USA,2005,22.5
+United States,USA,2015,21.8
+United States,USA,2018,23.4
+Uruguay,URY,2005,84.5
+Uruguay,URY,2015,66.1
+Uruguay,URY,2018,72.7
+Vanuatu,VUT,2005,22.5
+Vanuatu,VUT,2015,12.1
+Vanuatu,VUT,2018,22.4
+Venezuela,VEN,2005,48.3
+Venezuela,VEN,2015,66.2
+Venezuela,VEN,2018,64.3
+World,OWID_WRL,2005,30.7
+World,OWID_WRL,2015,29.6
+World,OWID_WRL,2018,30.8
+Zambia,ZMB,2005,44.6
+Zambia,ZMB,2015,22.5
+Zambia,ZMB,2018,31.8
+Zimbabwe,ZWE,2005,30.2
+Zimbabwe,ZWE,2015,18.2
+Zimbabwe,ZWE,2018,16.5

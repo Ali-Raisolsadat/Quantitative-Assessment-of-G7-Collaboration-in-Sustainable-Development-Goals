@@ -4,7 +4,7 @@
 
 **Institutions**:  
 1. School of Climate Change and Adaptation, University of Prince Edward Island, Charlottetown, PE, C1A 4P3, Canada
-2. Canadian Centre for Climate Change and Adaptation, University of Prince Edward Island, St. Peter's Bay, PEI, Canada C0A 2A0
+2. Canadian Centre for Climate Change and Adaptation, University of Prince Edward Island, St. Peter's Bay, PE, C0A 2A0, Canada
 3. School of Mathematical and Computational Sciences, University of Prince Edward Island, Charlottetown, PE, C1A 4P3, Canada  
 4. Faculty of Mathematics, University of Waterloo, 200 University Avenue West, Waterloo, ON, N2L 3G1, Canada
 

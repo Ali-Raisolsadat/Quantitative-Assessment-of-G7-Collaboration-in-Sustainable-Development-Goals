@@ -13,7 +13,7 @@
 
 ---
 
-## Repository Contents
+### Repository Contents
 
 This repository contains the code and data for the project titled "Quantitative Assessment of G7's Collaboration in Sustainable Development Goals".
 
@@ -27,7 +27,7 @@ This repository contains the code and data for the project titled "Quantitative 
 - **`partial_true_direction_un.csv`**: Contains the indicator directions from Table 1 of the manuscript.
 - **`SDG_Data.xlsx`**: An Excel file which contains all the data used in the manuscript results in multiple sheets, including SDG raw data and results datasets.
 
-## Prerequisites
+### Prerequisites 
 
 - **R**: Please ensure that you have installed the latest version of the R software for your device. You can download it from [CRAN](https://cran.r-project.org/).
 - **RStudio**: It is recommended to use RStudio for running the R scripts. You can download it from [RStudio's official website](https://rstudio.com/products/rstudio/download/).

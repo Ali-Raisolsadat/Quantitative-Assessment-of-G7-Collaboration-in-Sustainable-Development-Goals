@@ -1,0 +1,537 @@
+---
+title: "Your Document Title"
+author: 
+  - name: "Ali Raisolsadat"
+    email: "sraisolsadat@upei.ca"
+  - name: "Quan Dau"
+    email: "vdau@upei.ca"
+date: "28 May 2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#' **************************************************************************************
+#' **************************************************************************************
+
+#' Function 1
+#' This function cleans the indicator data. The processes is as follows:
+#' Recursively: 
+#' 1. Filter the countries by name and extract their data. 
+#' 2. Add their data to a new data frame.
+#' 3. Add the new data frame to a list 
+#' @param sdg_ind_unclean_list is a list of unclean data
+#' @return a list of cleaned data-frames with each column representing each country
+#' and each row an observation of a specific indicator value for each country.
+clean_indicator_data_fun <- function(sdg_ind_unclean_list) {
+  #' find indicators that have more than one attribute.
+  num_more_than_one_att <- c()
+  for(i in 1:length(sdg_ind_unclean_list)) {
+    if (ncol(sdg_ind_unclean_list[[i]]) > 4) {
+      num_more_than_one_att <- rbind(num_more_than_one_att, i)
+      print(i)
+    }
+  }
+  if (length(num_more_than_one_att) != 0) {
+    sdg_ind_unclean_list[[num_more_than_one_att]] <- NULL #remove them
+  }
+  
+  #' The unclean data has four columns. 
+  #' The fourth column is the data, associated to the country in the second column,
+  #' for the observation date in first column. 
+  #' Recursively: 
+  #' 1. Filter the countries by name and extract their data. 
+  #' 2. Add their data to a new data frame.
+  #' 3. Add the new data frame to a list 
+  sdg_indicator_selected_for_countries <- list()
+  for (j in 1:length(sdg_ind_unclean_list)) {
+    temp_ind_df <- data.frame()
+    for (i in 1:length(COUNTRY_NAMES)) {
+      temp_ind_data <- ((sdg_ind_unclean_list[[j]] %>% 
+                           filter(Entity == COUNTRY_NAMES[i] & Year >= YEAR_THRESHOLD) %>%
+                           complete(Year = YEAR_SEQUENCE))[,4] %>% data.frame())[,1]
+      temp_ind_df <- rbind(temp_ind_df, temp_ind_data)
+    }
+    temp_ind_df <- (t(temp_ind_df))
+    temp_ind_df <- normalize_fun(temp_ind_df)
+    colnames(temp_ind_df) <- gsub(pattern = " ", replacement = "_", tolower(COUNTRY_NAMES))
+    rownames(temp_ind_df) <- YEAR_SEQUENCE
+    sdg_indicator_selected_for_countries[[j]] <- temp_ind_df
+  }
+  
+  names(sdg_indicator_selected_for_countries) <- names(sdg_ind_unclean_list)
+  print(names(sdg_indicator_selected_for_countries))
+  return(sdg_indicator_selected_for_countries)
+}
+
+#' Function 2
+#' This function evaluates the distribution of positive gross synergy
+#' @param syn_df synergy 
+#' @return positive contributions of gross synergy 
+synergy_dist_fun <- function(syn_df) {
+  
+  Pos_Count <- colSums(syn_df[,1:ncol(syn_df)] > 0, na.rm = TRUE)
+  Neg_Count <- colSums(syn_df[,1:ncol(syn_df)] < 0, na.rm = TRUE)
+  syn_df_count <- Pos_Count / (Pos_Count + Neg_Count) * 100
+  
+  return(data.frame(t(syn_df_count)))
+}
+
+#' Function 3
+#' This function creates a contribution data-frame for each indicator. Each data-frame has 
+#' countries as columns, years as rows, and each observation is the contribution to gross synergy 
+#' of the indicator. The contributions are normalized in range -100% to 100%. 
+#' @param contribution_list is a list of country contributions to indicators
+#' @param indicator_names is a vector of indicator names
+country_cont_fun <- function(contribution_list, ind_names) {
+  indicator_contirbutions_by_country <- list()
+  
+  for (i in 1:length(ind_names)) {
+    temp_df <- data.frame()
+    for (j in 1:length(contribution_list)) {
+      temp_df <- rbind(temp_df, contribution_list[[j]][,ind_names[i]])
+    }
+    temp_df <- data.frame(t(temp_df))
+    colnames(temp_df) <- COUNTRY_NAMES
+    rownames(temp_df) <- as.Date(ISOdate(NEW_YEAR_SEQ, 1, 1))  # beginning of year
+    indicator_contirbutions_by_country[[i]] <- temp_df
+  }
+  
+  norm_indicator_contirbutions_by_country <- list()
+  for (i in 1:length(ind_names)) {
+    dd <- indicator_contirbutions_by_country[[i]]
+    new_dd <- data.frame()
+    for (j in 1:nrow(dd)) {
+      new_dd <- rbind(new_dd, as.matrix(dd[j,]))
+    }
+    norm_indicator_contirbutions_by_country[[i]] <- new_dd
+  }
+  
+  names(norm_indicator_contirbutions_by_country) <- ind_names
+  
+  return(norm_indicator_contirbutions_by_country)
+}
+
+#' Function 4
+#' This function normalizes the synergy contribution rows that are larger than 100 and less than -100
+#' to be in between -100 and 100. We use absolute value to consider both bounds.
+#' @param cont_list is the synergy contribution list by each SDG
+#' @param val_larger_than is the threshold for normalization
+make_between_neg_pos_100 <- function(cont_list, val_larger_than) {
+  for (i in 1:length(cont_list)) {
+    x <- cont_list[[i]]
+    ind <- sort(unique(row(x)[which(abs(x) > val_larger_than)]))
+    
+    if (!(is.integer(ind) && length(ind) == 0L)) {
+      y = data.frame(t(apply(x[ind,], 1, function(x) x / max(abs(x))))) * 100 
+      x[ind,] = y
+    }
+    
+    cont_list[[i]] <- x
+  }
+  return(cont_list)
+}
+
+#' FUNCTION 5
+#' This function appends the synergy contributions for all SDG indicators into a 
+#' large data frame.
+#' @param cont_list is the synergy contribution list by each SDG
+#' @return a large data frame with all the SDG synergy contributions for countries
+create_all_cont <- function(cont_list) {
+  x <- data.frame()
+  for (i in 1:length(cont_list)) {
+    x1 <- cont_list[[i]]
+    new_df_names <- c("Indicator", "Year", colnames(x1))
+    x1 <- cbind(rep(names(cont_list)[i], nrow(x1)), 
+                format(as.Date(row.names(x1)), "%Y"),
+                x1)
+    colnames(x1) <- new_df_names
+    row.names(x1) <- NULL
+    
+    
+    x <- rbind.data.frame(x, x1)
+  }
+  return(x)
+}
+
+#' Function 6
+#' Equation 1
+#' This function normalizes entire data-frame of indicator values for group of countries.
+#' @param x is the data-frame to be normalized.
+#' @return a normalized data-frame.
+normalize_fun <- function(x) {
+  norm_x <- as.matrix(x)
+  return(data.frame(rescale(x, c(0,1))))
+}
+
+#' Function 7
+#' Equation 2
+#' Equation 3
+#' This function uses the cleaned data-frames to evaluate domestic changes for a single country
+#' from the list of countries provided by the user.
+#' @param sdg_ind_clean_list is he list of cleaned data-frames
+#' @return an impact matrix with each row representing the observation date, and
+#' each column the impact of an indicator.
+evaluate_dist_individual_fun <- function(sdg_ind_clean_list) {
+  country_list <- gsub(pattern = " ", replacement = "_", tolower(COUNTRY_NAMES))
+  country_dist_mat_list <- list()
+  for(j in 1:length(country_list)) {
+    cc <- data.frame()
+    for (i in 1:length(sdg_ind_clean_list)) {
+      dd <- sdg_ind_clean_list[[i]][country_list[j]]
+      one_dist_indicator <- sqrt(rowSums(diff(as.matrix(dd))^2, na.rm = TRUE))
+      cc <- rbind(cc, one_dist_indicator)
+    }
+    cc <- data.frame(t(cc))
+    colnames(cc) <- names(sdg_ind_clean_list)
+    rownames(cc) <- as.Date(ISOdate(YEAR_SEQUENCE[-1], 1, 1))  # beginning of year
+    cc$year <- YEAR_SEQUENCE[-1]
+    cc$year <- NULL
+    country_dist_mat_list[[j]] <- cc
+  }
+  names(country_dist_mat_list) <- country_list
+  return(country_dist_mat_list)
+}
+
+#' Function 8
+#' Equation 4
+#' Equation 5
+#' This function uses the cleaned data-frames to evaluate foreign changes for a group of
+#' countries provided by the user.
+#' @param sdg_ind_clean_list is he list of cleaned data-frames
+#' @return an impact matrix with each row representing the observation date, and
+#' each column the impact of an indicator.
+evaluate_dist_group_fun <- function(sdg_ind_clean_list) {
+  cc <- data.frame()
+  for (i in 1:length(sdg_ind_clean_list)) {
+    dd <- sdg_ind_clean_list[[i]]
+    one_dist_indicator <- sqrt(rowSums(diff(as.matrix(dd))^2, na.rm = TRUE))
+    cc <- rbind(cc, one_dist_indicator)
+  }
+  cc <- data.frame(t(cc))
+  colnames(cc) <- names(sdg_ind_clean_list)
+  rownames(cc) <- as.Date(ISOdate(YEAR_SEQUENCE[-1], 1, 1))  # beginning of year
+  cc$year <- YEAR_SEQUENCE[-1]
+  #cc <- cc %>% filter(year <= 2020 & year >= 2000) #' This was the issue
+  cc$year <- NULL
+  return(cc)
+}
+
+#' Function 9
+#' Equation 8
+#' Equation 9
+#' This function uses the cleaned data-frames to evaluate difference matrix for a group of
+#' countries provided by the user.
+#' @param sdg_ind_clean_list is he list of cleaned data-frames
+#' @return an difference matrix with each row representing the observation date, and
+#' each column the difference (historical change) of an indicator.
+evaluate_grads_group_fun <- function(sdg_ind_clean_list) {
+  cc <- data.frame()
+  for (i in 1:length(sdg_ind_clean_list)) {
+    dd <- sdg_ind_clean_list[[i]]
+    one_grads_indicator <- rowMeans(diff(as.matrix(dd)), na.rm = TRUE)
+    one_grads_indicator[one_grads_indicator < 0] <- -1
+    one_grads_indicator[one_grads_indicator > 0] <- 1
+    cc <- rbind(cc, one_grads_indicator)
+  }
+  cc <- data.frame(t(cc))
+  colnames(cc) <- names(sdg_ind_clean_list)
+  rownames(cc) <- as.Date(ISOdate(YEAR_SEQUENCE[-1], 1, 1))  # beginning of year
+  cc$year <- YEAR_SEQUENCE[-1]
+  #cc <- cc %>% filter(year <= 2020 & year >= 2000) #' This was the issue
+  cc$year <- NULL
+  return(cc)
+}
+```
+
+
+```{r}
+# Required libraries
+library(tidyverse)   # For data manipulation and visualization
+library(scales)      # For data scaling
+library(ggpubr)      # For combining ggplot2 plots
+library(gridExtra)   # For arranging plots
+library(patchwork)   # For arranging plots
+library(ggthemes)    # For ggplot2 themes
+library(janitor)     # For data cleaning
+
+# Constants. Please apply changes here.
+YEAR_THRESHOLD <- 1999               # Threshold year
+YEAR_SEQUENCE <- 1999:2020           # Year sequence
+NEW_YEAR_SEQ <- 2000:2020            # New year sequence
+SDG_INDICATORS_PATH <- "sdg_raw_data"    # Path to SDG indicator files
+COUNTRY_NAMES <- sort(c("Canada", "France", "Germany", "Italy", "Japan", "United Kingdom", "United States"))  # List of country names
+
+# Economic SDG indicator names
+econ_ind_names <- tolower(c("ind1.1.1", "ind1.A.1(1)", "ind1.A.2(1)", "ind2.5.2", 
+                            "ind3.1.1", "ind3.2.1", "ind3.2.2", "ind3.3.2", "ind3.4.1", "ind3.4.2", "ind3.6.1(1)", 
+                            "ind3.B.1(1)", "ind6.1.1(1)", "ind6.2.1(1)", "ind7.1.1", "ind7.1.2", 
+                            "ind7.2.1", "ind7.3.1", "ind8.1.1", "ind8.2.1", "ind8.4.2(1)", "ind8.4.2(2)","ind8.5.2(1)",
+                            "ind9.1.2(1)", "ind9.1.2(2)", "ind9.1.2(3)", "ind9.2.1", "ind9.2.2(1)", "ind9.2.2(2)", 
+                            "ind9.4.1", "ind9.5.1", "ind9.5.2", "ind9.C.1(1)", "ind9.C.1(2)"))
+
+# Environmental SDG indicator names
+envir_ind_names <- tolower(c("ind12.2.2(1)", "ind12.2.2(2)", "ind13.1.1(1)", "ind14.1.1(1)", 
+                             "ind15.1.1", "ind15.1.2(1)", "ind15.4.1", "ind15.A.1(1)"))
+
+# All indicator names
+indicators_econ_envir_names <- c(econ_ind_names, envir_ind_names)
+
+# Read all the SDG indicator files into a list
+filenames <- list.files(path = SDG_INDICATORS_PATH, pattern="*.csv", full.names=TRUE)  # Get list of file names
+sdg_indicator_selected_clean <- lapply(filenames, read.csv, row.names = 1)  # Read CSV files into list
+indicatornames <- gsub(pattern = ".csv", replacement = "", list.files(path = SDG_INDICATORS_PATH, pattern="*.csv"))  # Extract indicator names
+names(sdg_indicator_selected_clean) <- gsub("2ind","ind", indicatornames)  # Assign indicator names to list elements
+
+# Clean and normalize data
+for(i in 1:length(sdg_indicator_selected_clean)) {
+  dd <- sdg_indicator_selected_clean[[i]] %>% 
+    clean_names()  # Clean column names
+  dd <- as.data.frame(normalize_fun(as.matrix(dd)))  # Normalize data
+  sdg_indicator_selected_clean[[i]] <- dd  # Replace original data with cleaned and normalized data
+}
+```
+
+
+```{r figure 1(a, c) data}
+# Compute the FC for the group of countries.
+indicator_impact_group <- evaluate_dist_group_fun(sdg_indicator_selected_clean)
+
+# Compute the DC for individual countries in the group.
+indicator_impact_countries_list <- evaluate_dist_individual_fun(sdg_indicator_selected_clean)
+
+# Compute average DC for each country
+econ_impact_ind_df <- data.frame()
+for (i in 1:length(indicator_impact_countries_list)) {
+  econ_impact <- rowMeans(indicator_impact_countries_list[[i]][econ_ind_names], na.rm = TRUE)
+  econ_impact_ind_df <- rbind(econ_impact_ind_df, econ_impact)
+}
+
+# Compute average FC for G7 countries
+econ_impact_g7 <- rowMeans(indicator_impact_group[econ_ind_names], na.rm = TRUE)
+econ_impact_ind_df <- rbind(econ_impact_ind_df, econ_impact_g7)
+
+# Format dataframe
+econ_impact_ind_df <- data.frame(t(econ_impact_ind_df))
+colnames(econ_impact_ind_df) <- c(COUNTRY_NAMES, "G7")
+rownames(econ_impact_ind_df) <- NEW_YEAR_SEQ
+
+# Write results to CSV file
+write.csv(x = econ_impact_ind_df, file = paste0("results_datasets/plot_1_a_distance_average_economic_indicators.csv"))
+```
+
+
+```{r figure 1(b, d) data}
+# Construct average DC for G7 countries - Environment indicators
+env_impact_ind_df <- data.frame()
+for (i in 1:length(indicator_impact_countries_list)) {
+  env_impact_ind_data <- rowMeans(indicator_impact_countries_list[[i]][envir_ind_names], na.rm = TRUE)
+  env_impact_ind_df <- rbind(env_impact_ind_df, env_impact_ind_data)
+}
+
+# Compute average DC for G7 countries
+env_impact_g7 <- rowMeans(indicator_impact_group[envir_ind_names], na.rm = TRUE)
+env_impact_ind_df <- rbind(env_impact_ind_df, env_impact_g7)
+
+# Format dataframe
+env_impact_ind_df <- data.frame(t(env_impact_ind_df))
+colnames(env_impact_ind_df) <- c(COUNTRY_NAMES, "G7")
+rownames(env_impact_ind_df) <- NEW_YEAR_SEQ
+
+# Write results to CSV file
+write.csv(x = env_impact_ind_df, file = paste0("results_datasets/plot_1_b_distance_average_environment_indicators.csv")) #figure 1(b)
+```
+
+```{r figure 2 data}
+#' Write the DC results.
+save(x = indicator_impact_countries_list, file = "results_datasets/plot_2_domestic_changes.RData") # Figure 2
+```
+
+
+
+```{r}
+# Compute the difference for the group of countries.
+indicator_gradient_group <- evaluate_grads_group_fun(sdg_indicator_selected_clean)
+
+# Table 1
+# Read the goal direction of the SDG indicators.
+true_direction_df <- read.csv("partial_true_direction_un.csv")
+true_direction_df <- true_direction_df %>% filter(included == 1)
+true_direction_df_copy <- true_direction_df %>% filter(tolower(indicator) %in% indicators_econ_envir_names)
+true_direction_df_copy <- true_direction_df_copy[order(true_direction_df_copy$indicator),]
+
+# Create a data-frame indicating the direction (+1 or -1) of SDG indicators.
+target_indicator_df <- data.frame()
+
+# Populate the dataframe with indicator directions
+for(i in 1:nrow(true_direction_df_copy)) {
+  target_indicator_df <- rbind(target_indicator_df, rep(true_direction_df_copy$direction[i], length(YEAR_SEQUENCE[-1])))
+}
+
+# Format the dataframe
+target_indicator_df <- data.frame(t(target_indicator_df))
+colnames(target_indicator_df) <- colnames(indicator_gradient_group)
+rownames(target_indicator_df) <- as.Date(ISOdate(YEAR_SEQUENCE[-1], 1, 1))  # beginning of year
+target_indicator_df$year <- as.Date(ISOdate(YEAR_SEQUENCE[-1], 1, 1))  # beginning of year
+
+# Filter dataframe for relevant years
+target_indicator_df <- target_indicator_df %>% filter(year <= "2020-01-01" & year >= "2000-01-01")
+target_indicator_df$year <- NULL
+
+# Equation 10
+# Compute the direction of synergy between indicator gradient and target indicator direction
+synergy_direction_df <- indicator_gradient_group * target_indicator_df
+
+# Set NA values where synergy cannot be computed
+synergy_direction_df[is.na(synergy_direction_df)] <- NA
+```
+
+
+```{r}
+# Equation 6
+# Table 2
+
+# Compute synergy and synergy total based on the definition.
+# Start by creating an empty data-frame.
+sum_indicator_impact_countries <- data.frame(matrix(0, ncol = ncol(indicator_impact_group), nrow = nrow(indicator_impact_group)))
+
+# Loop through the country DC list and add them to each other
+for (i in 1:(length(COUNTRY_NAMES))) {
+  sum_indicator_impact_countries <- sum_indicator_impact_countries + indicator_impact_countries_list[[i]]
+}
+
+# Apply the synergy formula
+synergy <- sum_indicator_impact_countries - indicator_impact_group
+colnames(synergy) <- names(sdg_indicator_selected_clean)
+rownames(synergy) <- as.Date(ISOdate(NEW_YEAR_SEQ, 1, 1))  # beginning of year
+```
+
+
+```{r, figure 3}
+# Compute gross synergy total using the definition: synergy * Ic
+gross_synergy <- (synergy * synergy_direction_df) / length(COUNTRY_NAMES)
+
+# Extract economic and environmental gross synergy
+econ_gross_syn <- gross_synergy[econ_ind_names]
+colnames(econ_gross_syn) <- toupper(str_replace_all(colnames(econ_gross_syn), "ind", "SDG "))
+
+envr_gross_syn <- gross_synergy[envir_ind_names]
+colnames(envr_gross_syn) <- toupper(str_replace_all(colnames(envr_gross_syn), "ind", "SDG "))
+
+# Combine economic and environmental gross synergy into one dataframe
+gross_synergy_new_names <- cbind(econ_gross_syn, envr_gross_syn)  # figure 3(a)
+
+# Add Year column
+envr_gross_syn_cpy <- cbind("Year" = format(as.Date(row.names(envr_gross_syn)), format = "%Y"), gross_synergy_new_names)
+write.csv(x = envr_gross_syn_cpy, file = "results_datasets/plot_3_a_gross_synergy_g7.csv", row.names = FALSE)
+
+# Compute distribution of positive gross synergy
+positive_gorss_syn_dist <- synergy_dist_fun(gross_synergy_new_names)  # figure 3(b)
+positive_gorss_syn_dist <- cbind.data.frame("Positive Gross Synergy", positive_gorss_syn_dist)
+colnames(positive_gorss_syn_dist) <- c("Indicator", colnames(positive_gorss_syn_dist)[-1])
+write.csv(x = positive_gorss_syn_dist, file = "results_datasets/plot_3_b_dist_of_positive_gross_synergy_g7.csv", row.names = FALSE)
+```
+
+```{r, figure 4}
+# Compute Contribution of each country to the overall synergy.
+country_synergy_contribution_list <- list()
+
+# Loop through each country
+for (i in 1:length(COUNTRY_NAMES)) {
+  contribution_j <- (indicator_impact_countries_list[[i]] - (indicator_impact_group/length(COUNTRY_NAMES))) / gross_synergy * 100
+  
+  # Replace infinite values with 100
+  contribution_j[contribution_j == -Inf] <- 100
+  contribution_j[contribution_j == Inf] <- 100
+  
+  # Normalize by dividing by the number of countries
+  country_synergy_contribution_list[[i]] <- contribution_j / length(COUNTRY_NAMES)
+}
+names(country_synergy_contribution_list) <- names(indicator_impact_countries_list)
+
+
+# Normalized contributions to economic indicators' gross synergy by G7 countries. 
+
+# Figure 4 code
+# Calculate normalized contributions to economic indicators' gross synergy by G7 countries
+economic_indicator_contirbutions_by_country <- country_cont_fun(country_synergy_contribution_list, econ_ind_names)
+
+# Normalize the contributions between -100 and 100
+economic_indicator_contirbutions_by_country_copy <- 
+  make_between_neg_pos_100(economic_indicator_contirbutions_by_country, 100)
+
+# Save the results to an RData file
+save(x = economic_indicator_contirbutions_by_country_copy, file = "results_datasets/plot_4_economic_indicator_contributions.RData")
+
+#Normalized contributions to environmental indicators' gross synergy by G7 countries. 
+# Calculate normalized contributions to environmental indicators' gross synergy by G7 countries
+environment_indicator_contirbutions_by_country <- country_cont_fun(country_synergy_contribution_list, envir_ind_names)
+
+# Normalize the contributions between -100 and 100
+environment_indicator_contirbutions_by_country_copy <- 
+  make_between_neg_pos_100(environment_indicator_contirbutions_by_country, 100)
+
+# Save the results to an RData file
+save(x = environment_indicator_contirbutions_by_country_copy, file = "results_datasets/plot_4_environment_indicator_contributions.RData")
+
+#' PLEASE SEE FUNCTION 12
+#' MAKE THE LARGE SDG EXCEL FILE HERE:
+# Create a dataframe containing all contributions
+synergy_cont_econ_df <- create_all_cont(economic_indicator_contirbutions_by_country_copy)
+synergy_cont_econ_df$Indicator <- toupper(str_replace_all(synergy_cont_econ_df$Indicator, "ind", "SDG "))
+
+synergy_cont_env_df <- create_all_cont(environment_indicator_contirbutions_by_country_copy)
+synergy_cont_env_df$Indicator <- toupper(str_replace_all(synergy_cont_env_df$Indicator, "ind", "SDG "))
+
+# Write the results to a CSV file
+write.csv(x = rbind.data.frame(synergy_cont_econ_df, synergy_cont_env_df), 
+          row.names = FALSE,
+          file = paste0("results_datasets/synergy_contribution.csv"))
+```
+
+
+```{r, plot 5}
+# Evaluate the average for all years, for each economic indicator, given a country
+all_years_average_for_econ_indicators_df <- 
+  data.frame(lapply(economic_indicator_contirbutions_by_country_copy, 
+                    function(x) apply(x, 2, median, na.rm = TRUE)))
+all_years_average_for_econ_indicators_df <- data.frame(t(all_years_average_for_econ_indicators_df))
+all_years_average_for_econ_indicators_df <- 
+  cbind.data.frame("Indicator" = toupper(str_replace_all(row.names(all_years_average_for_econ_indicators_df), "ind", "SDG ")),
+                                                        all_years_average_for_econ_indicators_df)
+row.names(all_years_average_for_econ_indicators_df) <- NULL
+
+# Write the results to a CSV file
+write.csv(x = all_years_average_for_econ_indicators_df, 
+          file = paste0("results_datasets/plot5_years_median_for_econ_indicators.csv"), row.names = FALSE)
+
+# Calculate median for each column (year) in the dataframe
+apply(all_years_average_for_econ_indicators_df[, 2:8], 2, median, na.rm = TRUE)
+
+# Evaluate the average for all years, for each environmental indicator, given a country
+all_years_average_for_env_indicators_df <- 
+  data.frame(lapply(environment_indicator_contirbutions_by_country_copy, 
+                    function(x) apply(x, 2, median, na.rm = TRUE)))
+all_years_average_for_env_indicators_df <- data.frame(t(all_years_average_for_env_indicators_df))
+all_years_average_for_env_indicators_df <- 
+  cbind.data.frame("Indicator" = toupper(str_replace_all(row.names(all_years_average_for_env_indicators_df), "ind", "SDG ")),
+                                                        all_years_average_for_env_indicators_df)
+row.names(all_years_average_for_env_indicators_df) <- NULL
+
+# Write the results to a CSV file
+write.csv(x = all_years_average_for_env_indicators_df, 
+          file = paste0("results_datasets/plot5_years_median_for_env_indicators.csv"), row.names = FALSE)
+
+# Calculate median for each column (year) in the dataframe
+apply(all_years_average_for_env_indicators_df[, 2:8], 2, median, na.rm = TRUE)
+
+# Make the large average data frame
+# Join the average tables and give them SDG ID
+years_average_for_all_indicators_df <- rbind(all_years_average_for_econ_indicators_df, all_years_average_for_env_indicators_df)
+
+# Write the results to a CSV file
+write.csv(x = years_average_for_all_indicators_df, 
+          row.names = FALSE,
+          file = paste0("results_datasets/median_year_synergy_contribution.csv"))
+```

@@ -29,7 +29,7 @@ This repository contains the code and data for the project titled "Quantitative 
 ### How to Run
 
 1. **Run Main Code**:
-    - Open and run the `gross_synergy_markdown.Rmd` file.
+    - Open and run the `gross_synergy_markdown.Rmd` file. This is the main code for our manuscript.
     - The resulting datasets will be saved in the `results_datasets` folder.
 
 2. **Generate Figure 1**:

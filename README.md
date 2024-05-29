@@ -1,6 +1,6 @@
 # Quantitative Assessment of G7's Collaboration in Sustainable Development Goals
 
-**Authors**: Kai Liu, Ali Raisolsadat, Van Quan Dau, Xander Wang
+**Authors**: Kai Liu ([kailiu@upei.ca](mailto:kailiu@upei.ca)), Ali Raisolsadat ([arraisolsadat@uwaterloo.ca](mailto:arraisolsadat@uwaterloo.ca)), Van Quan Dau ([vdau@upei.ca](mailto:vdau@upei.ca)), Xander Wang ([xxwang@upei.ca](mailto:xxwang@upei.ca))
 
 **Institutions**:  
 - School of Climate Change and Adaptation, University of Prince Edward Island, Charlottetown, PE, C1A 4P3, Canada
@@ -12,30 +12,42 @@
 
 ---
 
-## Project Overview
+## Repository Contents
 
 This repository contains the code and data for the project titled "Quantitative Assessment of G7's Collaboration in Sustainable Development Goals".
 
-## Repository Contents
+### Information about the Folders
 
-- **main_code_and_results**: 
-  - Contains all figures for the manuscript and supplementary materials.
-  - Includes an Excel file named `SDG_Data.xlsx` summarizing all results from this work.
+- **`sdg_raw_data`**: Contains the raw Sustainable Development Goals indicator data from the "Our World in Data" database.
+- **`sdg_grouped_raw_data`**: Contains the raw SDG indicator data, but grouped for each goal (1-15).
+- **`results_datasets`**: Contains the main results for Domestic Changes, Foreign Changes, and Synergy in `.CSV` and `.RData` formats.
+- **`main_manuscript_figures`**: Contains the 5 main figures used in the manuscript text.
+- **`s1_s12_supplementary_figures`**: Contains the 12 figures from the supplementary material of the manuscript.
+- **`partial_true_direction_un.csv`**: Contains the indicator directions from Table 1 of the manuscript.
+- **`SDG_Data.xlsx`**: An Excel file which contains all the data used in the manuscript results in multiple sheets, including SDG raw data and results datasets.
 
-- **results_and_figures_used_in_manuscript**:
-  - Contains the R script and data used in this study.
-  - **indicators (raw data)**: 
-    - Raw data downloaded from the [SDG Tracker](https://sdg-tracker.org) database.
-    - Each Sustainable Development Goals indicator is grouped based on the United Nations' categories.
-  - **sdg_data**: 
-    - Cleaned SDG indicators data from 1999-2020.
-  - **partial_true_direction_un.csv**: 
-    - This CSV file indicates the desirable directions used in the synergy analysis.
-  - `gross_synergy_markdown.Rmd`: 
-    - The main R markdown file for this project.
-    - Contains the implementation of the methodology.
-    - Researchers can use this file to replicate or create new synergy values.
-  - **results**: 
-    - Outputs of the study derived from the R script (`gross_synergy_markdown.Rmd`).
+### How to Run
 
----
+1. **Run Main Code**:
+    - Open and run the `gross_synergy_markdown.Rmd` file. This is the main code for our manuscript.
+    - The resulting datasets will be saved in the `results_datasets` folder.
+
+2. **Generate Figure 1**:
+    - Open and run `figure_1.R`.
+    - The resulting figure will be saved in the `main_manuscript_figures` folder.
+
+3. **Generate Figure 2**:
+    - Open and run `figure_2.R`.
+    - The resulting figure will be saved in the `main_manuscript_figures` and `s1_s12_supplementary_figures` folders, respectively.
+
+4. **Generate Figure 3**:
+    - Open and run `figure_3.R`.
+    - The resulting figure will be saved in the `main_manuscript_figures` folder.
+
+5. **Generate Figure 4**:
+    - Open and run `figure_4.R`.
+    - The resulting figure will be saved in the `main_manuscript_figures` and `s1_s12_supplementary_figures` folders, respectively.
+
+6. **Generate Figure 5**:
+    - Open and run `figure_5.R`.
+    - The resulting figure will be saved in the `main_manuscript_figures` folder.

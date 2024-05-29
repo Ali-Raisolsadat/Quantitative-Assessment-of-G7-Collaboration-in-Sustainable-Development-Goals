@@ -1,2 +1,0 @@
-"0","#' Write the impact results."
-"0","save(x = indicator_impact_countries_list, file = ""results/plot_2_domestic_changes.RData"") # figure 2"

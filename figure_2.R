@@ -69,18 +69,24 @@ indicator <- function(ind, yaxis, title) {
 #' @height: Height of the PNG file in specified units (default is centimeters)
 #' @units: Units for width and height (default is centimeters)
 save_plots <- function(plots_list, filename, width, height, units) {
-  # Combine the first and fourth plots
+# Combine the first and fourth plots
   d7 <- plots_list[[1]] + plots_list[[4]]
   
   # Combine the second and fifth plots
   d8 <- plots_list[[2]] + plots_list[[5]]
   
   # Combine the third and sixth plots
-  d9 <- plots_list[[3]] + plots_list[[6]]
+  d9 <- plots_list[[3]] + plots_list[[6]] 
+  d9 <- d9 + theme(legend.position = c(0, -0.2), 
+                   legend.direction = "horizontal", 
+                   strip.background = element_blank(),
+                   legend.text = element_text(size = 35),
+                   plot.margin= grid::unit(c(1,1,3,1), 'lines')) +
+    guides(color = guide_legend(nrow = 1), shape = guide_legend(nrow = 1), fill = guide_legend(nrow = 1))
   
   # Combine the three combined plots by division
-  combined_plot <- d7 / d8 / d9
-  
+  combined_plot <- d7 / d8 / d9 
+
   # Save the combined plot as a PNG file with specified dimensions
   ggsave(filename, combined_plot, width = width, height = height, units = units, limitsize = FALSE, dpi = 100)
 }
@@ -111,7 +117,7 @@ b <- indicator(extractData(which(colnames(data$canada) == "ind8.5.2(1)")), "Dome
 c <- indicator(extractData(which(colnames(data$canada) == "ind9.2.1")), "Domestic Change" ,"SDG 9.2.1")
 d <- indicator(extractData(which(colnames(data$canada) == "ind13.1.1(1)")), "Domestic Change", "SDG 13.1.1(1)")
 e <- indicator(extractData(which(colnames(data$canada) == "ind14.1.1(1)")), "Domestic Change" ,"SDG 14.1.1(1)")
-f <- indicator(extractData(which(colnames(data$canada) == "ind15.1.2(1)")), "Domestic Change" ,"SDG 15.1.2(1)")
+f <- indicator(extractData(which(colnames(data$canada) == "ind15.1.2(1)")), "Domestic Change" ,"SDG 15.1.2(1)") 
 plots_list <- list(a, b, c, d, e, f)
 
 # Call the function to save the plots
@@ -131,11 +137,11 @@ save_plots(plots_list, "s1_s12_supplementary_figures/combined_plots_s1.png", wid
 
 # S2 figure
 a<- indicator(extractData(which(colnames(data$canada) == "ind3.2.2")), "Domestic Change", "SDG 3.2.2")
-b<- indicator(extractData(which(colnames(data$canada) == "ind3.2.2")), "Domestic Change", "SDG 3.3.2")
-c<- indicator(extractData(which(colnames(data$canada) == "ind3.2.2")), "Domestic Change", "SDG 3.4.1")
-d<- indicator(extractData(which(colnames(data$canada) == "ind3.2.2")), "Domestic Change", "SDG 3.4.2")
-e<- indicator(extractData(which(colnames(data$canada) == "ind3.2.2")), "Domestic Change", "SDG 3.6.1(1)") 
-f<- indicator(extractData(which(colnames(data$canada) == "ind3.2.2")), "Domestic Change", "SDG 3.B.1(1)")
+b<- indicator(extractData(which(colnames(data$canada) == "ind3.3.2")), "Domestic Change", "SDG 3.3.2")
+c<- indicator(extractData(which(colnames(data$canada) == "ind3.4.1")), "Domestic Change", "SDG 3.4.1")
+d<- indicator(extractData(which(colnames(data$canada) == "ind3.4.2")), "Domestic Change", "SDG 3.4.2")
+e<- indicator(extractData(which(colnames(data$canada) == "ind3.6.1(1)")), "Domestic Change", "SDG 3.6.1(1)") 
+f<- indicator(extractData(which(colnames(data$canada) == "ind3.b.1(1)")), "Domestic Change", "SDG 3.B.1(1)")
 plots_list <- list(a, b, c, d, e, f)
 
 # Call the function to save the plots
@@ -154,12 +160,12 @@ plots_list <- list(a, b, c, d, e, f)
 save_plots(plots_list, "s1_s12_supplementary_figures/combined_plots_s3.png", width = 5000, height = 3000, units = "px")
 
 # S4 figure
-a <- indicator(extractData(which(colnames(data$canada) == "ind8.2.1")), "Domestic Change" ,"SDG 8.2.1")
-b <- indicator(extractData(which(colnames(data$canada) == "ind8.4.2(1)")), "Domestic Change" ,"SDG 8.4.2(1)")
-c <- indicator(extractData(which(colnames(data$canada) == "ind8.4.2(2)")), "Domestic Change" ,"SDG 8.4.2(2)")
-d <- indicator(extractData(which(colnames(data$canada) == "ind9.1.2(1)")), "Domestic Change" ,"SDG 9.1.2(1)")
-e <- indicator(extractData(which(colnames(data$canada) == "ind9.1.2(2)")), "Domestic Change" ,"SDG 9.1.2(2)")
-f <- indicator(extractData(which(colnames(data$canada) == "ind9.1.2(3)")), "Domestic Change" ,"SDG 9.1.2(3)")
+a <- indicator(extractData(which(colnames(data$canada) == "ind8.4.2(1)")), "Domestic Change" ,"SDG 8.4.2(1)")
+b <- indicator(extractData(which(colnames(data$canada) == "ind8.4.2(2)")), "Domestic Change" ,"SDG 8.4.2(2)")
+c <- indicator(extractData(which(colnames(data$canada) == "ind9.1.2(1)")), "Domestic Change" ,"SDG 9.1.2(1)")
+d <- indicator(extractData(which(colnames(data$canada) == "ind9.1.2(2)")), "Domestic Change" ,"SDG 9.1.2(2)")
+e <- indicator(extractData(which(colnames(data$canada) == "ind9.1.2(3)")), "Domestic Change" ,"SDG 9.1.2(3)")
+f <- indicator(extractData(which(colnames(data$canada) == "ind9.2.1")), "Domestic Change" ,"SDG 9.2.1")
 plots_list <- list(a, b, c, d, e, f)
 
 # Call the function to save the plots

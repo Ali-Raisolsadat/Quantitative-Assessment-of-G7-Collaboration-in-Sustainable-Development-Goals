@@ -20,7 +20,7 @@ This repository contains the code and data for the project titled "Quantitative 
 
 - **`sdg_raw_data`**: Contains the raw Sustainable Development Goals indicator data from the "Our World in Data" database.
 - **`sdg_grouped_raw_data`**: Contains the raw SDG indicator data, but grouped for each goal (1-15).
-- **`results_datasets`**: Contains the main results for Domestic Changes, Foreign Changes, and Synergy in `.CSV` and `.RData` formats.
+- **`results_datasets`**: Contains the main results for Domestic Changes, Foreign Changes, and Synergy data in `.CSV` and `.RData` formats.
 - **`main_manuscript_figures`**: Contains the 5 main figures used in the manuscript text.
 - **`s1_s12_supplementary_figures`**: Contains the 12 figures from the supplementary material of the manuscript.
 - **`partial_true_direction_un.csv`**: Contains the indicator directions from Table 1 of the manuscript.

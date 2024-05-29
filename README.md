@@ -12,11 +12,9 @@
 
 ---
 
-## Project Overview
+## Repository Contents
 
 This repository contains the code and data for the project titled "Quantitative Assessment of G7's Collaboration in Sustainable Development Goals".
-
-## Repository Contents
 
 ### Information about the Folders
 

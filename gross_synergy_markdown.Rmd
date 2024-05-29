@@ -408,7 +408,7 @@ rownames(synergy) <- as.Date(ISOdate(NEW_YEAR_SEQ, 1, 1))  # beginning of year
 ```
 
 
-```{r, figure 3}
+```{r, figure 3 data}
 # Compute gross synergy total using the definition: synergy * Ic
 gross_synergy <- (synergy * synergy_direction_df) / length(COUNTRY_NAMES)
 
@@ -433,7 +433,7 @@ colnames(positive_gorss_syn_dist) <- c("Indicator", colnames(positive_gorss_syn_
 write.csv(x = positive_gorss_syn_dist, file = "results_datasets/plot_3_b_dist_of_positive_gross_synergy_g7.csv", row.names = FALSE)
 ```
 
-```{r, figure 4}
+```{r, figure 4 data}
 # Compute Contribution of each country to the overall synergy.
 country_synergy_contribution_list <- list()
 
@@ -491,7 +491,7 @@ write.csv(x = rbind.data.frame(synergy_cont_econ_df, synergy_cont_env_df),
 ```
 
 
-```{r, plot 5}
+```{r, figure 5 data}
 # Evaluate the average for all years, for each economic indicator, given a country
 all_years_average_for_econ_indicators_df <- 
   data.frame(lapply(economic_indicator_contirbutions_by_country_copy, 

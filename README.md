@@ -1,11 +1,12 @@
 # Quantitative Assessment of G7's Collaboration in Sustainable Development Goals
 
-**Authors**: Kai Liu ([kailiu@upei.ca](mailto:kailiu@upei.ca)), Ali Raisolsadat ([arraisolsadat@uwaterloo.ca](mailto:arraisolsadat@uwaterloo.ca)), Van Quan Dau ([vdau@upei.ca](mailto:vdau@upei.ca)), Xander Wang ([xxwang@upei.ca](mailto:xxwang@upei.ca))
+**Authors**: Kai Liu ([kailiu@upei.ca](mailto:kailiu@upei.ca))[3, 4], Ali Raisolsadat ([arraisolsadat@uwaterloo.ca](mailto:arraisolsadat@uwaterloo.ca)) [3,4], Van Quan Dau ([vdau@upei.ca](mailto:vdau@upei.ca)) [1,2], Xander Wang ([xxwang@upei.ca](mailto:xxwang@upei.ca))[1,2]
 
 **Institutions**:  
-- School of Climate Change and Adaptation, University of Prince Edward Island, Charlottetown, PE, C1A 4P3, Canada
-- School of Mathematical and Computational Sciences, University of Prince Edward Island, Charlottetown, PE, C1A 4P3, Canada  
-- Faculty of Mathematics, University of Waterloo, 200 University Avenue West, Waterloo, ON, N2L 3G1, Canada
+1. School of Climate Change and Adaptation, University of Prince Edward Island, Charlottetown, PE, C1A 4P3, Canada
+2. Canadian Centre for Climate Change and Adaptation, University of Prince Edward Island, St. Peter's Bay, Prince Edward Island, Canada C0A 2A0
+3. School of Mathematical and Computational Sciences, University of Prince Edward Island, Charlottetown, PE, C1A 4P3, Canada  
+4. Faculty of Mathematics, University of Waterloo, 200 University Avenue West, Waterloo, ON, N2L 3G1, Canada
 
 **Corresponding Author**: Dr. Xander Wang  
 **Contact Information**: [xxwang@upei.ca](mailto:xxwang@upei.ca)

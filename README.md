@@ -27,6 +27,11 @@ This repository contains the code and data for the project titled "Quantitative 
 - **`partial_true_direction_un.csv`**: Contains the indicator directions from Table 1 of the manuscript.
 - **`SDG_Data.xlsx`**: An Excel file which contains all the data used in the manuscript results in multiple sheets, including SDG raw data and results datasets.
 
+## Prerequisites
+
+- **R**: Please ensure that you have installed the latest version of the R software for your device. You can download it from [CRAN](https://cran.r-project.org/).
+- **RStudio**: It is recommended to use RStudio for running the R scripts. You can download it from [RStudio's official website](https://rstudio.com/products/rstudio/download/).
+
 ### How to Run
 1. **Before running the main code, set the directory to the same folder as the project.**
 2. **Run Main Code**:

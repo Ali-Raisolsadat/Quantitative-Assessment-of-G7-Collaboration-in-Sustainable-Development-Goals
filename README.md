@@ -28,27 +28,27 @@ This repository contains the code and data for the project titled "Quantitative 
 - **`SDG_Data.xlsx`**: An Excel file which contains all the data used in the manuscript results in multiple sheets, including SDG raw data and results datasets.
 
 ### How to Run
-
-1. **Run Main Code**:
+1. **Before running the main code, set the directory to the same folder as the project.**
+2. **Run Main Code**:
     - Open and run the `gross_synergy_markdown.Rmd` file. This is the main code for our manuscript.
     - The resulting datasets will be saved in the `results_datasets` folder.
 
-2. **Generate Figure 1**:
+3. **Generate Figure 1**:
     - Open and run `figure_1.R`.
     - The resulting figure will be saved in the `main_manuscript_figures` folder.
 
-3. **Generate Figure 2**:
+4. **Generate Figure 2**:
     - Open and run `figure_2.R`.
     - The resulting figure will be saved in the `main_manuscript_figures` and `s1_s12_supplementary_figures` folders, respectively.
 
-4. **Generate Figure 3**:
+5. **Generate Figure 3**:
     - Open and run `figure_3.R`.
     - The resulting figure will be saved in the `main_manuscript_figures` folder.
 
-5. **Generate Figure 4**:
+6. **Generate Figure 4**:
     - Open and run `figure_4.R`.
     - The resulting figure will be saved in the `main_manuscript_figures` and `s1_s12_supplementary_figures` folders, respectively.
 
-6. **Generate Figure 5**:
+7. **Generate Figure 5**:
     - Open and run `figure_5.R`.
     - The resulting figure will be saved in the `main_manuscript_figures` folder.

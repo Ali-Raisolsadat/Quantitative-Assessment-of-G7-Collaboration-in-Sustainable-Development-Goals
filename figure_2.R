@@ -43,7 +43,7 @@ indicator <- function(ind, yaxis, title) {
   data.gather <- tidyr::gather(ind, key = "Country", value = "Change", na.rm = TRUE, -Year)  # Reshape data
   
   # Create the plot
-  ggplot(data.gather, aes(x = Year, y = Change, color = Country, group = Country)) +  # Set aesthetics
+  p <- ggplot(data.gather, aes(x = Year, y = Change, color = Country, group = Country)) +  # Set aesthetics
     geom_segment(aes(x = Year, xend = Year, y = -Inf, yend = Change), color = "gray") +  # Add gray reference lines
     geom_line(aes(y = Change), lwd = 2) +  # Add lines
     geom_point(aes(shape = Country), size = 8) +  # Add points
@@ -54,11 +54,14 @@ indicator <- function(ind, yaxis, title) {
       plot.title = element_text(color = "black", size = 35, face = "bold", hjust = 0.5),  # Title formatting
       legend.position = "none",  # Remove legend
       legend.title = element_blank(),  # Remove legend title
-      legend.text = element_text(size = 35)  # Set legend text size
+      legend.text = element_text(size = 35),  # Set legend text size
+      plot.margin = margin(t = 10, r = 10, b = 10, l = 10)  # Adjust plot margins
     ) +
     ylab(yaxis) +  # Set y-axis label
     xlab("") +  # Set x-axis label
     ggtitle(title)  # Set plot title
+  
+  return(p)
 }
 
 #' Function 2
@@ -77,16 +80,22 @@ save_plots <- function(plots_list, filename, width, height, units) {
   
   # Combine the third and sixth plots
   d9 <- plots_list[[3]] + plots_list[[6]] 
-  d9 <- d9 + theme(legend.position = c(0, -0.2), 
-                   legend.direction = "horizontal", 
-                   strip.background = element_blank(),
-                   legend.text = element_text(size = 35),
-                   plot.margin= grid::unit(c(1,1,3,1), 'lines')) +
+  d9 <- d9 + theme(
+    legend.position = c(0, -0.2), 
+    legend.direction = "horizontal", 
+    strip.background = element_blank(),
+    legend.text = element_text(size = 35)
+  ) +
     guides(color = guide_legend(nrow = 1), shape = guide_legend(nrow = 1), fill = guide_legend(nrow = 1))
   
   # Combine the three combined plots by division
-  combined_plot <- d7 / d8 / d9 
-
+  combined_plot <- (d7 / d8 / d9) + 
+    plot_annotation(tag_levels = 'a') & 
+    theme(
+      plot.margin = margin(t = 20, r = 10, b = 50, l = 10),  # Adjust plot margins
+      plot.tag = element_text(size = 55, face = "bold", vjust = -2),  # Adjust tag position and styling
+      plot.tag.position = c(0.075, 0.85)  # Adjust tag position (left aligned)
+    )
   # Save the combined plot as a PNG file with specified dimensions
   ggsave(filename, combined_plot, width = width, height = height, units = units, limitsize = FALSE, dpi = 100)
 }

@@ -132,19 +132,18 @@ ind.plot <- function(data, ind.Name) {
 #' @height: Height of the PNG file in specified units (default is centimeters)
 #' @units: Units for width and height (default is centimeters)
 save_plots <- function(plots_list, filename, width, height, units) {
-  # Combine the first and fourth plots
-  d7 <- plots_list[[1]] + plots_list[[4]]
-  
-  # Combine the second and fifth plots
-  d8 <- plots_list[[2]] + plots_list[[5]]
-  
-  # Combine the third and sixth plots
-  d9 <- plots_list[[3]] + plots_list[[6]]
   
   p1 <-  plots_list[[1]] | plots_list[[2]] | plots_list[[3]]
   p2 <- plots_list[[4]] | plots_list[[5]] | plots_list[[6]]
-  combined_plot <- p1 / p2
   
+# Set tag levels manually for each plot
+  combined_plot <- (p1 / p2) + 
+    plot_annotation(tag_levels = list(c('a', '', 'b', '', 'c', '', 'd', '', 'e', '', 'f'))) & 
+    theme(
+      plot.margin = margin(t = 55, r = 10, b = 10, l = 10),  # Adjust plot margins
+      plot.tag = element_text(size = 100, face = "bold", vjust = -2),  # Adjust tag position and styling
+      plot.tag.position = c(0.15, 0.64)  # Adjust tag position (left aligned)
+    )
   
   # Save the combined plot as a PNG file with specified dimensions
   ggsave(filename, combined_plot, width = width, height = height, units = units, limitsize = FALSE, dpi = 100)

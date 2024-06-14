@@ -1,6 +1,6 @@
 # Quantitative Assessment of G7's Collaboration in Sustainable Development Goals
 
-**Authors**: Kai Liu ([kailiu@upei.ca](mailto:kailiu@upei.ca))[1], Ali Raisolsadat ([arraisolsadat@uwaterloo.ca](mailto:arraisolsadat@uwaterloo.ca)) [2], Xander Wang ([xxwang@upei.ca](mailto:xxwang@upei.ca))[3,4], and Quan Van Dau ([vdau@upei.ca](mailto:vdau@upei.ca)) [3,4]
+**Authors**: Kai Liu ([kailiu@upei.ca](mailto:kailiu@upei.ca)) <sup>1</sup>, Ali Raisolsadat ([arraisolsadat@uwaterloo.ca](mailto:arraisolsadat@uwaterloo.ca)) <sup>2</sup>, Xander Wang ([xxwang@upei.ca](mailto:xxwang@upei.ca))<sup>3,4</sup>, and Quan Van Dau ([vdau@upei.ca](mailto:vdau@upei.ca)) <sup>3,4</sup>
 
 **Institutions**:  
 1. School of Mathematical and Computational Sciences, University of Prince Edward Island, Charlottetown, Prince Edward Island, Canada C1A 4P3
